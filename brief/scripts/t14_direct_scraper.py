@@ -20,10 +20,10 @@ TARGETS = {
         "base_url": "https://www.yalelawjournal.org"
     },
     "Berkeley Law Review": {
-        "url": "https://www.boalt.org/",
+        "url": "https://www.law.berkeley.edu/research/boalt-law-review/",
         "article_selector": ".article, .post, a[href*='/article/']", 
         "title_selector": "h1, h2, .entry-title",
-        "base_url": "https://www.boalt.org"
+        "base_url": "https://www.law.berkeley.edu"
     },
     "Georgetown Law Journal": {
         "url": "https://www.georgetownlawjournal.org/",
