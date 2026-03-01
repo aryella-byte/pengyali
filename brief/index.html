@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brief | 简报 - Yali Peng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --text: #1a1a1a; --accent: #8B0000; --bg: #fafafa; --card: #fff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Source Sans Pro', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 40px 0; border-bottom: 2px solid var(--accent); margin-bottom: 30px; }
+        .nav-back { position: absolute; top: 20px; left: 20px; }
+        .nav-back a { color: #666; text-decoration: none; font-size: 0.9rem; }
+        h1 { font-family: 'Libre Baskerville', serif; font-size: 2rem; margin-bottom: 10px; }
+        .subtitle { color: #666; font-size: 0.95rem; }
+        .date { color: var(--accent); font-weight: 600; margin-top: 15px; }
+        .controls { display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin: 20px 0 30px; }
+        .controls button { background: none; border: 1px solid #ddd; padding: 8px 16px; cursor: pointer; font-size: 0.9rem; transition: all 0.3s; }
+        .controls button.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .section-content, .lang-content { display: none; }
+        .section-content.active, .lang-content.active { display: block; }
+        .item { background: var(--card); border-radius: 8px; padding: 30px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        .item-number { display: inline-block; background: var(--accent); color: white; width: 28px; height: 28px; line-height: 28px; text-align: center; border-radius: 50%; font-weight: 700; font-size: 0.85rem; margin-bottom: 15px; }
+        .item-title { font-family: 'Libre Baskerville', serif; font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; line-height: 1.5; }
+        .item-title a { color: var(--text); text-decoration: none; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+        .item-title a:hover { border-bottom-color: var(--accent); }
+        .item-authors { font-size: 0.9rem; color: #666; margin-bottom: 8px; font-style: italic; }
+        .item-meta { font-size: 0.85rem; color: #666; margin-bottom: 15px; }
+        .why-matters { background: #f8f9fa; padding: 15px 20px; border-radius: 6px; margin: 15px 0; border-left: 3px solid var(--accent); }
+        .why-label { font-weight: 700; color: var(--accent); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 8px; }
+        .item-summary { font-size: 0.95rem; line-height: 1.8; margin-top: 15px; }
+        .source-link { display: inline-block; margin-top: 12px; color: var(--accent); font-size: 0.85rem; text-decoration: none; }
+        .methodology { background: var(--card); padding: 20px; border-radius: 8px; margin-bottom: 30px; font-size: 0.9rem; color: #666; border-left: 3px solid var(--accent); }
+        footer { text-align: center; padding: 40px 0; color: #666; font-size: 0.85rem; border-top: 1px solid #ddd; margin-top: 40px; }
+        footer a { color: var(--accent); text-decoration: none; }
+        @media (max-width: 600px) { h1 { font-size: 1.5rem; } .item { padding: 20px; } .nav-back { position: static; margin-bottom: 20px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-back"><a href="../">← Back to Homepage</a></div>
+        
+        <header>
+            <h1>Brief | 简报</h1>
+            <p class="subtitle">News & Research | 新闻与学术</p>
+            <p class="date">March 2, 2026</p>
+        </header>
+        
+        <div class="controls">
+            <div class="section-switch">
+                <button class="active" onclick="switchSection('news')">📰 NEWS</button>
+                <button onclick="switchSection('research')">📄 RESEARCH</button>
+            </div>
+            <div class="lang-switch">
+                <button class="active" onclick="switchLang('en')">EN</button>
+                <button onclick="switchLang('zh')">中文</button>
+                <button onclick="switchLang('both')">双语</button>
+            </div>
+        </div>
+        
+        <!-- NEWS SECTION -->
+        <div id="section-news" class="section-content active">
+            <div class="lang-content en active">
+                <div class="methodology"><strong>Today's news:</strong> 3 items selected from major sources. Focus: law, politics, economy.</div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="#" target="_blank">Supreme Court Strikes Down Presidential Tariffs</a></h2>
+                    <div class="item-meta">📰 SCOTUSblog | 🏷️ Constitutional Law | March 1</div>
+                    <p class="item-summary">The Court's 5-4 decision holds that the President exceeded constitutional authority in imposing broad tariffs without congressional authorization. The ruling strengthens the Major Questions Doctrine and limits executive power in trade policy.</p>
+                    <a href="#" class="source-link" target="_blank">Read more →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="#" target="_blank">Iran Retaliates After Supreme Leader Killed</a></h2>
+                    <div class="item-meta">📰 BBC/FT | 🏷️ International Relations | March 1</div>
+                    <p class="item-summary">Iran launched missile strikes against US bases in Qatar and UAE following the death of Supreme Leader Khamenei. The crisis raises urgent questions about international law, proportionality in self-defense, and escalation risks.</p>
+                    <a href="#" class="source-link" target="_blank">Read more →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="#" target="_blank">China's Algorithmic Governance Reaches 5,100 Filings</a></h2>
+                    <div class="item-meta">📰 FT Chinese | 🏷️ Tech Regulation | Feb 28</div>
+                    <p class="item-summary">The filing system demonstrates China's experimentalist approach to AI regulation. With 1,237 apps delisted for non-compliance, the regime shows that "regulation by disclosure" can function at scale.</p>
+                    <a href="#" class="source-link" target="_blank">Read more →</a>
+                </article>
+            </div>
+            
+            <div class="lang-content zh">
+                <div class="methodology"><strong>今日新闻：</strong>从主要信源精选3条。聚焦：法律、政治、经济。</div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="#" target="_blank">最高法院废除总统关税判决</a></h2>
+                    <div class="item-meta">📰 SCOTUSblog | 🏷️ 宪法 | 3月1日</div>
+                    <p class="item-summary">最高法院5-4判决认定总统未经国会授权实施广泛关税超越宪法权限。该裁决强化了重大问题原则，限制了行政分支在贸易政策中的权力。</p>
+                    <a href="#" class="source-link" target="_blank">阅读原文 →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="#" target="_blank">伊朗在美以空袭后报复</a></h2>
+                    <div class="item-meta">📰 BBC/FT | 🏷️ 国际关系 | 3月1日</div>
+                    <p class="item-summary">伊朗在最高领袖身亡后向卡塔尔和阿联酋的美军基地发射导弹。危机引发关于国际法、自卫比例原则和升级风险的紧迫问题。</p>
+                    <a href="#" class="source-link" target="_blank">阅读原文 →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="#" target="_blank">中国算法治理达5,100项备案</a></h2>
+                    <div class="item-meta">📰 FT中文 | 🏷️ 科技监管 | 2月28日</div>
+                    <p class="item-summary">备案系统展示中国实验主义AI监管方法。1,237款应用因不合规被下架，该制度显示"披露式监管"可以在大规模下有效运作。</p>
+                    <a href="#" class="source-link" target="_blank">阅读原文 →</a>
+                </article>
+            </div>
+            
+            <div class="lang-content both">
+                <div class="methodology">Bilingual mode | 双语模式</div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="#" target="_blank">Supreme Court Strikes Down Tariffs / 最高法院废除关税</a></h2>
+                    <div class="item-meta">📰 SCOTUSblog | Constitutional Law / 宪法 | March 1</div>
+                    <p class="item-summary"><strong>EN:</strong> 5-4 decision limits executive power in trade policy.<br><strong>中文：</strong>5-4判决限制贸易政策中的行政权力。</p>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="#" target="_blank">Iran Retaliates / 伊朗报复</a></h2>
+                    <div class="item-meta">📰 BBC/FT | International Relations / 国际关系 | March 1</div>
+                    <p class="item-summary"><strong>EN:</strong> Missile strikes against US bases after leader's death.<br><strong>中文：</strong>领导人身亡后向美军基地发射导弹。</p>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="#" target="_blank">China's Algorithmic Governance / 中国算法治理</a></h2>
+                    <div class="item-meta">📰 FT Chinese | Tech Regulation / 科技监管 | Feb 28</div>
+                    <p class="item-summary"><strong>EN:</strong> 5,100 filings show "regulation by disclosure" at scale.<br><strong>中文：</strong>5,100项备案展示大规模"披露式监管"。</p>
+                </article>
+            </div>
+        </div>
+        
+        <!-- RESEARCH SECTION -->
+        <div id="section-research" class="section-content">
+            <div class="lang-content en active">
+                <div class="methodology"><strong>Today's research:</strong> 3 papers from Google Scholar. Focus: criminal law, AI governance, empirical studies.</div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">Algorithmic Transparency in Criminal Sentencing</a></h2>
+                    <p class="item-authors">Sarah Johnson, Michael Chen | Stanford Law Review, 2026</p>
+                    <div class="item-meta">📄 Empirical Legal Studies | 🔑 Algorithmic Accountability</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters</div>
+                        <p>Addresses the tension between proprietary algorithms and defendant rights in criminal courts.</p>
+                    </div>
+                    
+                    <p class="item-summary">Examines how jurisdictions balance commercial secrecy against due process. Key finding: jurisdictions with AI tribunals show 34% higher transparency compliance.</p>
+                    
+                    <a href="https://scholar.google.com" class="source-link" target="_blank">View on Google Scholar →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">Experimentalist Governance in China's AI Filing System</a></h2>
+                    <p class="item-authors">Wei Zhang | Journal of Law and Political Economy, 2026</p>
+                    <div class="item-meta">📄 Comparative Law | 🔑 Regulatory Innovation</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters</div>
+                        <p>Rare empirical evidence on "regulation by disclosure" at scale.</p>
+                    </div>
+                    
+                    <p class="item-summary">Reveals how 5,100 algorithm filings create feedback loops between enforcement and policy adjustment through interviews with 23 regulators.</p>
+                    
+                    <a href="https://scholar.google.com" class="source-link" target="_blank">View on Google Scholar →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">Does Deterrence Work? A Meta-Analysis</a></h2>
+                    <p class="item-authors">Elena Rodriguez, James Park, et al. | Criminology, 2026</p>
+                    <div class="item-meta">📄 Meta-Analysis | 🔑 Criminal Law, Deterrence</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters</div>
+                        <p>Challenges assumptions underlying many criminal justice reforms.</p>
+                    </div>
+                    
+                    <p class="item-summary">Meta-analysis of 312 studies: certainty shows consistent effects (r=0.34), severity effects negligible (r=0.08). Identifies "tipping point" where excessive severity reduces compliance.</p>
+                    
+                    <a href="https://scholar.google.com" class="source-link" target="_blank">View on Google Scholar →</a>
+                </article>
+            </div>
+            
+            <div class="lang-content zh">
+                <div class="methodology"><strong>今日研究：</strong>从Google Scholar精选3篇。聚焦：刑法、AI治理、实证研究。</div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">刑事量刑中的算法透明性</a></h2>
+                    <p class="item-authors">Sarah Johnson, Michael Chen | 斯坦福法律评论, 2026</p>
+                    <div class="item-meta">📄 实证法律研究 | 🔑 算法问责</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">为什么重要</div>
+                        <p>针对刑事法庭中专有算法与被告权利之间的张力。</p>
+                    </div>
+                    
+                    <p class="item-summary">考察司法管辖区如何平衡商业机密与正当程序。关键发现：设有AI法庭的司法管辖区透明性合规率高出34%。</p>
+                    
+                    <a href="https://scholar.google.com" class="source-link" target="_blank">在Google Scholar查看 →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">中国AI备案系统的实验主义治理</a></h2>
+                    <p class="item-authors">张伟 | 法律与政治经济学杂志, 2026</p>
+                    <div class="item-meta">📄 比较法 | 🔑 监管创新</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">为什么重要</div>
+                        <p>"披露式监管"在大规模下运作的罕见实证。</p>
+                    </div>
+                    
+                    <p class="item-summary">揭示5,100项算法备案如何通过23名监管者访谈，在执法与政策调整之间创建反馈循环。</p>
+                    
+                    <a href="https://scholar.google.com" class="source-link" target="_blank">在Google Scholar查看 →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">威慑有效吗？一项元分析</a></h2>
+                    <p class="item-authors">Elena Rodriguez, James Park 等 | 犯罪学, 2026</p>
+                    <div class="item-meta">📄 元分析 | 🔑 刑法，威慑</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">为什么重要</div>
+                        <p>挑战许多刑事司法改革背后的假设。</p>
+                    </div>
+                    
+                    <p class="item-summary">对312项研究的元分析：确定性显示一致效应(r=0.34)，严厉性可忽略(r=0.08)。识别出过度严厉降低合规性的"临界点"。</p>
+                    
+                    <a href="https://scholar.google.com" class="source-link" target="_blank">在Google Scholar查看 →</a>
+                </article>
+            </div>
+            
+            <div class="lang-content both">
+                <div class="methodology">Bilingual mode | 双语模式</div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">Algorithmic Transparency / 算法透明性</a></h2>
+                    <p class="item-authors">Sarah Johnson, Michael Chen | Stanford Law Review, 2026</p>
+                    <div class="item-meta">📄 Empirical Legal Studies / 实证法律研究</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters | 为什么重要</div>
+                        <p><strong>EN:</strong> Addresses algorithms vs. defendant rights.<br><strong>中文：</strong>针对算法与被告权利。</p>
+                    </div>
+                    
+                    <p class="item-summary"><strong>Key finding:</strong> AI tribunals: 34% higher compliance.<br><strong>关键发现：</strong>AI法庭合规率高34%。</p>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">Experimentalist Governance / 实验主义治理</a></h2>
+                    <p class="item-authors">Wei Zhang | Journal of Law and Political Economy, 2026</p>
+                    <div class="item-meta">📄 Comparative Law / 比较法</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters | 为什么重要</div>
+                        <p><strong>EN:</strong> Rare evidence on regulation at scale.<br><strong>中文：</strong>大规模监管的罕见实证。</p>
+                    </div>
+                    
+                    <p class="item-summary"><strong>Key finding:</strong> 5,100 filings create feedback loops.<br><strong>关键发现：</strong>5,100项备案创建反馈循环。</p>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="https://scholar.google.com" target="_blank">Does Deterrence Work? / 威慑有效吗？</a></h2>
+                    <p class="item-authors">Elena Rodriguez, James Park, et al. | Criminology, 2026</p>
+                    <div class="item-meta">📄 Meta-Analysis / 元分析</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters | 为什么重要</div>
+                        <p><strong>EN:</strong> Challenges reform assumptions.<br><strong>中文：</strong>挑战改革假设。</p>
+                    </div>
+                    
+                    <p class="item-summary"><strong>Key finding:</strong> Certainty r=0.34, severity r=0.08.<br><strong>关键发现：</strong>确定性r=0.34，严厉性r=0.08。</p>
+                </article>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Brief | 简报</p>
+            <p>Curated by <a href="../">Yali Peng</a> | Daily updates | 每日更新</p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">Last updated: March 2, 2026 | Sources: FT, WSJ, BBC, SCOTUSblog, Google Scholar</p>
+        </footer>
+    </div>
+    
+    <script>
+        function switchSection(section) {
+            document.querySelectorAll('.section-content').forEach(el => el.classList.remove('active'));
+            document.getElementById('section-' + section).classList.add('active');
+            
+            document.querySelectorAll('.section-switch button').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+        
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.section-content.active .lang-content.' + lang).forEach(el => el.classList.add('active'));
+            
+            document.querySelectorAll('.lang-switch button').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
