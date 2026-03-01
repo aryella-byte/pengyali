@@ -83,15 +83,70 @@ T14_REVIEWS = {
     }
 }
 
-# 关键词筛选
-KEYWORDS = [
-    "criminal", "sentencing", "constitutional", "administrative", "regulation",
-    "corporate", "securities", "antitrust", "international", "human rights",
-    "technology", "AI", "algorithm", "privacy", "data",
-    "empirical", "economics", "law and economics",
-    "procedure", "evidence", "jurisdiction",
-    "race", "gender", "inequality", "social justice"
-]
+# 关键词筛选 - CRIMINAL JUSTICE 最高优先级
+KEYWORDS = {
+    # 最高优先级 - Criminal Justice
+    "criminal": 10,
+    "criminal justice": 10,
+    "sentencing": 10,
+    "punishment": 10,
+    "prison": 10,
+    "incarceration": 10,
+    "death penalty": 10,
+    "homicide": 10,
+    "violent crime": 10,
+    "drug crime": 9,
+    "white collar crime": 9,
+    "fraud": 8,
+    "policing": 8,
+    "prosecution": 8,
+    "defense": 8,
+    "jury": 8,
+    "nullification": 8,
+    "due process": 8,
+    "police": 8,
+    "search and seizure": 8,
+    "fourth amendment": 8,
+    "fifth amendment": 8,
+    "sixth amendment": 8,
+    "eighth amendment": 8,
+    "mass incarceration": 10,
+    "criminal procedure": 9,
+    "wrongful conviction": 9,
+    "recidivism": 8,
+    "rehabilitation": 7,
+    "restorative justice": 8,
+    
+    # 高优先级 - Constitutional/Individual Rights
+    "constitutional": 6,
+    "civil rights": 6,
+    "civil liberties": 6,
+    "rights": 5,
+    
+    # 中优先级 - Other areas
+    "administrative": 3,
+    "regulation": 3,
+    "corporate": 3,
+    "securities": 3,
+    "antitrust": 3,
+    "international": 3,
+    "human rights": 4,
+    "technology": 4,
+    "AI": 4,
+    "algorithm": 4,
+    "privacy": 5,
+    "data": 3,
+    "empirical": 4,
+    "economics": 3,
+    "law and economics": 3,
+    "procedure": 4,
+    "evidence": 5,
+    "jurisdiction": 3,
+    "race": 5,
+    "gender": 4,
+    "inequality": 4,
+    "social justice": 5
+}
 
 def fetch_rss(name, rss_url):
     """抓取RSS feed"""
@@ -114,12 +169,12 @@ def fetch_rss(name, rss_url):
         return []
 
 def score_relevance(article):
-    """计算文章相关性"""
+    """计算文章相关性 - Criminal Justice 优先"""
     text = f"{article['title']} {article.get('summary', '')}".lower()
     score = 0
-    for keyword in KEYWORDS:
+    for keyword, weight in KEYWORDS.items():
         if keyword in text:
-            score += 1
+            score += weight
     return score
 
 def fetch_all_reviews():
