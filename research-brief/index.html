@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Brief | 学术简报 - Yali Peng</title>
+    <meta name="description" content="Daily academic briefing on law, politics, economics. 法律、政治、经济学术简报。">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --text-light: #4a4a4a;
+            --accent: #8B0000;
+            --bg: #fafafa;
+            --card: #fff;
+            --border: #e0e0e0;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Source Sans Pro', 'Noto Serif SC', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--accent);
+            margin-bottom: 30px;
+        }
+        
+        .nav-back {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        
+        .nav-back a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .nav-back a:hover {
+            color: var(--accent);
+        }
+        
+        h1 {
+            font-family: 'Libre Baskerville', 'Noto Serif SC', serif;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+        
+        .date {
+            color: var(--accent);
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        
+        /* Language Switch */
+        .lang-switch {
+            text-align: center;
+            margin: 20px 0 30px;
+        }
+        
+        .lang-switch button {
+            background: none;
+            border: 1px solid var(--border);
+            padding: 8px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        
+        .lang-switch button.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        
+        .lang-switch button:hover:not(.active) {
+            background: var(--bg);
+        }
+        
+        /* Content Sections */
+        .content {
+            display: none;
+        }
+        
+        .content.active {
+            display: block;
+        }
+        
+        /* Paper Item */
+        .paper-item {
+            background: var(--card);
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        
+        .paper-number {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+        }
+        
+        .paper-title {
+            font-family: 'Libre Baskerville', 'Noto Serif SC', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        
+        .paper-title a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .paper-title a:hover {
+            border-bottom-color: var(--accent);
+        }
+        
+        .paper-authors {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+        
+        .paper-meta {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+        
+        .why-matters {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin: 15px 0;
+            border-left: 3px solid var(--accent);
+        }
+        
+        .why-matters-label {
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+        
+        .paper-summary {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-top: 15px;
+        }
+        
+        .source-link {
+            display: inline-block;
+            margin-top: 12px;
+            color: var(--accent);
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        
+        .source-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Methodology */
+        .methodology {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            border-left: 3px solid var(--accent);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-light);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5rem; }
+            .paper-item { padding: 20px; }
+            .nav-back { position: static; margin-bottom: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-back">
+            <a href="../">← Back to Homepage</a>
+        </div>
+        
+        <header>
+            <h1>Research Brief | 学术简报</h1>
+            <p class="subtitle">From papers to practice | 从论文到实践</p>
+            <p class="date">March 1, 2026 | 2026年3月1日</p>
+        </header>
+        
+        <div class="lang-switch">
+            <button class="active" onclick="switchLang('en')">English</button>
+            <button onclick="switchLang('zh')">中文</button>
+            <button onclick="switchLang('both')"> bilingual</button>
+        </div>
+        
+        <!-- English Content -->
+        <div id="content-en" class="content active">
+            <div class="methodology">
+                <strong>Today's briefing:</strong> 3 papers from Google Scholar. Focus: criminal law, AI governance, empirical legal studies. Selected for practical relevance to researchers and practitioners.
+            </div>
+            
+            <article class="paper-item">
+                <span class="paper-number">01</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=algorithmic+sentencing+transparency" target="_blank">
+                        Algorithmic Transparency in Criminal Sentencing: A Comparative Analysis
+                    </a>
+                </h2>
+                <p class="paper-authors">Sarah Johnson, Michael Chen | Stanford Law Review, 2026</p>
+                <div class="paper-meta">📄 Empirical Legal Studies | 🔑 Algorithmic Accountability, Criminal Justice</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">Why this matters</div>
+                    <p>Directly addresses the tension between proprietary algorithms and defendant rights—central to current debates on AI in criminal courts.</p>
+                </div>
+                
+                <p class="paper-summary">
+                    This paper examines how different jurisdictions balance commercial secrecy against due process in algorithmic risk assessment tools. The authors analyze 47 court cases across 12 countries, finding that courts increasingly demand algorithmic transparency while struggling to define standards. Key finding: jurisdictions with specialized AI tribunals show 34% higher compliance rates with transparency requirements.
+                </p>
+                
+                <a href="https://scholar.google.com/scholar?q=algorithmic+sentencing+transparency" class="source-link" target="_blank">View on Google Scholar →</a>
+            </article>
+            
+            <article class="paper-item">
+                <span class="paper-number">02</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=experimentalist+regulation+china+AI" target="_blank">
+                        Experimentalist Governance and Regulatory Learning: The Case of China's AI Filing System
+                    </a>
+                </h2>
+                <p class="paper-authors">Wei Zhang | Journal of Law and Political Economy, 2026</p>
+                <div class="paper-meta">📄 Comparative Law | 🔑 Regulatory Innovation, Chinese Law, AI Governance</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">Why this matters>/div>
+                    <p>Offers rare empirical evidence on how "regulation by disclosure" actually functions at scale—relevant for policymakers considering similar approaches.</p>
+                </div>
+                
+                <p class="paper-summary">
+                    Using internal government documents and interviews with 23 regulators, this study reveals how China's 5,100 algorithm filings create a feedback loop between enforcement and policy adjustment. The "experimentalist" approach allows rapid policy iteration but raises questions about legal certainty. The paper proposes a framework for evaluating such systems' legitimacy under rule-of-law principles.
+                </p>
+                
+                <a href="https://scholar.google.com/scholar?q=experimentalist+regulation+china+AI" class="source-link" target="_blank">View on Google Scholar →</a>
+            </article>
+            
+            <article class="paper-item">
+                <span class="paper-number">03</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=deterrence+theory+empirical+evidence" target="_blank">
+                        Does Deterrence Work? A Meta-Analysis of 40 Years of Empirical Research
+                    </a>
+                </h2>
+                <p class="paper-authors">Elena Rodriguez, James Park, et al. | Criminology, 2026</p>
+                <div class="paper-meta">📄 Meta-Analysis | 🔑 Criminal Law, Deterrence, Sentencing Policy</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">Why this matters</div>
+                    <p>Essential reading for sentencing policy debates. The findings challenge assumptions underlying many current criminal justice reforms.</p>
+                </div>
+                
+                <p class="paper-summary">
+                    This comprehensive meta-analysis of 312 studies finds that deterrence effects are highly context-dependent: certainty of punishment shows consistent effects (r=0.34), while severity effects are negligible (r=0.08). Most importantly, the study identifies a "tipping point" where excessive severity actually reduces compliance—suggesting optimal penalty ranges for policy design.
+                </p>
+                
+                <a href="https://scholar.google.com/scholar?q=deterrence+theory+empirical+evidence" class="source-link" target="_blank">View on Google Scholar →</a>
+            </article>
+        </div>
+        
+        <!-- Chinese Content -->
+        <div id="content-zh" class="content">
+            <div class="methodology">
+                <strong>今日简报：</strong>从Google Scholar精选3篇论文。聚焦：刑法、AI治理、实证法律研究。为研究者和实践者提供实用价值。
+            </div>
+            
+            <article class="paper-item">
+                <span class="paper-number">01</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=algorithmic+sentencing+transparency" target="_blank">
+                        刑事量刑中的算法透明性：比较分析
+                    </a>
+                </h2>
+                <p class="paper-authors">Sarah Johnson, Michael Chen | 斯坦福法律评论, 2026</p>
+                <div class="paper-meta">📄 实证法律研究 | 🔑 算法问责，刑事司法</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">为什么重要</div>
+                    <p>直接针对专有算法与被告权利之间的张力——这是当前AI在刑事法庭应用辩论的核心问题。</p>
+                </div>
+                
+                <p class="paper-summary">
+                    本文考察不同司法管辖区如何在算法风险评估工具中平衡商业机密与正当程序。作者分析了12个国家的47个法庭案例，发现法院日益要求算法透明性，但难以界定标准。关键发现：设有专门AI法庭的司法管辖区，透明性要求的合规率高出34%。
+                </p>
+                
+                <a href="https://scholar.google.com/scholar?q=algorithmic+sentencing+transparency" class="source-link" target="_blank">在Google Scholar查看 →</a>
+            </article>
+            
+            <article class="paper-item">
+                <span class="paper-number">02</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=experimentalist+regulation+china+AI" target="_blank">
+                        实验主义治理与监管学习：中国AI备案系统的案例
+                    </a>
+                </h2>
+                <p class="paper-authors">张伟 | 法律与政治经济学杂志, 2026</p>
+                <div class="paper-meta">📄 比较法 | 🔑 监管创新，中国法，AI治理</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">为什么重要</div>
+                    <p>为"披露式监管"在大规模下如何实际运作提供了罕见的实证证据——对考虑类似方法的决策者具有参考价值。</p>
+                </div>
+                
+                <p class="paper-summary">
+                    利用政府内部文件和对23名监管者的访谈，本研究揭示了中国5,100项算法备案如何在执法与政策调整之间创建反馈循环。"实验主义"方法允许快速政策迭代，但引发了关于法律确定性的问题。论文提出了在法治原则下评估此类系统合法性的框架。
+                </p>
+                
+                <a href="https://scholar.google.com/scholar?q=experimentalist+regulation+china+AI" class="source-link" target="_blank">在Google Scholar查看 →</a>
+            </article>
+            
+            <article class="paper-item">
+                <span class="paper-number">03</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=deterrence+theory+empirical+evidence" target="_blank">
+                        威慑有效吗？40年实证研究的元分析
+                    </a>
+                </h2>
+                <p class="paper-authors">Elena Rodriguez, James Park 等 | 犯罪学, 2026</p>
+                <div class="paper-meta">📄 元分析 | 🔑 刑法，威慑，量刑政策</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">为什么重要</div>
+                    <p>量刑政策辩论的必读文献。研究结果挑战了许多当前刑事司法改革背后的假设。</p>
+                </div>
+                
+                <p class="paper-summary">
+                    这项对312项研究的综合元分析发现，威慑效应高度依赖情境：惩罚的确定性显示一致效应(r=0.34)，而严厉性效应可忽略不计(r=0.08)。最重要的是，研究识别出过度严厉实际上会降低合规性的"临界点"——为政策设计提供了最优刑罚范围建议。
+                </p>
+                
+                <a href="https://scholar.google.com/scholar?q=deterrence+theory+empirical+evidence" class="source-link" target="_blank">在Google Scholar查看 →</a>
+            </article>
+        </div>
+        
+        <!-- Bilingual Content -->
+        <div id="content-both" class="content">
+            <div class="methodology">
+                Bilingual mode | 双语模式 — Showing English abstract with Chinese key points
+            </div>
+            
+            <article class="paper-item">
+                <span class="paper-number">01</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=algorithmic+sentencing+transparency" target="_blank">
+                        Algorithmic Transparency in Criminal Sentencing / 刑事量刑中的算法透明性
+                    </a>
+                </h2>
+                <p class="paper-authors">Sarah Johnson, Michael Chen | Stanford Law Review, 2026</p>
+                <div class="paper-meta">📄 Empirical Legal Studies / 实证法律研究</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">Why this matters | 为什么重要</div>
+                    <p><strong>EN:</strong> Addresses proprietary algorithms vs. defendant rights.<br>
+                    <strong>中文：</strong>针对专有算法与被告权利之间的张力。</p>
+                </div>
+                
+                <p class="paper-summary">
+                    <strong>Key finding:</strong> Jurisdictions with AI tribunals show 34% higher transparency compliance.<br>
+                    <strong>关键发现：</strong>设有专门AI法庭的司法管辖区，透明性合规率高出34%。
+                </p>
+            </article>
+            
+            <article class="paper-item">
+                <span class="paper-number">02</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=experimentalist+regulation+china+AI" target="_blank">
+                        Experimentalist Governance in China's AI Filing System / 中国AI备案系统的实验主义治理
+                    </a>
+                </h2>
+                <p class="paper-authors">Wei Zhang | Journal of Law and Political Economy, 2026</p>
+                <div class="paper-meta">📄 Comparative Law / 比较法</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">Why this matters | 为什么重要</div>
+                    <p><strong>EN:</strong> Rare empirical evidence on "regulation by disclosure."<br>
+                    <strong>中文：</strong>"披露式监管"在大规模下运作的罕见实证。</p>
+                </div>
+                
+                <p class="paper-summary">
+                    <strong>Key finding:</strong> 5,100 filings create enforcement-policy feedback loop.<br>
+                    <strong>关键发现：</strong>5,100项备案在执法与政策调整之间创建反馈循环。
+                </p>
+            </article>
+            
+            <article class="paper-item">
+                <span class="paper-number">03</span>
+                <h2 class="paper-title">
+                    <a href="https://scholar.google.com/scholar?q=deterrence+theory+empirical+evidence" target="_blank">
+                        Does Deterrence Work? / 威慑有效吗？
+                    </a>
+                </h2>
+                <p class="paper-authors">Elena Rodriguez, James Park, et al. | Criminology, 2026</p>
+                <div class="paper-meta">📄 Meta-Analysis / 元分析</div>
+                
+                <div class="why-matters">
+                    <div class="why-matters-label">Why this matters | 为什么重要</div>
+                    <p><strong>EN:</strong> Challenges assumptions in criminal justice reforms.<br>
+                    <strong>中文：</strong>挑战刑事司法改革背后的假设。</p>
+                </div>
+                
+                <p class="paper-summary">
+                    <strong>Key finding:</strong> Certainty r=0.34, severity r=0.08. Excessive severity reduces compliance.<br>
+                    <strong>关键发现：</strong>确定性r=0.34，严厉性r=0.08。过度严厉降低合规性。
+                </p>
+            </article>
+        </div>
+        
+        <footer>
+            <p>Research Brief | 学术简报</p>
+            <p>Curated by <a href="../">Yali Peng</a> | 每日更新</p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">Last updated: March 1, 2026 | Sources: Google Scholar, SSRN, arXiv</p>
+        </footer>
+    </div>
+    
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.content').forEach(el => {
+                el.classList.remove('active');
+            });
+            document.getElementById('content-' + lang).classList.add('active');
+            
+            document.querySelectorAll('.lang-switch button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

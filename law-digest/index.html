@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Digest | 法律资讯摘要 - Yali Peng</title>
+    <meta name="description" content="Daily curated legal, political and economic news. 每日精选法律、政治、经济资讯。">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+SC:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --text: #1a1a1a;
+            --text-light: #4a4a4a;
+            --accent: #8B0000;
+            --bg: #fafafa;
+            --card: #fff;
+            --border: #e0e0e0;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Source Sans Pro', 'Noto Serif SC', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--accent);
+            margin-bottom: 30px;
+        }
+        
+        .nav-back {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        
+        .nav-back a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .nav-back a:hover {
+            color: var(--accent);
+        }
+        
+        h1 {
+            font-family: 'Libre Baskerville', 'Noto Serif SC', serif;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+        
+        .date {
+            color: var(--accent);
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        
+        /* Language Switch */
+        .lang-switch {
+            text-align: center;
+            margin: 20px 0 30px;
+        }
+        
+        .lang-switch button {
+            background: none;
+            border: 1px solid var(--border);
+            padding: 8px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+        }
+        
+        .lang-switch button.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        
+        .lang-switch button:hover:not(.active) {
+            background: var(--bg);
+        }
+        
+        /* Content Sections */
+        .content {
+            display: none;
+        }
+        
+        .content.active {
+            display: block;
+        }
+        
+        /* News Item */
+        .news-item {
+            background: var(--card);
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        
+        .news-number {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+        }
+        
+        .news-title {
+            font-family: 'Libre Baskerville', 'Noto Serif SC', serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        
+        .news-title a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .news-title a:hover {
+            border-bottom-color: var(--accent);
+        }
+        
+        .news-meta {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 12px;
+        }
+        
+        .news-summary {
+            font-size: 0.95rem;
+            line-height: 1.8;
+        }
+        
+        .source-link {
+            display: inline-block;
+            margin-top: 12px;
+            color: var(--accent);
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        
+        .source-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Methodology */
+        .methodology {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            border-left: 3px solid var(--accent);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-light);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5rem; }
+            .news-item { padding: 20px; }
+            .nav-back { position: static; margin-bottom: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-back">
+            <a href="../">← Back to Homepage</a>
+        </div>
+        
+        <header>
+            <h1>Law Digest | 法律资讯摘要</h1>
+            <p class="subtitle">No clickbait. Sourced. Insightful. | 不标题党，有信源，有洞察</p>
+            <p class="date">March 1, 2026 | 2026年3月1日</p>
+        </header>
+        
+        <div class="lang-switch">
+            <button class="active" onclick="switchLang('en')">English</button>
+            <button onclick="switchLang('zh')">中文</button>
+            <button onclick="switchLang('both')"> bilingual</button>
+        </div>
+        
+        <!-- English Content -->
+        <div id="content-en" class="content active">
+            <div class="methodology">
+                <strong>Today's curation:</strong> 3 items selected from 48 candidates. Coverage: Supreme Court rulings, legislative developments, international relations, financial markets.
+            </div>
+            
+            <article class="news-item">
+                <span class="news-number">01</span>
+                <h2 class="news-title">
+                    <a href="https://www.scotusblog.com/2026/02/the-major-debate-over-major-questions-in-the-tariffs-decision-is-only-the-beginning/" target="_blank">
+                        The Major Debate Over Major Questions in the Tariffs Decision
+                    </a>
+                </h2>
+                <div class="news-meta">📰 SCOTUSblog | 🏷️ Constitutional Law | March 1, 2026</div>
+                <p class="news-summary">
+                    The Supreme Court's decision striking down presidential tariffs raises fundamental questions about executive power and the Major Questions Doctrine. This ruling could reshape how courts review broad executive actions across multiple policy areas.
+                </p>
+                <a href="https://www.scotusblog.com/2026/02/the-major-debate-over-major-questions-in-the-tariffs-decision-is-only-the-beginning/" class="source-link" target="_blank">Read more →</a>
+            </article>
+            
+            <article class="news-item">
+                <span class="news-number">02</span>
+                <h2 class="news-title">
+                    <a href="#" target="_blank">
+                        US-Israeli Strikes Target Iranian Leadership
+                    </a>
+                </h2>
+                <div class="news-meta">📰 BBC / FT | 🏷️ International Relations | March 1, 2026</div>
+                <p class="news-summary">
+                    Joint military action results in death of Iran's Supreme Leader, triggering regional tensions and questions about international law, sovereignty, and the use of force. Gulf states impose airspace restrictions as Iran promises retaliation.
+                </p>
+                <a href="#" class="source-link" target="_blank">Read more →</a>
+            </article>
+            
+            <article class="news-item">
+                <span class="news-number">03</span>
+                <h2 class="news-title">
+                    <a href="#" target="_blank">
+                        China's Algorithmic Governance Framework Reaches 5,100 Filings
+                    </a>
+                </h2>
+                <div class="news-meta">📰 FT Chinese | 🏷️ Tech Regulation | Feb 28, 2026</div>
+                <p class="news-summary">
+                    China's experimentalist approach to AI regulation shows strong enforcement signals with 1,237 apps delisted. The system demonstrates how "regulation by disclosure" can work at scale, offering lessons for other jurisdictions.
+                </p>
+                <a href="#" class="source-link" target="_blank">Read more →</a>
+            </article>
+        </div>
+        
+        <!-- Chinese Content -->
+        <div id="content-zh" class="content">
+            <div class="methodology">
+                <strong>今日筛选：</strong>从48条候选中精选3条。覆盖：最高法院判例、立法动态、国际关系、金融市场。
+            </div>
+            
+            <article class="news-item">
+                <span class="news-number">01</span>
+                <h2 class="news-title">
+                    <a href="https://www.scotusblog.com/2026/02/the-major-debate-over-major-questions-in-the-tariffs-decision-is-only-the-beginning/" target="_blank">
+                        最高法院关税判决中的"重大问题"之争
+                    </a>
+                </h2>
+                <div class="news-meta">📰 SCOTUSblog | 🏷️ 宪法 | 2026年3月1日</div>
+                <p class="news-summary">
+                    最高法院废除总统关税的判决引发了关于行政权力和"重大问题原则"的根本性讨论。这一裁决可能重塑法院审查广泛行政行动的方式，影响多个政策领域。
+                </p>
+                <a href="https://www.scotusblog.com/2026/02/the-major-debate-over-major-questions-in-the-tariffs-decision-is-only-the-beginning/" class="source-link" target="_blank">阅读原文 →</a>
+            </article>
+            
+            <article class="news-item">
+                <span class="news-number">02</span>
+                <h2 class="news-title">
+                    <a href="#" target="_blank">
+                        美以空袭 targeting 伊朗最高领袖
+                    </a>
+                </h2>
+                <div class="news-meta">📰 BBC / FT | 🏷️ 国际关系 | 2026年3月1日</div>
+                <p class="news-summary">
+                    联合军事行动导致伊朗最高领袖身亡，引发地区紧张局势，涉及国际法、主权和武力使用等重大问题。海湾国家实施空域限制，伊朗承诺报复。
+                </p>
+                <a href="#" class="source-link" target="_blank">阅读原文 →</a>
+            </article>
+            
+            <article class="news-item">
+                <span class="news-number">03</span>
+                <h2 class="news-title">
+                    <a href="#" target="_blank">
+                        中国算法治理框架累计5,100项备案
+                    </a>
+                </h2>
+                <div class="news-meta">📰 FT中文 | 🏷️ 科技监管 | 2026年2月28日</div>
+                <p class="news-summary">
+                    中国实验主义AI监管模式展现强执法信号，1,237款应用被下架。该系统展示了"披露式监管"如何在大规模下运作，为其他司法管辖区提供借鉴。
+                </p>
+                <a href="#" class="source-link" target="_blank">阅读原文 →</a>
+            </article>
+        </div>
+        
+        <!-- Bilingual Content -->
+        <div id="content-both" class="content">
+            <div class="methodology">
+                Bilingual mode | 双语模式 — Scroll for both languages
+            </div>
+            
+            <!-- Item 1 -->
+            <article class="news-item">
+                <span class="news-number">01</span>
+                <h2 class="news-title">
+                    <a href="https://www.scotusblog.com/2026/02/the-major-debate-over-major-questions-in-the-tariffs-decision-is-only-the-beginning/" target="_blank">
+                        The Major Debate Over Major Questions in the Tariffs Decision
+                    </a>
+                </h2>
+                <div class="news-meta">📰 SCOTUSblog | 🏷️ Constitutional Law / 宪法 | March 1, 2026</div>
+                <p class="news-summary">
+                    <strong>EN:</strong> The Supreme Court's decision striking down presidential tariffs raises fundamental questions about executive power and the Major Questions Doctrine.<br><br>
+                    <strong>中文：</strong>最高法院废除总统关税的判决引发了关于行政权力和"重大问题原则"的根本性讨论。
+                </p>
+            </article>
+            
+            <!-- Item 2 -->
+            <article class="news-item">
+                <span class="news-number">02</span>
+                <h2 class="news-title">
+                    <a href="#" target="_blank">
+                        US-Israeli Strikes Target Iranian Leadership / 美以空袭伊朗领导层
+                    </a>
+                </h2>
+                <div class="news-meta">📰 BBC / FT | 🏷️ International Relations / 国际关系 | March 1, 2026</div>
+                <p class="news-summary">
+                    <strong>EN:</strong> Joint military action results in death of Iran's Supreme Leader, triggering regional tensions and questions about international law.<br><br>
+                    <strong>中文：</strong>联合军事行动导致伊朗最高领袖身亡，引发地区紧张局势，涉及国际法等重大问题。
+                </p>
+            </article>
+            
+            <!-- Item 3 -->
+            <article class="news-item">
+                <span class="news-number">03</span>
+                <h2 class="news-title">
+                    <a href="#" target="_blank">
+                        China's Algorithmic Governance / 中国算法治理
+                    </a>
+                </h2>
+                <div class="news-meta">📰 FT Chinese | 🏷️ Tech Regulation / 科技监管 | Feb 28, 2026</div>
+                <p class="news-summary">
+                    <strong>EN:</strong> China's experimentalist approach shows strong enforcement with 1,237 apps delisted, offering lessons for other jurisdictions.<br><br>
+                    <strong>中文：</strong>中国实验主义监管模式展现强执法信号，1,237款应用被下架，为其他司法管辖区提供借鉴。
+                </p>
+            </article>
+        </div>
+        
+        <footer>
+            <p>Law Digest | 法律资讯摘要</p>
+            <p>Curated by <a href="../">Yali Peng</a> | 每日更新</p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">Last updated: March 1, 2026</p>
+        </footer>
+    </div>
+    
+    <script>
+        function switchLang(lang) {
+            // Hide all content
+            document.querySelectorAll('.content').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Show selected content
+            document.getElementById('content-' + lang).classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.lang-switch button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
