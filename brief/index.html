@@ -2,11 +2,141 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=./2026-03-02/">
-    <title>Redirecting to Latest Brief...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brief Archive | 简报归档 - Yali Peng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --text: #1a1a1a; --accent: #8B0000; --bg: #fafafa; --card: #fff; --border: #e0e0e0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Source Sans Pro', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 40px 0; border-bottom: 2px solid var(--accent); margin-bottom: 30px; }
+        .nav-back { position: absolute; top: 20px; left: 20px; }
+        .nav-back a { color: #666; text-decoration: none; font-size: 0.9rem; }
+        h1 { font-family: 'Libre Baskerville', serif; font-size: 2rem; margin-bottom: 10px; }
+        .subtitle { color: #666; font-size: 0.95rem; }
+        
+        .intro { background: var(--card); padding: 25px; border-radius: 8px; margin-bottom: 30px; border-left: 3px solid var(--accent); }
+        .intro p { margin: 10px 0; }
+        
+        .date-list { display: flex; flex-direction: column; gap: 15px; }
+        
+        .date-item { 
+            background: var(--card); 
+            padding: 25px 30px; 
+            border-radius: 8px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .date-item:hover { 
+            transform: translateY(-2px); 
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        
+        .date-info h3 { 
+            font-family: 'Libre Baskerville', serif; 
+            font-size: 1.2rem; 
+            margin-bottom: 5px;
+        }
+        
+        .date-info .zh { color: #666; font-size: 0.9rem; }
+        
+        .date-meta { 
+            font-size: 0.85rem; 
+            color: #666; 
+            margin-top: 8px;
+        }
+        
+        .badge { 
+            display: inline-block; 
+            background: #1a1a2e; 
+            color: white; 
+            padding: 3px 10px; 
+            border-radius: 4px; 
+            font-size: 0.75rem; 
+            font-weight: 600;
+        }
+        
+        .goto-btn { 
+            background: var(--accent); 
+            color: white; 
+            padding: 10px 20px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        
+        .goto-btn:hover { background: #6b0000; }
+        
+        .latest-badge {
+            background: var(--accent);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            margin-left: 10px;
+            font-weight: 600;
+        }
+        
+        footer { text-align: center; padding: 40px 0; color: #666; font-size: 0.85rem; border-top: 1px solid #ddd; margin-top: 40px; }
+        footer a { color: var(--accent); text-decoration: none; }
+        
+        @media (max-width: 600px) { 
+            .date-item { flex-direction: column; align-items: flex-start; gap: 15px; }
+            h1 { font-size: 1.5rem; } 
+            .nav-back { position: static; margin-bottom: 20px; } 
+        }
+    </style>
 </head>
 <body>
-    <p>Redirecting to latest brief (March 2, 2026)...</p>
-    <p>If you are not redirected automatically, <a href="./2026-03-02/">click here</a>.</p>
+    <div class="container">
+        <div class="nav-back"><a href="../">← Back to Homepage</a></div>
+        
+        <header>
+            <h1>Brief Archive | 简报归档</h1>
+            <p class="subtitle">Select a date to view | 选择日期查看</p>
+        </header>
+        
+        <div class="intro">
+            <p><strong>Daily curated briefing on law, politics, economics, and research.</strong></p>
+            <p>每日精选法律、政治、经济与学术简报。内容包括国际新闻与T14法学院期刊研究。</p>
+        </div>
+        
+        <div class="date-list">
+            <!-- March 2, 2026 -->
+            <div class="date-item">
+                <div class="date-info">
+                    <h3>March 2, 2026 <span class="latest-badge">LATEST</span></h3>
+                    <p class="zh">2026年3月2日</p>
+                    <p class="date-meta">
+                        📰 News: Supreme Court, Iran, DeepSeek <span class="badge">T14</span> Research: 5 articles
+                    </p>
+                </div>
+                <a href="./2026-03-02/" class="goto-btn">View →</a>
+            </div>
+            
+            <!-- March 1, 2026 -->
+            <div class="date-item">
+                <div class="date-info">
+                    <h3>March 1, 2026</h3>
+                    <p class="zh">2026年3月1日</p>
+                    <p class="date-meta">
+                        📰 News: Tariffs Decision, Iran Leader, DeepSeek <span class="badge">T14</span> Research: 5 articles
+                    </p>
+                </div>
+                <a href="./2026-03-01/" class="goto-btn">View →</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Brief | 简报</p>
+            <p>Curated by <a href="../">Yali Peng</a></p>
+        </footer>
+    </div>
 </body>
 </html>
