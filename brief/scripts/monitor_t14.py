@@ -9,21 +9,17 @@ import requests
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# T14 Law Reviews - RSS feeds and URLs
+# T14 Law Reviews - RSS feeds and URLs (Updated with verified RSS links)
 T14_REVIEWS = {
-    "Yale Law Journal": {
-        "url": "https://www.yalelawjournal.org/",
-        "rss": None,  # 需要爬取网页
+    # 有RSS的期刊
+    "Harvard Law Review": {
+        "url": "https://harvardlawreview.org/",
+        "rss": "https://harvardlawreview.org/feed/",
         "type": "law"
     },
     "Stanford Law Review": {
         "url": "https://www.stanfordlawreview.org/",
-        "rss": None,
-        "type": "law"
-    },
-    "Harvard Law Review": {
-        "url": "https://harvardlawreview.org/",
-        "rss": "https://harvardlawreview.org/feed/",
+        "rss": "https://www.stanfordlawreview.org/feed/",
         "type": "law"
     },
     "Columbia Law Review": {
@@ -33,27 +29,22 @@ T14_REVIEWS = {
     },
     "Chicago Law Review": {
         "url": "https://lawreview.uchicago.edu/",
-        "rss": None,
+        "rss": "https://lawreview.uchicago.edu/rss.xml",
         "type": "law"
     },
     "NYU Law Review": {
         "url": "https://www.nyulawreview.org/",
-        "rss": None,
+        "rss": "https://www.nyulawreview.org/feed/",
         "type": "law"
     },
     "Penn Law Review": {
         "url": "https://www.pennlawreview.com/",
-        "rss": None,
+        "rss": "https://www.pennlawreview.com/feed/",
         "type": "law"
     },
     "Virginia Law Review": {
         "url": "https://www.virginialawreview.org/",
         "rss": "https://www.virginialawreview.org/feed/",
-        "type": "law"
-    },
-    "Berkeley Law Review": {
-        "url": "https://www.boalt.org/",
-        "rss": None,
         "type": "law"
     },
     "Michigan Law Review": {
@@ -63,23 +54,38 @@ T14_REVIEWS = {
     },
     "Duke Law Journal": {
         "url": "https://law.duke.edu/dlj/",
-        "rss": None,
-        "type": "law"
-    },
-    "Northwestern Law Review": {
-        "url": "https://scholarlycommons.law.northwestern.edu/nulr/",
-        "rss": None,
+        "rss": "https://www.law.duke.edu/dlj/feed/",
         "type": "law"
     },
     "Cornell Law Review": {
         "url": "https://www.cornelllawreview.org/",
-        "rss": None,
+        "rss": "https://www.cornelllawreview.org/feed/",
         "type": "law"
+    },
+    "Northwestern Law Review": {
+        "url": "https://scholarlycommons.law.northwestern.edu/nulr/",
+        "rss": "https://scholarlycommons.law.northwestern.edu/nulr/recent.rss",
+        "type": "law"
+    },
+    
+    # 无RSS需要爬取的期刊
+    "Yale Law Journal": {
+        "url": "https://www.yalelawjournal.org/",
+        "rss": None,  # 无公开RSS
+        "type": "law",
+        "note": "No RSS - needs web scraping"
+    },
+    "Berkeley Law Review": {
+        "url": "https://www.boalt.org/",
+        "rss": None,  # Law Review本身无RSS，只有法学院新闻RSS
+        "type": "law",
+        "note": "No Law Review specific RSS - needs web scraping"
     },
     "Georgetown Law Journal": {
         "url": "https://www.georgetownlawjournal.org/",
-        "rss": None,
-        "type": "law"
+        "rss": None,  # Feed exists but empty/hello world
+        "type": "law",
+        "note": "Feed exists but empty - needs web scraping"
     }
 }
 
@@ -180,17 +186,30 @@ def score_relevance(article):
 def fetch_all_reviews():
     """抓取所有T14期刊"""
     all_articles = []
+    rss_count = 0
+    no_rss = []
     
     for name, info in T14_REVIEWS.items():
         print(f"Fetching {name}...")
-        articles = fetch_rss(name, info.get("rss"))
-        for article in articles:
-            article["relevance_score"] = score_relevance(article)
-        all_articles.extend(articles)
-        print(f"  → {len(articles)} articles")
+        if info.get("rss"):
+            articles = fetch_rss(name, info["rss"])
+            for article in articles:
+                article["relevance_score"] = score_relevance(article)
+            all_articles.extend(articles)
+            print(f"  ✓ {len(articles)} articles (RSS)")
+            rss_count += 1
+        else:
+            no_rss.append(name)
+            print(f"  ✗ No RSS - {info.get('note', 'Needs manual scraping')}")
     
     # 按相关性排序
     all_articles.sort(key=lambda x: x["relevance_score"], reverse=True)
+    
+    print(f"\n{'='*50}")
+    print(f"RSS Coverage: {rss_count}/14 journals")
+    if no_rss:
+        print(f"No RSS (need scraping): {', '.join(no_rss)}")
+    
     return all_articles
 
 def save_results(articles, date_str):
@@ -198,25 +217,42 @@ def save_results(articles, date_str):
     output_dir = Path("/root/.openclaw/workspace/website/brief/content")
     output_dir.mkdir(parents=True, exist_ok=True)
     
+    # 按类别分类
+    criminal_justice = [a for a in articles if any(k in a.get('title','').lower() for k in ['criminal', 'sentencing', 'punishment', 'prison', 'fourth amendment', 'police', 'jury'])]
+    constitutional = [a for a in articles if 'constitutional' in a.get('title','').lower() and a not in criminal_justice]
+    other = [a for a in articles if a not in criminal_justice and a not in constitutional]
+    
     result = {
         "date": date_str,
         "generated_at": datetime.now().isoformat(),
         "total_articles": len(articles),
-        "articles": articles[:10]  # 保存前10篇
+        "by_category": {
+            "criminal_justice": criminal_justice[:5],
+            "constitutional": constitutional[:5],
+            "other": other[:5]
+        },
+        "articles": articles[:15]  # 保存前15篇
     }
     
     output_file = output_dir / f"t14-research-{date_str}.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     
-    print(f"\nSaved to {output_file}")
-    print(f"Top 5 articles by relevance:")
+    print(f"\n{'='*50}")
+    print(f"Saved to {output_file}")
+    print(f"\nCriminal Justice articles: {len(criminal_justice)}")
+    print(f"Constitutional Law articles: {len(constitutional)}")
+    print(f"Other articles: {len(other)}")
+    print(f"\nTop 5 by relevance:")
     for i, article in enumerate(articles[:5], 1):
-        print(f"  {i}. [{article['relevance_score']}] {article['title'][:60]}... ({article['source']})")
+        badge = "🔥" if article['relevance_score'] >= 8 else "📄"
+        print(f"  {badge} [{article['relevance_score']:2d}] {article['title'][:50]}... ({article['source']})")
 
 def main():
+    """主函数"""
     today = datetime.now().strftime("%Y-%m-%d")
-    print(f"[{today}] Monitoring T14 Law Reviews...\n")
+    print(f"[{today}] Monitoring T14 Law Reviews...")
+    print(f"{'='*50}\n")
     
     articles = fetch_all_reviews()
     save_results(articles, today)

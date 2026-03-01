@@ -1,7 +1,79 @@
 {
   "date": "2026-03-02",
-  "generated_at": "2026-03-02T00:49:38.908400",
-  "total_articles": 12,
+  "generated_at": "2026-03-02T02:34:27.698387",
+  "total_articles": 42,
+  "by_category": {
+    "criminal_justice": [
+      {
+        "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
+        "link": "https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/",
+        "published": "Wed, 11 Feb 2026 00:00:00 +0000",
+        "summary": "<p>The Digital Fourth Amendment is written by Professor Orin Kerr, one of the country’s foremost authorities on the Fourth Amendment, electronic privacy, and criminal procedure. Kerr’s work has been deeply influential in shaping how courts are looking at and deciding issues raised by law enforcement",
+        "source": "Harvard Law Review",
+        "relevance_score": 36
+      },
+      {
+        "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+        "link": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+        "published": "Wed, 11 Feb 2026 00:00:00 +0000",
+        "summary": "<p>Sometimes what we call a practice can matter just as much as the practice itself. Jury nullification has a storied history dating back to...</p>\n<p>The post <a href=\"https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+        "source": "Harvard Law Review",
+        "relevance_score": 16
+      }
+    ],
+    "constitutional": [
+      {
+        "title": "The Establishment that Time Forgot: The Historical Understanding of Religious Offenses and Their Unconstitutionality in Modern Law",
+        "link": "https://scholarlycommons.law.northwestern.edu/nulr/vol120/iss4/5",
+        "published": "Sun, 25 Jan 2026 10:35:26 PST",
+        "summary": "<p>This Note argues that religious offenses, meaning laws which penalize conduct for religious purposes, should be barred by the Establishment Clause of the Constitution, as the Clause was interpreted in <em>Kennedy v. Bremerton School District</em>. This is because <em>Kennedy</em> interpreted the ",
+        "source": "Northwestern Law Review",
+        "relevance_score": 6
+      }
+    ],
+    "other": [
+      {
+        "title": "Drug Scheduling as Institutional Design",
+        "link": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
+        "published": "Wed, 11 Feb 2026 00:00:00 +0000",
+        "summary": "<p>The United States makes bad choices when it comes to psychoactive drugs. Under the Controlled Substances Act (CSA), U.S. drug law has simultaneously fueled mass incarceration, inhibited needed access, and enabled an opioid crisis.</p>\n<p>The post <a href=\"https://harvardlawreview.org/print/vol-13",
+        "source": "Harvard Law Review",
+        "relevance_score": 20
+      },
+      {
+        "title": "Stare Decisis and the Missing Administrability Inquiry",
+        "link": "https://nyulawreview.org/issues/volume-100-number-6/stare-decisis-and-the-missing-administrability-inquiry/",
+        "published": "Wed, 31 Dec 2025 21:58:24 +0000",
+        "summary": "<p>Administrative law is undergoing a tremendous amount of change. Presidential administrations have abandoned long-held practices and embraced new strategies to make policy through adjudication and regulation. Meanwhile, the Supreme Court has reworked foundational principles of federal administrati",
+        "source": "NYU Law Review",
+        "relevance_score": 11
+      },
+      {
+        "title": "Anti-Domination and Administration",
+        "link": "https://nyulawreview.org/issues/volume-100-number-6/anti-domination-and-administration/",
+        "published": "Wed, 31 Dec 2025 21:43:34 +0000",
+        "summary": "<p>The foundations of the administrative state are being reshaped, both by the continuing transformations of administrative law doctrine by the courts and by the ambitions for restructuring the executive branch among the current presidential administration. But at the same time, a defense of existin",
+        "source": "NYU Law Review",
+        "relevance_score": 11
+      },
+      {
+        "title": "Bruen Was Right",
+        "link": "https://pennlawreview.com/2025/12/23/bruen-was-right/",
+        "published": "Tue, 23 Dec 2025 02:30:30 +0000",
+        "summary": "New York State Rifle &#38; Pistol Association v. Bruen is one of the most methodologically significant—and widely maligned—constitutional law decisions of the last several decades. By rejecting the tiers of scrutiny that have loomed large in rights jurisprudence since the 1960s and substituting a te",
+        "source": "Penn Law Review",
+        "relevance_score": 11
+      },
+      {
+        "title": "Counsel Fees and Procedural Justice",
+        "link": "https://pennlawreview.com/2025/12/23/counsel-fees-and-procedural-justice/",
+        "published": "Tue, 23 Dec 2025 19:08:23 +0000",
+        "summary": "Introduction Imagine you are charged with a felony. You are indigent, so the judge appoints a lawyer to represent you. Several months later, you are convicted and sentenced to almost nine years in prison. To your surprise, however, you are also charged nearly $3,000 for your court-appointed lawyer—a",
+        "source": "Penn Law Review",
+        "relevance_score": 10
+      }
+    ]
+  },
   "articles": [
     {
       "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
@@ -9,23 +81,7 @@
       "published": "Wed, 11 Feb 2026 00:00:00 +0000",
       "summary": "<p>The Digital Fourth Amendment is written by Professor Orin Kerr, one of the country’s foremost authorities on the Fourth Amendment, electronic privacy, and criminal procedure. Kerr’s work has been deeply influential in shaping how courts are looking at and deciding issues raised by law enforcement",
       "source": "Harvard Law Review",
-      "relevance_score": 3
-    },
-    {
-      "title": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
-      "link": "https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/",
-      "published": "Wed, 11 Feb 2026 00:00:00 +0000",
-      "summary": "<p>The kids are not okay. Evidence of decreasing school performance, increasing rates of depression and anxiety, and declining social engagement among minors has created...</p>\n<p>The post <a href=\"https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-socia",
-      "source": "Harvard Law Review",
-      "relevance_score": 1
-    },
-    {
-      "title": "Ten Commandments Cases: Learning from Reformation Coercion",
-      "link": "https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/",
-      "published": "Wed, 07 Jan 2026 13:33:00 +0000",
-      "summary": "<p>The Supreme Court’s recent embrace of “historical practices and understandings” in interpreting the Establishment Clause has emboldened states to challenge forty-five years of precedent prohibiting Ten Commandments displays in public schools. Yet, these states advance&#8230;</p>\n<p>The post <a hr",
-      "source": "Michigan Law Review",
-      "relevance_score": 1
+      "relevance_score": 36
     },
     {
       "title": "Drug Scheduling as Institutional Design",
@@ -33,7 +89,7 @@
       "published": "Wed, 11 Feb 2026 00:00:00 +0000",
       "summary": "<p>The United States makes bad choices when it comes to psychoactive drugs. Under the Controlled Substances Act (CSA), U.S. drug law has simultaneously fueled mass incarceration, inhibited needed access, and enabled an opioid crisis.</p>\n<p>The post <a href=\"https://harvardlawreview.org/print/vol-13",
       "source": "Harvard Law Review",
-      "relevance_score": 0
+      "relevance_score": 20
     },
     {
       "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
@@ -41,7 +97,79 @@
       "published": "Wed, 11 Feb 2026 00:00:00 +0000",
       "summary": "<p>Sometimes what we call a practice can matter just as much as the practice itself. Jury nullification has a storied history dating back to...</p>\n<p>The post <a href=\"https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
       "source": "Harvard Law Review",
-      "relevance_score": 0
+      "relevance_score": 16
+    },
+    {
+      "title": "Stare Decisis and the Missing Administrability Inquiry",
+      "link": "https://nyulawreview.org/issues/volume-100-number-6/stare-decisis-and-the-missing-administrability-inquiry/",
+      "published": "Wed, 31 Dec 2025 21:58:24 +0000",
+      "summary": "<p>Administrative law is undergoing a tremendous amount of change. Presidential administrations have abandoned long-held practices and embraced new strategies to make policy through adjudication and regulation. Meanwhile, the Supreme Court has reworked foundational principles of federal administrati",
+      "source": "NYU Law Review",
+      "relevance_score": 11
+    },
+    {
+      "title": "Anti-Domination and Administration",
+      "link": "https://nyulawreview.org/issues/volume-100-number-6/anti-domination-and-administration/",
+      "published": "Wed, 31 Dec 2025 21:43:34 +0000",
+      "summary": "<p>The foundations of the administrative state are being reshaped, both by the continuing transformations of administrative law doctrine by the courts and by the ambitions for restructuring the executive branch among the current presidential administration. But at the same time, a defense of existin",
+      "source": "NYU Law Review",
+      "relevance_score": 11
+    },
+    {
+      "title": "Bruen Was Right",
+      "link": "https://pennlawreview.com/2025/12/23/bruen-was-right/",
+      "published": "Tue, 23 Dec 2025 02:30:30 +0000",
+      "summary": "New York State Rifle &#38; Pistol Association v. Bruen is one of the most methodologically significant—and widely maligned—constitutional law decisions of the last several decades. By rejecting the tiers of scrutiny that have loomed large in rights jurisprudence since the 1960s and substituting a te",
+      "source": "Penn Law Review",
+      "relevance_score": 11
+    },
+    {
+      "title": "Counsel Fees and Procedural Justice",
+      "link": "https://pennlawreview.com/2025/12/23/counsel-fees-and-procedural-justice/",
+      "published": "Tue, 23 Dec 2025 19:08:23 +0000",
+      "summary": "Introduction Imagine you are charged with a felony. You are indigent, so the judge appoints a lawyer to represent you. Several months later, you are convicted and sentenced to almost nine years in prison. To your surprise, however, you are also charged nearly $3,000 for your court-appointed lawyer—a",
+      "source": "Penn Law Review",
+      "relevance_score": 10
+    },
+    {
+      "title": "Electoral Due Process",
+      "link": "https://scholarlycommons.law.northwestern.edu/nulr/vol120/iss4/3",
+      "published": "Sun, 25 Jan 2026 10:35:14 PST",
+      "summary": "<p>Hyperpartisanship has hit century-long highs in American politics and is emboldening state government attempts to undermine election outcomes by using control over state lawmaking structure to strip away authority, and sometimes outright unseat, partisan opponents after they win elected office. E",
+      "source": "Northwestern Law Review",
+      "relevance_score": 8
+    },
+    {
+      "title": "Modalities of Agency Rulemaking",
+      "link": "https://nyulawreview.org/issues/volume-100-number-6/modalities-of-agency-rulemaking/",
+      "published": "Wed, 31 Dec 2025 22:01:30 +0000",
+      "summary": "<p>Agency rulemakings are a critical component of contemporary governance. This Article argues that there are a distinct set of modalities that characterize how agencies formulate and justify their rules. Just as the well-known modalities of constitutional interpretation capture the norms of constit",
+      "source": "NYU Law Review",
+      "relevance_score": 6
+    },
+    {
+      "title": "The Role of the U.S. State Department as an Amicus in Foreign Policy Abstention Analysis",
+      "link": "https://scholarlycommons.law.northwestern.edu/nulr/vol120/iss4/6",
+      "published": "Sun, 25 Jan 2026 10:35:32 PST",
+      "summary": "<p>Foreign policy abstention is a novel and unsettled doctrine in international litigation. Unlike other established international litigation abstention doctrines, foreign policy abstention permits courts to decline jurisdiction when adjudication implicates significant foreign policy concerns. First",
+      "source": "Northwestern Law Review",
+      "relevance_score": 6
+    },
+    {
+      "title": "The Establishment that Time Forgot: The Historical Understanding of Religious Offenses and Their Unconstitutionality in Modern Law",
+      "link": "https://scholarlycommons.law.northwestern.edu/nulr/vol120/iss4/5",
+      "published": "Sun, 25 Jan 2026 10:35:26 PST",
+      "summary": "<p>This Note argues that religious offenses, meaning laws which penalize conduct for religious purposes, should be barred by the Establishment Clause of the Constitution, as the Clause was interpreted in <em>Kennedy v. Bremerton School District</em>. This is because <em>Kennedy</em> interpreted the ",
+      "source": "Northwestern Law Review",
+      "relevance_score": 6
+    },
+    {
+      "title": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "link": "https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/",
+      "published": "Wed, 11 Feb 2026 00:00:00 +0000",
+      "summary": "<p>The kids are not okay. Evidence of decreasing school performance, increasing rates of depression and anxiety, and declining social engagement among minors has created...</p>\n<p>The post <a href=\"https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-socia",
+      "source": "Harvard Law Review",
+      "relevance_score": 5
     },
     {
       "title": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
@@ -49,39 +177,23 @@
       "published": "Wed, 11 Feb 2026 00:00:00 +0000",
       "summary": "<p>State constitutions serve as important sources of individual rights. They often extend broader protections than the Federal Constitution and have, in some instances, included...</p>\n<p>The post <a href=\"https://harvardlawreview.org/print/vol-139/black-voters-matter-capacity-building-institute-inc",
       "source": "Harvard Law Review",
-      "relevance_score": 0
+      "relevance_score": 5
     },
     {
-      "title": "Call for Submissions for Second Annual Student Essay Competition",
-      "link": "https://virginialawreview.org/call-for-submissions-for-second-annual-student-essay-competition/?utm_source=rss&utm_medium=rss&utm_campaign=call-for-submissions-for-second-annual-student-essay-competition",
-      "published": "Fri, 09 Jul 2021 20:39:09 +0000",
-      "summary": "<p>The&#160;Virginia Law Review&#160;(VLR)&#160;Online&#160;is excited to announce the topic for our second annual essay competition. This competition is open to all current law students (including LLMs) and recent graduates (from the Classes of 2018–2021) from any ABA-accredited American law school",
-      "source": "Virginia Law Review",
-      "relevance_score": 0
-    },
-    {
-      "title": "Diversity and Inclusion",
-      "link": "https://virginialawreview.org/diversity-and-inclusion/?utm_source=rss&utm_medium=rss&utm_campaign=diversity-and-inclusion",
-      "published": "Thu, 07 Jan 2021 01:28:22 +0000",
-      "summary": "<p>Acknowledgement of History The Virginia Law Review, established in 1913, has enjoyed a reputation of publishing leading scholarship—pieces that have changed laws, been cited in Supreme Court opinions, and spotlighted the ideas of both prominent scholars and emerging voices. The Review is proud of",
-      "source": "Virginia Law Review",
-      "relevance_score": 0
-    },
-    {
-      "title": "Crypto Kleptocracy",
-      "link": "https://michiganlawreview.org/crypto-kleptocracy/",
-      "published": "Thu, 05 Feb 2026 04:03:00 +0000",
-      "summary": "<p>Many Americans are worrying about whether they will soon be living in a post-democracy autocracy. But in the meantime, they may already be living in a crypto-fueled kleptocracy. Less than one year into his second&#8230;</p>\n<p>The post <a href=\"https://michiganlawreview.org/crypto-kleptocracy/\">C",
+      "title": "Ten Commandments Cases: Learning from Reformation Coercion",
+      "link": "https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/",
+      "published": "Wed, 07 Jan 2026 13:33:00 +0000",
+      "summary": "<p>The Supreme Court’s recent embrace of “historical practices and understandings” in interpreting the Establishment Clause has emboldened states to challenge forty-five years of precedent prohibiting Ten Commandments displays in public schools. Yet, these states advance&#8230;</p>\n<p>The post <a hr",
       "source": "Michigan Law Review",
-      "relevance_score": 0
+      "relevance_score": 5
     },
     {
-      "title": "The Federal General Counsel, Law, and Our Democracy at a Crossroads",
-      "link": "https://michiganlawreview.org/the-federal-general-counsel-law-and-our-democracy-at-a-crossroads/",
-      "published": "Sun, 09 Nov 2025 11:00:00 +0000",
-      "summary": "<p>This speech, given by the general counsel of the Consumer Financial Protection Bureau (CFPB) on January 7, 2025, examines how federal government lawyers can help ensure that laws are faithfully administered to address the contemporary&#8230;</p>\n<p>The post <a href=\"https://michiganlawreview.org/",
-      "source": "Michigan Law Review",
-      "relevance_score": 0
+      "title": "Loper Bright’s Disingenuity",
+      "link": "https://pennlawreview.com/2025/12/23/loper-brights-disingenuity/",
+      "published": "Tue, 23 Dec 2025 02:35:07 +0000",
+      "summary": "Loper Bright prompted a tidal wave of reaction throughout the legal community when the Supreme Court announced it was overruling Chevron, the most frequently cited Court decision in administrative law. But Loper Bright cannot mean what it says. This article identifies three respects in which the maj",
+      "source": "Penn Law Review",
+      "relevance_score": 3
     }
   ]
 }
