@@ -40,7 +40,7 @@ SOURCES = {
         "type": "news",
         "priority": ["legal", "court", "litigation"]
     },
-    # 研究
+    # T14研究 - RSS源
     "Harvard Law Review": {
         "url": "https://harvardlawreview.org/feed/",
         "type": "research",
@@ -65,6 +65,21 @@ SOURCES = {
         "url": "https://columbialawreview.org/feed/",
         "type": "research",
         "focus": ["constitutional", "criminal", "human rights"]
+    },
+    "Yale Law Journal": {
+        "url": "https://www.yalelawjournal.org/feed/",
+        "type": "research",
+        "focus": ["criminal", "constitutional", "jurisprudence"]
+    },
+    "Berkeley Law Review": {
+        "url": "https://www.boalt.org/feed/",
+        "type": "research",
+        "focus": ["technology", "environmental", "criminal"]
+    },
+    "Georgetown Law Journal": {
+        "url": "https://www.georgetownlawjournal.org/feed/",
+        "type": "research",
+        "focus": ["constitutional", "international", "criminal"]
     }
 }
 
@@ -404,6 +419,46 @@ def main():
     
     print(f"\n📰 Selected {len(selected_news)} news items")
     print(f"📄 Selected {len(selected_research)} research items")
+    
+    # 尝试直接抓取T14期刊（Yale, Berkeley, Georgetown）作为补充
+    print("\n🔍 Attempting direct scrape for T14 journals without reliable RSS...")
+    try:
+        from t14_direct_scraper import parse_yale_law_journal, parse_berkeley_law_review, parse_georgetown_law_journal, fetch_page, HEADERS
+        
+        t14_urls = {
+            "Yale Law Journal": "https://www.yalelawjournal.org/",
+            "Berkeley Law Review": "https://www.boalt.org/",
+            "Georgetown Law Journal": "https://www.georgetownlawjournal.org/"
+        }
+        
+        for name, url in t14_urls.items():
+            html = fetch_page(url)
+            if html:
+                if "Yale" in name:
+                    articles = parse_yale_law_journal(html)
+                elif "Berkeley" in name:
+                    articles = parse_berkeley_law_review(html)
+                else:
+                    articles = parse_georgetown_law_journal(html)
+                
+                added = 0
+                for article in articles:
+                    aid = get_article_id(article['title'], article['link'])
+                    if aid not in tracked:
+                        article['id'] = aid
+                        article['score'] = score_article(article)
+                        article['summary'] = ''  # 直接抓取没有摘要
+                        new_ids.append(aid)
+                        all_research.append(article)
+                        added += 1
+                
+                print(f"  ✓ {name}: {added} new articles")
+    except Exception as e:
+        print(f"  ⚠️ Direct scrape failed: {e}")
+    
+    # 重新排序（加入直接抓取的结果）
+    all_research.sort(key=lambda x: x['score'], reverse=True)
+    selected_research = all_research[:3]
     
     if selected_news or selected_research:
         # 生成HTML
