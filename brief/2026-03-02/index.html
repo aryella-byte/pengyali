@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brief - March 2, 2026 | 3月2日简报 - Yali Peng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --text: #1a1a1a; --accent: #8B0000; --bg: #fafafa; --card: #fff; --border: #e0e0e0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Source Sans Pro', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 40px 0; border-bottom: 2px solid var(--accent); margin-bottom: 30px; }
+        .nav-back { position: absolute; top: 20px; left: 20px; }
+        .nav-back a { color: #666; text-decoration: none; font-size: 0.9rem; }
+        h1 { font-family: 'Libre Baskerville', serif; font-size: 2rem; margin-bottom: 10px; }
+        .subtitle { color: #666; font-size: 0.95rem; }
+        .date { color: var(--accent); font-weight: 600; margin-top: 15px; }
+        .controls { display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin: 20px 0 30px; }
+        .controls button { background: none; border: 1px solid #ddd; padding: 8px 16px; cursor: pointer; font-size: 0.9rem; transition: all 0.3s; }
+        .controls button.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .section-content, .lang-content { display: none; }
+        .section-content.active, .lang-content.active { display: block; }
+        .item { background: var(--card); border-radius: 8px; padding: 30px; margin-bottom: 25px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        .item-number { display: inline-block; background: var(--accent); color: white; width: 28px; height: 28px; line-height: 28px; text-align: center; border-radius: 50%; font-weight: 700; font-size: 0.85rem; margin-bottom: 15px; }
+        .item-title { font-family: 'Libre Baskerville', serif; font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; line-height: 1.5; }
+        .item-title a { color: var(--text); text-decoration: none; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+        .item-title a:hover { border-bottom-color: var(--accent); }
+        .item-authors { font-size: 0.9rem; color: #666; margin-bottom: 8px; font-style: italic; }
+        .item-meta { font-size: 0.85rem; color: #666; margin-bottom: 15px; }
+        .why-matters { background: #f8f9fa; padding: 15px 20px; border-radius: 6px; margin: 15px 0; border-left: 3px solid var(--accent); }
+        .why-label { font-weight: 700; color: var(--accent); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 8px; }
+        .item-summary { font-size: 0.95rem; line-height: 1.8; margin-top: 15px; }
+        .source-link { display: inline-block; margin-top: 12px; color: var(--accent); font-size: 0.85rem; text-decoration: none; }
+        .methodology { background: var(--card); padding: 20px; border-radius: 8px; margin-bottom: 30px; font-size: 0.9rem; color: #666; border-left: 3px solid var(--accent); }
+        .archive-nav { background: var(--card); padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+        .archive-nav a { color: var(--accent); text-decoration: none; margin: 0 10px; }
+        .archive-nav a:hover { text-decoration: underline; }
+        .t14-badge { display: inline-block; background: #1a1a2e; color: white; padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; margin-left: 10px; }
+        footer { text-align: center; padding: 40px 0; color: #666; font-size: 0.85rem; border-top: 1px solid #ddd; margin-top: 40px; }
+        footer a { color: var(--accent); text-decoration: none; }
+        @media (max-width: 600px) { h1 { font-size: 1.5rem; } .item { padding: 20px; } .nav-back { position: static; margin-bottom: 20px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-back"><a href="../../">← Back to Homepage</a></div>
+        
+        <header>
+            <h1>Brief | 简报</h1>
+            <p class="subtitle">News & Research | 新闻与学术</p>
+            <p class="date">March 2, 2026 | 2026年3月2日</p>
+        </header>
+        
+        <div class="archive-nav">
+            📅 <a href="./2026-03-01/index.html">← Mar 1</a> | 
+            <strong>March 2</strong> | 
+            <span style="color:#999">Mar 3 →</span>
+        </div>
+        
+        <div class="controls">
+            <div class="section-switch">
+                <button onclick="switchSection('news')">📰 NEWS</button>
+                <button class="active" onclick="switchSection('research')">📄 RESEARCH</button>
+            </div>
+            <div class="lang-switch">
+                <button class="active" onclick="switchLang('en')">EN</button>
+                <button onclick="switchLang('zh')">中文</button>
+            </div>
+        </div>
+        
+        <!-- RESEARCH SECTION -->
+        <div id="section-research" class="section-content active">
+            <div class="lang-content en active">
+                <div class="methodology">
+                    <strong>Today's research:</strong> Selected from T14 Law Reviews <span class="t14-badge">T14</span><br>
+                    Harvard Law Review, Michigan Law Review, Virginia Law Review
+                </div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/" target="_blank">Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval</a></h2>
+                    <p class="item-authors">Orin Kerr | Harvard Law Review, Vol. 139</p>
+                    <div class="item-meta">📄 Harvard Law Review | 🔑 Fourth Amendment, Technology, Privacy</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters</div>
+                        <p>By Professor Orin Kerr, one of the country's foremost authorities on the Fourth Amendment and electronic privacy. His work has been deeply influential in shaping how courts decide issues raised by law enforcement use of technology.</p>
+                    </div>
+                    
+                    <p class="item-summary">Examines how courts should adapt Fourth Amendment doctrine to rapid technological change. The article proposes an equilibrium-adjustment framework for evaluating digital searches and surveillance.</p>
+                    
+                    <a href="https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/" class="source-link" target="_blank">Read on Harvard Law Review →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/" target="_blank">Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws</a></h2>
+                    <p class="item-authors">Harvard Law Review | Vol. 139</p>
+                    <div class="item-meta">📄 Harvard Law Review | 🔑 First Amendment, Social Media, Children</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters</div>
+                        <p>Addresses urgent questions about age-verification laws and their First Amendment implications as states seek to regulate minors' access to social media platforms.</p>
+                    </div>
+                    
+                    <p class="item-summary">Analyzes the constitutional standard for evaluating social media age-verification laws. Argues for intermediate scrutiny in the context of protecting minors while preserving free speech principles.</p>
+                    
+                    <a href="https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/" class="source-link" target="_blank">Read on Harvard Law Review →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/" target="_blank">Ten Commandments Cases: Learning from Reformation Coercion</a></h2>
+                    <p class="item-authors">Michigan Law Review | Vol. 123</p>
+                    <div class="item-meta">📄 Michigan Law Review | 🔑 Establishment Clause, Religion, History</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">Why this matters</div>
+                        <p>Examines the Supreme Court's recent shift toward "historical practices and understandings" in Establishment Clause cases and its implications for religious displays in public spaces.</p>
+                    </div>
+                    
+                    <p class="item-summary">Critiques states' efforts to challenge precedent on Ten Commandments displays by exploring historical coercion during the Reformation. Questions whether originalist approaches adequately protect religious liberty.</p>
+                    
+                    <a href="https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/" class="source-link" target="_blank">Read on Michigan Law Review →</a>
+                </article>
+            </div>
+            
+            <div class="lang-content zh">
+                <div class="methodology">
+                    <strong>今日研究：</strong>精选自T14法学院期刊 <span class="t14-badge">T14</span><br>
+                    哈佛法律评论、密歇根法律评论、弗吉尼亚法律评论
+                </div>
+                
+                <article class="item">
+                    <span class="item-number">01</span>
+                    <h2 class="item-title"><a href="https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/" target="_blank">技术剧变时代的第四修正案平衡调整</a></h2>
+                    <p class="item-authors">Orin Kerr | 哈佛法律评论，第139卷</p>
+                    <div class="item-meta">📄 哈佛法律评论 | 🔑 第四修正案，技术，隐私</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">为什么重要</div>
+                        <p>作者Orin Kerr教授是美国第四修正案和电子隐私领域的顶尖权威。他的研究深刻影响了法院如何处理执法机关使用技术所引发的问题。</p>
+                    </div>
+                    
+                    <p class="item-summary">探讨法院应如何使第四修正案原则适应快速的技术变革。文章提出了一个平衡调整框架，用于评估数字搜索和监控。</p>
+                    
+                    <a href="https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/" class="source-link" target="_blank">在哈佛法律评论阅读 →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">02</span>
+                    <h2 class="item-title"><a href="https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/" target="_blank">儿童的内容中立性：社交媒体年龄验证法的中等审查</a></h2>
+                    <p class="item-authors">哈佛法律评论 | 第139卷</p>
+                    <div class="item-meta">📄 哈佛法律评论 | 🔑 第一修正案，社交媒体，未成年人</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">为什么重要</div>
+                        <p>解决了关于年龄验证法及其第一修正案影响的紧迫问题，因为各州试图监管未成年人对社交媒体平台的访问。</p>
+                    </div>
+                    
+                    <p class="item-summary">分析评估社交媒体年龄验证法的宪法标准。主张在保护未成年人的同时维护言论自由原则的背景下采用中等审查标准。</p>
+                    
+                    <a href="https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/" class="source-link" target="_blank">在哈佛法律评论阅读 →</a>
+                </article>
+                
+                <article class="item">
+                    <span class="item-number">03</span>
+                    <h2 class="item-title"><a href="https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/" target="_blank">十诫案件：从宗教改革强制中学习</a></h2>
+                    <p class="item-authors">密歇根法律评论 | 第123卷</p>
+                    <div class="item-meta">📄 密歇根法律评论 | 🔑 政教分离条款，宗教，历史</div>
+                    
+                    <div class="why-matters">
+                        <div class="why-label">为什么重要</div>
+                        <p>审视最高法院在政教分离案件中最近转向"历史实践和理解"的趋势，及其对公共场所宗教展示的影响。</p>
+                    </div>
+                    
+                    <p class="item-summary">批判各州通过探索宗教改革时期的历史强制来挑战十诫展示先例的努力。质疑原旨主义方法是否能充分保护宗教自由。</p>
+                    
+                    <a href="https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/" class="source-link" target="_blank">在密歇根法律评论阅读 →</a>
+                </article>
+            </div>
+        </div>
+        
+        <!-- NEWS SECTION (Placeholder) -->
+        <div id="section-news" class="section-content">
+            <div class="lang-content en active">
+                <div class="methodology"><strong>Today's news:</strong> Please check back later for today's news digest.</div>
+                
+                <article class="item">
+                    <p>News section will be updated with verified sources.</p>
+                </article>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Brief | 简报</p>
+            <p>Curated by <a href="../../">Yali Peng</a> | Daily updates</p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">Research sources: Harvard Law Review, Michigan Law Review, Virginia Law Review</p>
+        </footer>
+    </div>
+    
+    <script>
+        function switchSection(section) {
+            document.querySelectorAll('.section-content').forEach(el => el.classList.remove('active'));
+            document.getElementById('section-' + section).classList.add('active');
+            document.querySelectorAll('.section-switch button').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+        
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.section-content.active .lang-content.' + lang).forEach(el => el.classList.add('active'));
+            document.querySelectorAll('.lang-switch button').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
