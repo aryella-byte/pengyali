@@ -193,19 +193,30 @@ def translate_to_chinese(text):
     return text
 
 def generate_html(date_str, news_items, research_items):
-    """生成HTML页面"""
+    """生成HTML页面 - 更新单页设计"""
     
-    # 创建日期目录
-    date_dir = ARCHIVE_DIR / date_str
+    html_file = ARCHIVE_DIR / "index.html"
     
-    # 检查是否已存在（避免覆盖精修内容）
-    html_file = date_dir / "index.html"
+    # 检查是否已存在（避免覆盖）
     if html_file.exists():
-        print(f"  ⚠️  File already exists: {html_file}")
-        print(f"     Skipping generation to preserve existing content.")
+        # 读取现有文件，只更新last-updated时间戳
+        with open(html_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # 更新时间戳
+        from datetime import datetime
+        now = datetime.now().strftime("%Y-%m-%d %H:%M")
+        content = re.sub(
+            r'Last updated: \d{4}-\d{2}-\d{2} \d{2}:\d{2} CST',
+            f'Last updated: {now} CST',
+            content
+        )
+        
+        with open(html_file, 'w', encoding='utf-8') as f:
+            f.write(content)
+        
+        print(f"  ✓ Updated timestamp in {html_file}")
         return html_file
-    
-    date_dir.mkdir(parents=True, exist_ok=True)
     
     # 计算前一天/后一天
     date_obj = datetime.strptime(date_str, "%Y-%m-%d")
