@@ -411,60 +411,22 @@
   ],
   "research": [
     {
-      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
-      "titleCN": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
-      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+      "title": "Construction and Management of the South Florida Detention Facility",
+      "titleCN": "南佛罗里达拘留所的建设与管理",
+      "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "summaryCN": "研究陪审团制度的运作逻辑和裁判语义学，分析对抗制诉讼中事实认定的制度设计。",
-      "summaryEN": "Studies the operational logic of jury systems and forensic semantics, analyzing institutional design for fact-finding in adversarial litigation.",
-      "whyMattersCN": "陪审团制度是普通法系的核心特征，该研究对理解对抗制诉讼中事实认定的制度逻辑具有启发意义，对中国人民陪审员制度的改革完善有参考价值。",
-      "whyMattersEN": "The jury system is central to common law. This research offers insights into fact-finding logic in adversarial systems and reference value for China's people's assessor system reform.",
+      "summaryCN": "研究南佛罗里达移民拘留所的私营化建设和管理模式，分析私人监狱在移民执法中的角色及其对人权保障的影响。",
+      "summaryEN": "Studies the privatized construction and management model of the South Florida immigration detention facility.",
+      "whyMattersCN": "该研究揭示了移民拘留所私营化过程中人权保障的制度漏洞。私人承包商以营利为导向的管理模式可能导致拘留条件恶化，对中国看守所、拘留所等封闭场所的监管机制改革具有警示意义。",
+      "whyMattersEN": "This research reveals institutional loopholes in human rights protection during the privatization of immigration detention facilities.",
       "tags": [
         {
-          "name": "刑事程序",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Drug Scheduling as Institutional Design",
-      "titleCN": "药物管制作为制度设计",
-      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "分析美国《管制物质法》的制度设计缺陷，揭示药物分级制度如何同时导致大规模监禁、医疗可及性受限和阿片类药物危机的三重失败。",
-      "summaryEN": "Analyzes the institutional design flaws of the U.S. Controlled Substances Act, revealing how the drug scheduling system simultaneously leads to three failures.",
-      "whyMattersCN": "该研究从制度设计视角揭示了美国毒品政策的系统性失败。其分析框架对中国毒品治理政策的科学化改革具有警示意义，特别是在平衡惩罚与医疗、防范阿片类药物滥用等议题上可资借鉴。",
-      "whyMattersEN": "This research reveals the systemic failures of U.S. drug policy from an institutional design perspective.",
-      "tags": [
-        {
-          "name": "毒品政策",
+          "name": "私人监狱",
           "class": "criminal"
         },
         {
-          "name": "制度设计",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
-      "titleCN": "技术剧变时代第四修正案的均衡调整",
-      "url": "https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "Orin Kerr提出均衡调整理论，主张第四修正案的保护标准应随技术发展而动态调整，以维持执法权力与个人隐私的合理平衡。",
-      "summaryEN": "Orin Kerr proposes the equilibrium adjustment theory, arguing that Fourth Amendment protection standards should dynamically adjust with technological development.",
-      "whyMattersCN": "Kerr的理论为数字时代的隐私权保护提供了动态分析框架。该框架对中国刑事诉讼法中技术侦查措施的合法性审查标准、电子数据取证规则的完善具有直接参考价值，有助于平衡打击犯罪与保护隐私的双重目标。",
-      "whyMattersEN": "Kerr's theory provides a dynamic analytical framework for privacy protection in the digital age.",
-      "tags": [
-        {
-          "name": "数字隐私",
-          "class": "tech"
-        },
-        {
-          "name": "技术侦查",
+          "name": "移民拘留",
           "class": "criminal"
         }
       ]
@@ -491,22 +453,60 @@
       ]
     },
     {
-      "title": "Construction and Management of the South Florida Detention Facility",
-      "titleCN": "南佛罗里达拘留所的建设与管理",
-      "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
+      "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
+      "titleCN": "技术剧变时代第四修正案的均衡调整",
+      "url": "https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "summaryCN": "研究南佛罗里达移民拘留所的私营化建设和管理模式，分析私人监狱在移民执法中的角色及其对人权保障的影响。",
-      "summaryEN": "Studies the privatized construction and management model of the South Florida immigration detention facility.",
-      "whyMattersCN": "该研究揭示了移民拘留所私营化过程中人权保障的制度漏洞。私人承包商以营利为导向的管理模式可能导致拘留条件恶化，对中国看守所、拘留所等封闭场所的监管机制改革具有警示意义。",
-      "whyMattersEN": "This research reveals institutional loopholes in human rights protection during the privatization of immigration detention facilities.",
+      "summaryCN": "Orin Kerr提出均衡调整理论，主张第四修正案的保护标准应随技术发展而动态调整，以维持执法权力与个人隐私的合理平衡。",
+      "summaryEN": "Orin Kerr proposes the equilibrium adjustment theory, arguing that Fourth Amendment protection standards should dynamically adjust with technological development.",
+      "whyMattersCN": "Kerr的理论为数字时代的隐私权保护提供了动态分析框架。该框架对中国刑事诉讼法中技术侦查措施的合法性审查标准、电子数据取证规则的完善具有直接参考价值，有助于平衡打击犯罪与保护隐私的双重目标。",
+      "whyMattersEN": "Kerr's theory provides a dynamic analytical framework for privacy protection in the digital age.",
       "tags": [
         {
-          "name": "私人监狱",
+          "name": "数字隐私",
+          "class": "tech"
+        },
+        {
+          "name": "技术侦查",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Drug Scheduling as Institutional Design",
+      "titleCN": "药物管制作为制度设计",
+      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "summaryCN": "分析美国《管制物质法》的制度设计缺陷，揭示药物分级制度如何同时导致大规模监禁、医疗可及性受限和阿片类药物危机的三重失败。",
+      "summaryEN": "Analyzes the institutional design flaws of the U.S. Controlled Substances Act, revealing how the drug scheduling system simultaneously leads to three failures.",
+      "whyMattersCN": "该研究从制度设计视角揭示了美国毒品政策的系统性失败。其分析框架对中国毒品治理政策的科学化改革具有警示意义，特别是在平衡惩罚与医疗、防范阿片类药物滥用等议题上可资借鉴。",
+      "whyMattersEN": "This research reveals the systemic failures of U.S. drug policy from an institutional design perspective.",
+      "tags": [
+        {
+          "name": "毒品政策",
           "class": "criminal"
         },
         {
-          "name": "移民拘留",
+          "name": "制度设计",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "titleCN": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "summaryCN": "研究陪审团制度的运作逻辑和裁判语义学，分析对抗制诉讼中事实认定的制度设计。",
+      "summaryEN": "Studies the operational logic of jury systems and forensic semantics, analyzing institutional design for fact-finding in adversarial litigation.",
+      "whyMattersCN": "陪审团制度是普通法系的核心特征，该研究对理解对抗制诉讼中事实认定的制度逻辑具有启发意义，对中国人民陪审员制度的改革完善有参考价值。",
+      "whyMattersEN": "The jury system is central to common law. This research offers insights into fact-finding logic in adversarial systems and reference value for China's people's assessor system reform.",
+      "tags": [
+        {
+          "name": "刑事程序",
           "class": "criminal"
         }
       ]
