@@ -26,6 +26,25 @@ RESEARCH_SOURCES = {
     "Michigan Law Review": "https://michiganlawreview.org/feed/",
 }
 
+# 刑事司法相关关键词
+CRIMINAL_JUSTICE_KEYWORDS = [
+    "criminal", "sentencing", "prison", "incarceration", "police", "policing",
+    "prosecution", "prosecutor", "defense", "jury", "trial", "plea",
+    "fourth amendment", "fifth amendment", "sixth amendment", "eighth amendment",
+    "search", "seizure", "warrant", "arrest", "interrogation",
+    "mass incarceration", "wrongful conviction", "innocence",
+    "death penalty", "capital punishment", "life sentence",
+    "drug", "controlled substance", "narcotic", "opioid",
+    "violence", "homicide", "murder", "assault", "robbery",
+    "fraud", "white collar", "corporate crime",
+    "juvenile", "youth", "minor",
+    "bail", "pretrial", "detention",
+    "parole", "probation", "reentry", "rehabilitation",
+    "forensic", "evidence", "expert witness", "dna",
+    "racial disparity", "discrimination", "bias",
+    "restorative justice", "alternative", "diversion"
+]
+
 JUNK_KEYWORDS = [
     "call for submissions", "essay competition", "diversity and inclusion",
     "announcement", "cfa", "career", "job opening", "fellowship",
@@ -51,6 +70,14 @@ def is_junk_content(title):
     text = title.lower()
     for junk in JUNK_KEYWORDS:
         if junk in text:
+            return True
+    return False
+
+def is_criminal_justice_related(title):
+    """判断是否与刑事司法相关"""
+    text = title.lower()
+    for keyword in CRIMINAL_JUSTICE_KEYWORDS:
+        if keyword in text:
             return True
     return False
 
@@ -237,7 +264,8 @@ def update_research(data):
         items = fetch_feed(url, source)
         for item in items:
             item_id = get_item_id(item["title"])
-            if item_id not in existing_ids:
+            # 只保留刑事司法相关的研究
+            if item_id not in existing_ids and is_criminal_justice_related(item["title"]):
                 cn_summary, en_summary, cn_why, en_why, tags = generate_summary_and_why(item["title"], source, True)
                 data["research"].append({
                     "title": item["title"],
@@ -252,7 +280,9 @@ def update_research(data):
                     "tags": tags
                 })
                 new_count += 1
-        print(f"  ✓ {source}: {len(items)} items")
+            elif not is_criminal_justice_related(item["title"]):
+                print(f"    ⚠️ Not criminal justice: {item['title'][:50]}...")
+        print(f"  ✓ {source}: {len([i for i in items if is_criminal_justice_related(i['title'])])} criminal justice items")
     
     data["research"].reverse()  # 新内容在前
     data["research"] = data["research"][:30]  # 保留最近30篇
