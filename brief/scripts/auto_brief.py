@@ -250,7 +250,7 @@ def generate_research_html(items):
         '''
     return html
 
-def build_full_html(news_items, research_items):
+def build_full_html(news_items, research_items, date_str, archive_nav_html=""):
     """构建完整HTML页面"""
     
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -307,6 +307,8 @@ def build_full_html(news_items, research_items):
             <p class="subtitle">News & Research | 新闻与学术</p>
             <p class="last-updated">Last updated: {now} CST | 最后更新</p>
         </header>
+        
+        {archive_nav_html}
         
         <div class="controls">
             <div class="section-switch">
@@ -461,11 +463,45 @@ def main():
     selected_research = all_research[:3]
     
     if selected_news or selected_research:
-        # 生成HTML
-        html = build_full_html(selected_news, selected_research)
-        with open(INDEX_FILE, 'w', encoding='utf-8') as f:
+        today = datetime.now().strftime("%Y-%m-%d")
+        
+        # 1. 创建日期文件夹并保存当日简报
+        date_folder = WORKSPACE / today
+        date_folder.mkdir(exist_ok=True)
+        date_index = date_folder / "index.html"
+        
+        # 生成归档导航（日期页面需要链接到其他日期）
+        archive_nav = f'''<div class="archive-nav" style="text-align: center; margin-bottom: 20px; padding: 10px; background: #f5f5f5; border-radius: 6px;">
+            📅 <strong>Archive:</strong> 
+            <span style="color: #666;">{today} (current)</span>
+        </div>'''
+        
+        html = build_full_html(selected_news, selected_research, today, archive_nav)
+        with open(date_index, 'w', encoding='utf-8') as f:
             f.write(html)
-        print(f"\n✅ Generated: {INDEX_FILE}")
+        print(f"\n✅ Generated: {date_index}")
+        
+        # 2. 更新根目录index.html作为入口页面
+        # 获取所有现有日期文件夹
+        date_folders = sorted([d.name for d in WORKSPACE.iterdir() if d.is_dir() and re.match(r'\d{4}-\d{2}-\d{2}', d.name)], reverse=True)
+        
+        # 构建归档导航
+        archive_links = []
+        for i, d in enumerate(date_folders[:10]):  # 显示最近10天
+            if i == 0:
+                archive_links.append(f'<span style="color: #666;">{d} (today)</span>')
+            else:
+                archive_links.append(f'<a href="./{d}/index.html" style="color: #8B0000; text-decoration: none;">{d}</a>')
+        
+        archive_nav_root = f'''<div class="archive-nav" style="text-align: center; margin-bottom: 20px; padding: 10px; background: #f5f5f5; border-radius: 6px;">
+            📅 <strong>Archive:</strong> {' | '.join(archive_links)}
+        </div>'''
+        
+        # 根目录页面直接显示最新内容，但带有归档导航
+        root_html = build_full_html(selected_news, selected_research, today, archive_nav_root)
+        with open(INDEX_FILE, 'w', encoding='utf-8') as f:
+            f.write(root_html)
+        print(f"✅ Updated: {INDEX_FILE}")
         
         # 更新历史
         tracked.update(new_ids)
