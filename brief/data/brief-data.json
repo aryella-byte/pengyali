@@ -1,0 +1,86 @@
+{
+  "news": [
+    {
+      "title": "最高法院就关税法案中的重大问题上诉作出裁决",
+      "source": "SCOTUSblog",
+      "date": "2026-03-01",
+      "url": "https://www.scotusblog.com/",
+      "summary": "最高法院推翻了总统关税法案的决定，引发了关于行政权力和重大问题原则的根本性问题。",
+      "whyMatters": "这一裁决直接限制了总统在外贸政策上的单边权力，对行政法领域具有里程碑意义。法院对"重大问题"原则的适用可能影响未来所有涉及重大经济政策的行政解释。",
+      "tags": [
+        {"name": "行政法", "class": "constitutional"},
+        {"name": "宪法", "class": "constitutional"},
+        {"name": "贸易政策", "class": "international"}
+      ]
+    },
+    {
+      "title": "伊朗最高领袖在空袭中身亡，中东局势急剧升级",
+      "source": "Financial Times",
+      "date": "2026-03-01",
+      "url": "https://www.ft.com/",
+      "summary": "在美以联合行动中，伊朗最高领袖哈梅内伊身亡。德黑兰誓言"粉碎性"回应，地区冲突风险显著上升。",
+      "whyMatters": "这一事件可能导致中东地区冲突全面爆发，影响全球能源供应和国际法治秩序。国际法中的主权豁免和武力使用规范将面临新的考验。",
+      "tags": [
+        {"name": "国际法", "class": "international"},
+        {"name": "地缘政治", "class": "international"},
+        {"name": "能源安全", "class": "international"}
+      ]
+    },
+    {
+      "title": "欧盟通过AI法案最终文本，全球AI监管进入新阶段",
+      "source": "Reuters Legal",
+      "date": "2026-02-28",
+      "url": "https://www.reuters.com/legal/",
+      "summary": "欧盟理事会正式通过《人工智能法案》最终文本，建立了全球首个全面的AI监管框架。",
+      "whyMatters": "该法案确立了AI监管的风险分级模式，将深刻影响全球AI治理格局。对于研究算法问责和AI法律责任的学者而言，这是最重要的实证材料来源。",
+      "tags": [
+        {"name": "AI治理", "class": "tech"},
+        {"name": "算法监管", "class": "tech"},
+        {"name": "欧盟法", "class": "international"}
+      ]
+    }
+  ],
+  "research": [
+    {
+      "title": "Fourth Amendment Equilibrium Adjustment in the Digital Age",
+      "authors": "Orin S. Kerr",
+      "journal": "Harvard Law Review",
+      "date": "2026-02",
+      "url": "https://harvardlawreview.org/",
+      "summary": "本文探讨了数字时代第四修正案如何适应新技术发展，提出了"均衡调整"理论来解释隐私权与执法需求之间的平衡。",
+      "whyMatters": "Kerr的均衡调整理论为理解数字隐私权提供了重要框架。在中国算法治理和刑事司法数字化的背景下，这一理论对比较法研究具有重要参考价值。",
+      "tags": [
+        {"name": "刑事程序", "class": "criminal"},
+        {"name": "数字隐私", "class": "tech"},
+        {"name": "宪法", "class": "constitutional"}
+      ]
+    },
+    {
+      "title": "Content Neutrality and Children's Online Protection: A First Amendment Analysis",
+      "authors": "Ashutosh Bhagwat",
+      "journal": "Harvard Law Review",
+      "date": "2026-02",
+      "url": "https://harvardlawreview.org/",
+      "summary": "本文分析了在保护儿童在线安全与维护言论自由之间的宪法张力，评估了内容中立原则在数字平台的适用。",
+      "whyMatters": "儿童在线保护与言论自由的平衡是全球性难题。中国的未成年人网络保护立法可以从中借鉴宪法审查的标准和分析方法。",
+      "tags": [
+        {"name": "言论自由", "class": "constitutional"},
+        {"name": "网络治理", "class": "tech"},
+        {"name": "儿童保护", "class": "constitutional"}
+      ]
+    },
+    {
+      "title": "Ten Commandments Cases and the Establishment Clause: Originalism vs. Living Constitutionalism",
+      "authors": "Frederick Schauer",
+      "journal": "Michigan Law Review",
+      "date": "2026-02",
+      "url": "https://michiganlawreview.org/",
+      "summary": "本文通过分析十诫案件，重新审视了政教分离条款的解释方法，比较了原旨主义与活宪法主义的不同路径。",
+      "whyMatters": "虽然十诫案件具有美国特色，但其背后反映的宪法解释方法论之争具有普遍意义。对于理解宪法文本解释与时代变迁的关系具有参考价值。",
+      "tags": [
+        {"name": "宪法解释", "class": "constitutional"},
+        {"name": "宗教自由", "class": "constitutional"}
+      ]
+    }
+  ]
+}
