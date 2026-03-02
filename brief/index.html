@@ -247,6 +247,61 @@
         .tag.tech { background: #efe; color: #060; }
         .tag.international { background: #fef; color: #606; }
         
+        /* Timeline Styles */
+        .timeline-date {
+            margin-bottom: 30px;
+            padding-left: 20px;
+            border-left: 3px solid var(--accent);
+        }
+        
+        .timeline-date-header {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 15px;
+            padding: 8px 0;
+        }
+        
+        .timeline-items {
+            padding-left: 15px;
+        }
+        
+        .timeline-item {
+            margin-bottom: 16px;
+            padding: 16px;
+            background: var(--card);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            transition: box-shadow 0.2s;
+        }
+        
+        .timeline-item:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .timeline-item-type {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        
+        .timeline-item-type.news { color: #8B0000; }
+        .timeline-item-type.research { color: #0066cc; }
+        
+        .timeline-item .item-title {
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+        }
+        
+        .timeline-item .item-meta {
+            font-size: 0.8rem;
+            margin-bottom: 0;
+        }
+        
         /* Empty State */
         .empty-state {
             text-align: center;
@@ -285,6 +340,7 @@
             <div class="nav-tabs">
                 <button class="active" onclick="switchTab('news')">News</button>
                 <button onclick="switchTab('research')">Research</button>
+                <button onclick="switchTab('timeline')">Timeline</button>
             </div>
             <div class="lang-switch">
                 <button class="active" onclick="switchLang('zh')">中文</button>
@@ -308,6 +364,15 @@
                 <p data-zh="美国T14法学院期刊论文 | 持续更新的知识库" data-en="T14 Law Review articles | Continuously updated knowledge base">美国T14法学院期刊论文 | 持续更新的知识库</p>
             </div>
             <div id="research-content"></div>
+        </div>
+        
+        <!-- Timeline Section -->
+        <div id="timeline" class="section">
+            <div class="section-header">
+                <h2 data-zh="📅 时间轴" data-en="📅 Timeline">📅 时间轴</h2>
+                <p data-zh="按日期查看每日更新 | 最新内容一目了然" data-en="View updates by date | Latest content at a glance">按日期查看每日更新 | 最新内容一目了然</p>
+            </div>
+            <div id="timeline-content"></div>
         </div>
         
         <footer>
@@ -369,6 +434,94 @@
         function renderContent() {
             renderNews();
             renderResearch();
+            renderTimeline();
+        }
+        
+        // Parse date string to Date object
+        function parseDate(dateStr) {
+            if (!dateStr) return new Date(0);
+            
+            const monthMap = {
+                'Ja': 0, 'Fe': 1, 'Mr': 2, 'Ap': 3, 'Ma': 4, 'Ju': 5,
+                'Jl': 6, 'Au': 7, 'Se': 8, 'Oc': 9, 'No': 10, 'De': 11
+            };
+            
+            const match = dateStr.match(/(\d+)\s*([A-Za-z]{2})/);
+            if (match) {
+                const day = parseInt(match[1]);
+                const month = monthMap[match[2].substring(0, 2)] || 0;
+                return new Date(2026, month, day);
+            }
+            return new Date(0);
+        }
+        
+        // Group items by date
+        function groupByDate(items, type) {
+            const grouped = {};
+            items.forEach(item => {
+                const date = item.date || 'Unknown';
+                if (!grouped[date]) {
+                    grouped[date] = [];
+                }
+                grouped[date].push({...item, itemType: type});
+            });
+            return grouped;
+        }
+        
+        // Render Timeline
+        function renderTimeline() {
+            const container = document.getElementById('timeline-content');
+            
+            // Group all items by date
+            const newsByDate = groupByDate(briefData.news || [], 'news');
+            const researchByDate = groupByDate(briefData.research || [], 'research');
+            
+            // Merge dates
+            const allDates = [...new Set([...Object.keys(newsByDate), ...Object.keys(researchByDate)])];
+            
+            // Sort by date (newest first)
+            allDates.sort((a, b) => parseDate(b) - parseDate(a));
+            
+            if (allDates.length === 0) {
+                container.innerHTML = '<div class="empty-state"><p>暂无更新 | No updates</p></div>';
+                return;
+            }
+            
+            container.innerHTML = allDates.map(date => {
+                const newsItems = newsByDate[date] || [];
+                const researchItems = researchByDate[date] || [];
+                const allItems = [...newsItems, ...researchItems];
+                
+                // Sort items: news first, then research
+                allItems.sort((a, b) => (a.itemType === 'news' ? -1 : 1));
+                
+                const itemsHtml = allItems.map(item => {
+                    const title = currentLang === 'zh' ? (item.titleCN || item.title) : item.title;
+                    const typeLabel = item.itemType === 'news' 
+                        ? (currentLang === 'zh' ? '📰 新闻' : '📰 News')
+                        : (currentLang === 'zh' ? '📚 研究' : '📚 Research');
+                    const source = item.source || item.journal || '';
+                    
+                    return `
+                        <div class="timeline-item">
+                            <div class="timeline-item-type ${item.itemType}">${typeLabel}</div>
+                            <h4 class="item-title">
+                                <a href="${item.url}" target="_blank">${title}</a>
+                            </h4>
+                            <div class="item-meta">${source}</div>
+                        </div>
+                    `;
+                }).join('');
+                
+                return `
+                    <div class="timeline-date">
+                        <div class="timeline-date-header">${date}</div>
+                        <div class="timeline-items">
+                            ${itemsHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
         }
         
         // Render News
