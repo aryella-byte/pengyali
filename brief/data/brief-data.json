@@ -1,6 +1,90 @@
 {
   "news": [
     {
+      "title": "Court rejects ICE contractor's right to immediate appeal",
+      "titleCN": "最高法院驳回ICE承包商即时上诉请求",
+      "url": "https://www.scotusblog.com/2026/02/court-rejects-ice-contractors-right-to-immediate-appeal/",
+      "date": "Thu, 26 Fe",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院裁定私人监狱承包商GEO Group不能就有关其拘留设施条件的判决立即提起上诉，涉及《囚犯诉讼改革法》的适用范围。",
+      "summaryEN": "The Supreme Court rules that private prison contractor GEO Group cannot immediately appeal a judgment regarding conditions at its detention facility.",
+      "whyMattersCN": "该案涉及私人监狱监管的法律边界和移民拘留条件的人权保障。GEO Group作为ICE承包商，其拘留设施的人权争议反映了移民执法中外包模式的制度困境。",
+      "whyMattersEN": "This case involves the legal boundaries of private prison oversight and human rights protections in immigration detention.",
+      "tags": [
+        {
+          "name": "移民拘留",
+          "class": "criminal"
+        },
+        {
+          "name": "私人监狱",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Beach blasts and unusually dangerous weapons",
+      "titleCN": "海滩爆炸案与异常危险武器界定",
+      "url": "https://www.scotusblog.com/2026/02/beach-blasts-and-unusually-dangerous-weapons/",
+      "date": "Thu, 26 Fe",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院审查一起因海滩燃放烟花导致严重伤害的案件，涉及《联邦爆炸物法》中异常危险武器的定义边界。",
+      "summaryEN": "The Supreme Court reviews a case involving serious injuries from fireworks on a beach, addressing the definitional boundaries of unusually dangerous weapons.",
+      "whyMattersCN": "该案涉及刑法中危险物品监管的法律标准界定。法院对异常危险武器的解释将影响烟花等消费品的监管责任和刑事责任认定。",
+      "whyMattersEN": "This case involves the legal standards for regulating dangerous items in criminal law.",
+      "tags": [
+        {
+          "name": "刑法解释",
+          "class": "criminal"
+        },
+        {
+          "name": "危险物品监管",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Trump administration asks justices to allow it to remove protected status from Syrian nationals",
+      "titleCN": "特朗普政府请求最高法院终止叙利亚公民临时保护身份",
+      "url": "https://www.scotusblog.com/2026/02/trump-administration-asks-justices-to-allow-it-to-remove-protected-status-from-syrian-nationals/",
+      "date": "Thu, 26 Fe",
+      "source": "SCOTUSblog",
+      "summaryCN": "特朗普政府请求最高法院授权终止约8000名叙利亚公民的临时保护身份(TPS)，该身份原本保护他们免于因祖国战乱被驱逐出境。",
+      "summaryEN": "The Trump administration asks the Supreme Court to authorize terminating Temporary Protected Status for approximately 8,000 Syrian nationals.",
+      "whyMattersCN": "该案涉及行政权在移民政策中的裁量边界和人道主义保护的法律基础。TPS制度的存废争议反映了美国移民执法中安全考量与人道义务的冲突。",
+      "whyMattersEN": "This case involves the boundaries of executive discretion in immigration policy and the legal foundations of humanitarian protection.",
+      "tags": [
+        {
+          "name": "移民法",
+          "class": "international"
+        },
+        {
+          "name": "人道主义保护",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Court to hear argument on whether and when drug users may possess firearms",
+      "titleCN": "最高法院将审理毒品使用者持枪权案",
+      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
+      "date": "Thu, 26 Fe",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院将审理United States v. Daniels案，挑战联邦法律禁止非法药物使用者持有枪支的规定，涉及第二修正案权利与公共安全监管的冲突。",
+      "summaryEN": "The Supreme Court will hear United States v. Daniels, challenging federal law that prohibits unlawful drug users from possessing firearms.",
+      "whyMattersCN": "该案触及美国宪法争议最激烈的两个领域——枪支管制与毒品政策的交叉点。法院对危险人群禁枪标准的界定，将影响数百万药物使用者的宪法权利。",
+      "whyMattersEN": "This case touches the intersection of America's most contentious constitutional issues—gun control and drug policy.",
+      "tags": [
+        {
+          "name": "第二修正案",
+          "class": "constitutional"
+        },
+        {
+          "name": "毒品政策",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
       "title": "Iran conflict: Israel targets Hizbollah in Lebanon",
       "titleCN": "以色列空袭黎巴嫩真主党目标",
       "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
@@ -169,192 +253,197 @@
       ]
     },
     {
-      "title": "Supreme Court to consider whether freight brokers can be held liable for negligent hiring",
-      "titleCN": "最高法院将审理货运经纪人过失雇佣责任案",
-      "url": "https://www.scotusblog.com/2026/02/court-to-consider-whether-freight-brokers-can-be-held-liable-for-negligent-hiring/",
-      "date": "Fri, 27 Fe",
+      "title": "Supreme Court skeptical of law banning drug users from possessing firearms",
+      "titleCN": "Supreme Court skeptical of law banning drug users from possessing firearms",
+      "url": "https://www.scotusblog.com/2026/03/supreme-court-skeptical-of-law-banning-drug-users-from-possessing-firearms/",
+      "date": "Mon, 02 Ma",
       "source": "SCOTUSblog",
-      "summaryCN": "最高法院将审理一起涉及货运经纪人是否应对其推荐的卡车司机的过失行为承担责任的案件，触及联邦航运法对州侵权诉讼的优先适用问题。",
-      "summaryEN": "The Supreme Court will hear a case involving whether freight brokers can be held liable for negligent hiring of truck drivers they recommend.",
-      "whyMattersCN": "该案涉及联邦法律优先适用原则和州侵权责任的边界。法院对联邦航运法优先适用范围的界定，将影响跨州运输行业中的责任分配和受害人救济途径，对中国物流行业监管和平台经济中的责任认定具有参考价值。",
-      "whyMattersEN": "This case involves the boundaries of federal preemption and state tort liability.",
+      "summaryCN": "美国联邦最高法院就行政权力边界作出重要裁决，涉及重大问题原则的适用。",
+      "summaryEN": "The Supreme Court rules on the boundaries of executive power, involving the Major Questions Doctrine.",
+      "whyMattersCN": "该判决将深刻影响联邦行政机构的规制权力，对理解司法权与行政权的宪法边界具有标杆意义，也可能影响全球行政法发展。",
+      "whyMattersEN": "This ruling will profoundly impact federal regulatory power and sets a precedent for understanding the constitutional boundaries between judicial and executive authority.",
       "tags": [
         {
-          "name": "联邦优先适用",
+          "name": "宪法",
           "class": "constitutional"
         },
         {
-          "name": "侵权责任",
+          "name": "行政法",
           "class": "constitutional"
         }
       ]
     },
     {
-      "title": "Justices appear dubious of challenge to constitutionality of foreclosure sales",
-      "titleCN": "大法官对法拍销售宪法性质疑持怀疑态度",
-      "url": "https://www.scotusblog.com/2026/02/justices-appear-dubious-of-challenge-to-constitutionality-of-foreclosure-sales/",
-      "date": "Fri, 27 Fe",
+      "title": "Oral argument live blog for Monday, March 2",
+      "titleCN": "Oral argument live blog for Monday, March 2",
+      "url": "https://www.scotusblog.com/2026/03/oral-argument-live-blog-for-monday-march-2/",
+      "date": "Mon, 02 Ma",
       "source": "SCOTUSblog",
-      "summaryCN": "最高法院审理一起挑战密歇根州法拍销售程序合宪性的案件，涉及破产法中的财产权保护和程序正当性要求。",
-      "summaryEN": "The Supreme Court hears a case challenging the constitutionality of Michigan's foreclosure sale procedures.",
-      "whyMattersCN": "该案涉及破产法中的财产权保护和程序正当性。大法官对法拍销售程序合宪性的态度，将影响各州财产执行程序的合法性审查标准，对中国民事执行程序中的财产处置和债务人权利保护具有参考价值。",
-      "whyMattersEN": "This case involves property rights protection and procedural due process in bankruptcy law.",
+      "summaryCN": "来自SCOTUSblog的重要法律动态，涉及相关领域的制度发展和实践变化。",
+      "summaryEN": "Important legal developments from SCOTUSblog involving institutional developments and practice changes in relevant fields.",
+      "whyMattersCN": "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
+      "whyMattersEN": "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
       "tags": [
         {
-          "name": "财产权",
-          "class": "constitutional"
-        },
-        {
-          "name": "程序正义",
-          "class": "constitutional"
+          "name": "法律动态",
+          "class": ""
         }
       ]
     },
     {
-      "title": "The major debate over major questions in the tariffs decision is only the beginning",
-      "titleCN": "关税裁决中的重大问题之争仅是开端",
-      "url": "https://www.scotusblog.com/2026/02/the-major-debate-over-major-questions-in-the-tariffs-decision-is-only-the-beginning/",
-      "date": "Fri, 27 Fe",
+      "title": "Justices to consider breadth of a federal defendant’s waiver of appeal",
+      "titleCN": "Justices to consider breadth of a federal defendant’s waiver of appeal",
+      "url": "https://www.scotusblog.com/2026/03/justices-to-consider-breadth-of-a-federal-defendants-waiver-of-appeal/",
+      "date": "Mon, 02 Ma",
       "source": "SCOTUSblog",
-      "summaryCN": "Abbe Gluck在SCOTUSblog撰文分析最高法院推翻特朗普关税政策的判决，探讨重大问题原则对行政权力的限制及其后续影响。",
-      "summaryEN": "Abbe Gluck analyzes the Supreme Court's decision striking down Trump's tariff policy, exploring how the Major Questions Doctrine limits executive power.",
-      "whyMattersCN": "重大问题原则的适用正在重塑美国行政法的权力格局。该判决限制了总统在重大经济政策上的单边行动能力，对理解司法审查强化趋势下行政权的边界具有里程碑意义，也为中国行政法中的权力监督机制提供了比较视角。",
-      "whyMattersEN": "The application of the Major Questions Doctrine is reshaping the power landscape of American administrative law.",
+      "summaryCN": "美国刑事司法或民事诉讼程序中的最新司法动态，涉及程序正义和实体权利保护。",
+      "summaryEN": "Latest developments in U.S. criminal justice or civil procedure, involving procedural justice and substantive rights protection.",
+      "whyMattersCN": "该案件的审理和判决可能产生先例效应，对理解美国司法实践和程序正义的具体运作具有参考价值。",
+      "whyMattersEN": "The case may create precedent and offers insights into how procedural justice operates in U.S. judicial practice.",
       "tags": [
         {
-          "name": "重大问题原则",
-          "class": "constitutional"
-        },
-        {
-          "name": "行政权边界",
-          "class": "constitutional"
-        }
-      ]
-    },
-    {
-      "title": "Court rejects ICE contractor's right to immediate appeal",
-      "titleCN": "最高法院驳回ICE承包商即时上诉请求",
-      "url": "https://www.scotusblog.com/2026/02/court-rejects-ice-contractors-right-to-immediate-appeal/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院裁定私人监狱承包商GEO Group不能就有关其拘留设施条件的判决立即提起上诉，涉及《囚犯诉讼改革法》的适用范围。",
-      "summaryEN": "The Supreme Court rules that private prison contractor GEO Group cannot immediately appeal a judgment regarding conditions at its detention facility.",
-      "whyMattersCN": "该案涉及私人监狱监管的法律边界和移民拘留条件的人权保障。GEO Group作为ICE承包商，其拘留设施的人权争议反映了移民执法中外包模式的制度困境。",
-      "whyMattersEN": "This case involves the legal boundaries of private prison oversight and human rights protections in immigration detention.",
-      "tags": [
-        {
-          "name": "移民拘留",
-          "class": "criminal"
-        },
-        {
-          "name": "私人监狱",
+          "name": "刑事司法",
           "class": "criminal"
         }
       ]
     },
     {
-      "title": "Beach blasts and unusually dangerous weapons",
-      "titleCN": "海滩爆炸案与异常危险武器界定",
-      "url": "https://www.scotusblog.com/2026/02/beach-blasts-and-unusually-dangerous-weapons/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院审查一起因海滩燃放烟花导致严重伤害的案件，涉及《联邦爆炸物法》中异常危险武器的定义边界。",
-      "summaryEN": "The Supreme Court reviews a case involving serious injuries from fireworks on a beach, addressing the definitional boundaries of unusually dangerous weapons.",
-      "whyMattersCN": "该案涉及刑法中危险物品监管的法律标准界定。法院对异常危险武器的解释将影响烟花等消费品的监管责任和刑事责任认定。",
-      "whyMattersEN": "This case involves the legal standards for regulating dangerous items in criminal law.",
+      "title": "Trump vows to do ‘whatever it takes’ in Iran as US sends more troops to Middle East",
+      "titleCN": "Trump vows to do ‘whatever it takes’ in Iran as US sends more troops to Middle East",
+      "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
+      "date": "Mon, 02 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
       "tags": [
         {
-          "name": "刑法解释",
-          "class": "criminal"
-        },
-        {
-          "name": "危险物品监管",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Trump administration asks justices to allow it to remove protected status from Syrian nationals",
-      "titleCN": "特朗普政府请求最高法院终止叙利亚公民临时保护身份",
-      "url": "https://www.scotusblog.com/2026/02/trump-administration-asks-justices-to-allow-it-to-remove-protected-status-from-syrian-nationals/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "特朗普政府请求最高法院授权终止约8000名叙利亚公民的临时保护身份(TPS)，该身份原本保护他们免于因祖国战乱被驱逐出境。",
-      "summaryEN": "The Trump administration asks the Supreme Court to authorize terminating Temporary Protected Status for approximately 8,000 Syrian nationals.",
-      "whyMattersCN": "该案涉及行政权在移民政策中的裁量边界和人道主义保护的法律基础。TPS制度的存废争议反映了美国移民执法中安全考量与人道义务的冲突。",
-      "whyMattersEN": "This case involves the boundaries of executive discretion in immigration policy and the legal foundations of humanitarian protection.",
-      "tags": [
-        {
-          "name": "移民法",
+          "name": "国际法",
           "class": "international"
         },
         {
-          "name": "人道主义保护",
+          "name": "地缘政治",
           "class": "international"
         }
       ]
     },
     {
-      "title": "Court to hear argument on whether and when drug users may possess firearms",
-      "titleCN": "最高法院将审理毒品使用者持枪权案",
-      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院将审理United States v. Daniels案，挑战联邦法律禁止非法药物使用者持有枪支的规定，涉及第二修正案权利与公共安全监管的冲突。",
-      "summaryEN": "The Supreme Court will hear United States v. Daniels, challenging federal law that prohibits unlawful drug users from possessing firearms.",
-      "whyMattersCN": "该案触及美国宪法争议最激烈的两个领域——枪支管制与毒品政策的交叉点。法院对危险人群禁枪标准的界定，将影响数百万药物使用者的宪法权利。",
-      "whyMattersEN": "This case touches the intersection of America's most contentious constitutional issues—gun control and drug policy.",
+      "title": "Inside the plan to kill Ali Khamenei",
+      "titleCN": "Inside the plan to kill Ali Khamenei",
+      "url": "https://www.ft.com/content/bf998c69-ab46-4fa3-aae4-8f18f7387836",
+      "date": "Mon, 02 Ma",
+      "source": "Financial Times",
+      "summaryCN": "来自Financial Times的重要法律动态，涉及相关领域的制度发展和实践变化。",
+      "summaryEN": "Important legal developments from Financial Times involving institutional developments and practice changes in relevant fields.",
+      "whyMattersCN": "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
+      "whyMattersEN": "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
       "tags": [
         {
-          "name": "第二修正案",
-          "class": "constitutional"
+          "name": "法律动态",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Gas prices soar as Iranian attacks force shutdown of Qatari production",
+      "titleCN": "Gas prices soar as Iranian attacks force shutdown of Qatari production",
+      "url": "https://www.ft.com/content/dac7a77d-e0f4-4f52-a3d4-55b145e67347",
+      "date": "Mon, 02 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
         },
         {
-          "name": "毒品政策",
-          "class": "criminal"
+          "name": "地缘政治",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Iran attacks show US haven status is in peril",
+      "titleCN": "Iran attacks show US haven status is in peril",
+      "url": "https://www.ft.com/content/a8c8cfbd-b5fa-4c61-b72a-38531b029623",
+      "date": "Mon, 02 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Hedge funds rethink emerging market bets after US-Israel strikes on Iran",
+      "titleCN": "Hedge funds rethink emerging market bets after US-Israel strikes on Iran",
+      "url": "https://www.ft.com/content/25d61973-30a0-4290-940d-8a51fd79b0be",
+      "date": "Mon, 02 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
         }
       ]
     }
   ],
   "research": [
     {
-      "title": "Construction and Management of the South Florida Detention Facility",
-      "titleCN": "南佛罗里达拘留所的建设与管理",
-      "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
+      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "titleCN": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "summaryCN": "研究南佛罗里达移民拘留所的私营化建设和管理模式，分析私人监狱在移民执法中的角色及其对人权保障的影响。",
-      "summaryEN": "Studies the privatized construction and management model of the South Florida immigration detention facility.",
-      "whyMattersCN": "该研究揭示了移民拘留所私营化过程中人权保障的制度漏洞。私人承包商以营利为导向的管理模式可能导致拘留条件恶化，对中国看守所、拘留所等封闭场所的监管机制改革具有警示意义。",
-      "whyMattersEN": "This research reveals institutional loopholes in human rights protection during the privatization of immigration detention facilities.",
+      "summaryCN": "研究陪审团制度的运作逻辑和裁判语义学，分析对抗制诉讼中事实认定的制度设计。",
+      "summaryEN": "Studies the operational logic of jury systems and forensic semantics, analyzing institutional design for fact-finding in adversarial litigation.",
+      "whyMattersCN": "陪审团制度是普通法系的核心特征，该研究对理解对抗制诉讼中事实认定的制度逻辑具有启发意义，对中国人民陪审员制度的改革完善有参考价值。",
+      "whyMattersEN": "The jury system is central to common law. This research offers insights into fact-finding logic in adversarial systems and reference value for China's people's assessor system reform.",
       "tags": [
         {
-          "name": "私人监狱",
-          "class": "criminal"
-        },
-        {
-          "name": "移民拘留",
+          "name": "刑事程序",
           "class": "criminal"
         }
       ]
     },
     {
-      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury's Role",
-      "titleCN": "陪审团否决权的语义学：术语如何塑造（与扭曲）陪审团角色",
-      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+      "title": "Drug Scheduling as Institutional Design",
+      "titleCN": "药物管制作为制度设计",
+      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "summaryCN": "从语言学角度分析陪审团否决权这一术语如何影响陪审员对自我角色的认知，进而影响事实认定的制度设计。",
-      "summaryEN": "Analyzes from a linguistic perspective how the term jury nullification influences jurors' self-perception of their role.",
-      "whyMattersCN": "该研究揭示了法律术语对司法实践的深层影响。否决权一词暗示陪审团的对抗性角色，可能扭曲事实认定的理性过程。这对中国人民陪审员制度中的角色定位教育和术语规范化具有启发意义。",
-      "whyMattersEN": "This research reveals the deep impact of legal terminology on judicial practice.",
+      "summaryCN": "分析美国《管制物质法》的制度设计缺陷，揭示药物分级制度如何同时导致大规模监禁、医疗可及性受限和阿片类药物危机的三重失败。",
+      "summaryEN": "Analyzes the institutional design flaws of the U.S. Controlled Substances Act, revealing how the drug scheduling system simultaneously leads to three failures.",
+      "whyMattersCN": "该研究从制度设计视角揭示了美国毒品政策的系统性失败。其分析框架对中国毒品治理政策的科学化改革具有警示意义，特别是在平衡惩罚与医疗、防范阿片类药物滥用等议题上可资借鉴。",
+      "whyMattersEN": "This research reveals the systemic failures of U.S. drug policy from an institutional design perspective.",
       "tags": [
         {
-          "name": "陪审团制度",
+          "name": "毒品政策",
           "class": "criminal"
         },
         {
-          "name": "法律语言学",
+          "name": "制度设计",
           "class": "criminal"
         }
       ]
@@ -381,22 +470,43 @@
       ]
     },
     {
-      "title": "Drug Scheduling as Institutional Design",
-      "titleCN": "药物管制作为制度设计",
-      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
+      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury's Role",
+      "titleCN": "陪审团否决权的语义学：术语如何塑造（与扭曲）陪审团角色",
+      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "summaryCN": "分析美国《管制物质法》的制度设计缺陷，揭示药物分级制度如何同时导致大规模监禁、医疗可及性受限和阿片类药物危机的三重失败。",
-      "summaryEN": "Analyzes the institutional design flaws of the U.S. Controlled Substances Act, revealing how the drug scheduling system simultaneously leads to three failures.",
-      "whyMattersCN": "该研究从制度设计视角揭示了美国毒品政策的系统性失败。其分析框架对中国毒品治理政策的科学化改革具有警示意义，特别是在平衡惩罚与医疗、防范阿片类药物滥用等议题上可资借鉴。",
-      "whyMattersEN": "This research reveals the systemic failures of U.S. drug policy from an institutional design perspective.",
+      "summaryCN": "从语言学角度分析陪审团否决权这一术语如何影响陪审员对自我角色的认知，进而影响事实认定的制度设计。",
+      "summaryEN": "Analyzes from a linguistic perspective how the term jury nullification influences jurors' self-perception of their role.",
+      "whyMattersCN": "该研究揭示了法律术语对司法实践的深层影响。否决权一词暗示陪审团的对抗性角色，可能扭曲事实认定的理性过程。这对中国人民陪审员制度中的角色定位教育和术语规范化具有启发意义。",
+      "whyMattersEN": "This research reveals the deep impact of legal terminology on judicial practice.",
       "tags": [
         {
-          "name": "毒品政策",
+          "name": "陪审团制度",
           "class": "criminal"
         },
         {
-          "name": "制度设计",
+          "name": "法律语言学",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Construction and Management of the South Florida Detention Facility",
+      "titleCN": "南佛罗里达拘留所的建设与管理",
+      "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "summaryCN": "研究南佛罗里达移民拘留所的私营化建设和管理模式，分析私人监狱在移民执法中的角色及其对人权保障的影响。",
+      "summaryEN": "Studies the privatized construction and management model of the South Florida immigration detention facility.",
+      "whyMattersCN": "该研究揭示了移民拘留所私营化过程中人权保障的制度漏洞。私人承包商以营利为导向的管理模式可能导致拘留条件恶化，对中国看守所、拘留所等封闭场所的监管机制改革具有警示意义。",
+      "whyMattersEN": "This research reveals institutional loopholes in human rights protection during the privatization of immigration detention facilities.",
+      "tags": [
+        {
+          "name": "私人监狱",
+          "class": "criminal"
+        },
+        {
+          "name": "移民拘留",
           "class": "criminal"
         }
       ]
