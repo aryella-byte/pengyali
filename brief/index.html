@@ -322,9 +322,8 @@
         // Load data
         async function loadData() {
             try {
-                // Determine correct base path
-                const basePath = window.location.pathname.endsWith('/') ? '' : './';
-                const response = await fetch(basePath + 'data/brief-data.json');
+                // Use relative path - works on both local and GitHub Pages
+                const response = await fetch('data/brief-data.json');
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
