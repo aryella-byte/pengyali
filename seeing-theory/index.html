@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>看见理论 | Seeing Theory</title>
+  <meta name="description" content="专为法律实证研究设计的统计学可视化教学平台" />
+  
+  <!-- Theme init -->
+  <script>
+    (function() {
+      const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (dark) document.documentElement.classList.add('dark');
+    })();
+  </script>
+  
+  <!-- SPA redirect -->
+  <script>
+    (function(l) {
+      if (l.search[1] === '/') {
+        window.history.replaceState(null, null, l.pathname.slice(0, -1) + l.search.slice(1).split('&')[0] + l.hash);
+      }
+    })(window.location);
+  </script>
+  <script type="module" crossorigin src="/pengyali.github.io/seeing-theory/assets/index-DlR6B_WG.js"></script>
+  <link rel="modulepreload" crossorigin href="/pengyali.github.io/seeing-theory/assets/vendor-react-DQscjJnN.js">
+  <link rel="modulepreload" crossorigin href="/pengyali.github.io/seeing-theory/assets/vendor-icons-Djmi5mYi.js">
+  <link rel="stylesheet" crossorigin href="/pengyali.github.io/seeing-theory/assets/css/index-Bqgwwnpz.css">
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
