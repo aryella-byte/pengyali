@@ -8,17 +8,17 @@
       // For /pengyali.github.io/seeing-theory/chapter/1 paths
       
       var l = window.location;
-      // Extract the path after /seeing-theory/
+      // SPA redirect for /pengyali.github.io/seeing-theory/ routes
       var fullPath = l.pathname;
-      var projectPath = '/seeing-theory/';
-      var index = fullPath.indexOf(projectPath);
-      
+      var basePath = '/pengyali.github.io/seeing-theory/';
+      var index = fullPath.indexOf(basePath);
+
       if (index !== -1) {
-        var route = fullPath.substring(index + projectPath.length);
+        var route = fullPath.substring(index + basePath.length);
         l.replace(
-          l.protocol + '//' + l.hostname + 
+          l.protocol + '//' + l.hostname +
           (l.port ? ':' + l.port : '') +
-          projectPath + '?/' + route +
+          basePath + '?/' + route +
           (l.search ? '&' + l.search.slice(1) : '') +
           l.hash
         );
