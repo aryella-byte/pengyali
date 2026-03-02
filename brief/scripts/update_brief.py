@@ -120,12 +120,41 @@ def generate_summary_and_why(title, source, is_research=False):
                 [{"name": "刑事司法", "class": "criminal"}]
             )
         
-        # Default news
+        # Default news - generate specific analysis based on content
+        # Try to extract meaningful insights from the title
+        if "immigration" in text or "ice" in text or "border" in text or "deport" in text:
+            return (
+                "涉及移民执法、边境管控或拘留政策的最新法律动态。",
+                "Latest legal developments involving immigration enforcement, border control, or detention policies.",
+                "移民执法中的法律边界和权利保障是跨境法律实践的重要议题。该动态涉及行政权力扩张与个人权利保护之间的张力，对中国跨境执法合作和外国人权利保障立法具有参考价值。",
+                "Legal boundaries and rights protection in immigration enforcement are key issues in cross-border legal practice. This development involves tensions between executive power expansion and individual rights protection.",
+                [{"name": "移民法", "class": "international"}]
+            )
+        
+        if "firearm" in text or "gun" in text or "weapon" in text:
+            return (
+                "涉及枪支管制、第二修正案解释和公共安全的法律争议。",
+                "Legal controversies involving gun control, Second Amendment interpretation, and public safety.",
+                "枪支管制是美国宪法争议最激烈的领域之一。该案件涉及个人持枪权与公共安全的平衡，对理解美国宪法解释的动态演变和比较法视野下的武器管制立法具有参考价值。",
+                "Gun control is one of the most contentious areas of U.S. constitutional law. This case involves balancing individual gun rights with public safety.",
+                [{"name": "宪法", "class": "constitutional"}]
+            )
+        
+        if "syria" in text or "national" in text or "status" in text or "tps" in text:
+            return (
+                "涉及临时保护身份、移民政策调整或难民保护的法律动态。",
+                "Legal developments involving temporary protected status, immigration policy adjustments, or refugee protection.",
+                "临时保护身份制度涉及人道主义考量与移民执法的边界。该政策调整反映了行政权在移民领域的裁量空间，对中国难民保护立法和临时居留制度的完善具有比较法意义。",
+                "Temporary protected status involves balancing humanitarian considerations with immigration enforcement boundaries.",
+                [{"name": "移民法", "class": "international"}]
+            )
+        
+        # Generic fallback with more substance
         return (
-            f"来自{source}的重要法律与政策动态。",
-            f"Key legal and policy developments from {source}.",
-            "该动态反映了当前法律实践和政策走向，对理解相关领域的发展趋势具有参考价值。",
-            "This development reflects current legal practice and policy trends, offering reference value for understanding the field's trajectory.",
+            f"来自{source}的重要法律动态，涉及相关领域的制度发展和实践变化。",
+            f"Important legal developments from {source} involving institutional developments and practice changes in relevant fields.",
+            "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
+            "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
             [{"name": "法律动态", "class": ""}]
         )
     
@@ -192,10 +221,10 @@ def generate_summary_and_why(title, source, is_research=False):
     
     # Default research
     return (
-        f"发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
-        f"Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
-        "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
-        "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+        f"发表在权威法学期刊上的学术研究，从理论和实证维度深入分析相关制度议题。",
+        f"Academic research published in a leading law journal, analyzing relevant institutional issues from theoretical and empirical dimensions.",
+        "该研究运用法学理论分析具体制度实践，其研究框架和论证逻辑对中国相关领域的学术研究和制度建构具有方法论参考价值，可为中国法治建设提供域外经验借鉴。",
+        "This research applies legal theory to analyze specific institutional practices. Its analytical framework and argumentative logic offer methodological reference value for China's academic research and institutional development.",
         [{"name": "法学研究", "class": ""}]
     )
 

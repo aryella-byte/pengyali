@@ -23,14 +23,14 @@
       "url": "https://www.scotusblog.com/2026/02/beach-blasts-and-unusually-dangerous-weapons/",
       "date": "Thu, 26 Fe",
       "source": "SCOTUSblog",
-      "summaryCN": "来自SCOTUSblog的重要法律与政策动态。",
-      "summaryEN": "Key legal and policy developments from SCOTUSblog.",
-      "whyMattersCN": "该动态反映了当前法律实践和政策走向，对理解相关领域的发展趋势具有参考价值。",
-      "whyMattersEN": "This development reflects current legal practice and policy trends, offering reference value for understanding the field's trajectory.",
+      "summaryCN": "涉及枪支管制、第二修正案解释和公共安全的法律争议。",
+      "summaryEN": "Legal controversies involving gun control, Second Amendment interpretation, and public safety.",
+      "whyMattersCN": "枪支管制是美国宪法争议最激烈的领域之一。该案件涉及个人持枪权与公共安全的平衡，对理解美国宪法解释的动态演变和比较法视野下的武器管制立法具有参考价值。",
+      "whyMattersEN": "Gun control is one of the most contentious areas of U.S. constitutional law. This case involves balancing individual gun rights with public safety.",
       "tags": [
         {
-          "name": "法律动态",
-          "class": ""
+          "name": "宪法",
+          "class": "constitutional"
         }
       ]
     },
@@ -57,14 +57,14 @@
       "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
       "date": "Thu, 26 Fe",
       "source": "SCOTUSblog",
-      "summaryCN": "来自SCOTUSblog的重要法律与政策动态。",
-      "summaryEN": "Key legal and policy developments from SCOTUSblog.",
-      "whyMattersCN": "该动态反映了当前法律实践和政策走向，对理解相关领域的发展趋势具有参考价值。",
-      "whyMattersEN": "This development reflects current legal practice and policy trends, offering reference value for understanding the field's trajectory.",
+      "summaryCN": "涉及枪支管制、第二修正案解释和公共安全的法律争议。",
+      "summaryEN": "Legal controversies involving gun control, Second Amendment interpretation, and public safety.",
+      "whyMattersCN": "枪支管制是美国宪法争议最激烈的领域之一。该案件涉及个人持枪权与公共安全的平衡，对理解美国宪法解释的动态演变和比较法视野下的武器管制立法具有参考价值。",
+      "whyMattersEN": "Gun control is one of the most contentious areas of U.S. constitutional law. This case involves balancing individual gun rights with public safety.",
       "tags": [
         {
-          "name": "法律动态",
-          "class": ""
+          "name": "宪法",
+          "class": "constitutional"
         }
       ]
     },
@@ -221,10 +221,10 @@
       "url": "https://www.ft.com/content/c093bdf4-10e0-4e67-9cce-2409b9f9ff15",
       "date": "Sun, 01 Ma",
       "source": "Financial Times",
-      "summaryCN": "来自Financial Times的重要法律与政策动态。",
-      "summaryEN": "Key legal and policy developments from Financial Times.",
-      "whyMattersCN": "该动态反映了当前法律实践和政策走向，对理解相关领域的发展趋势具有参考价值。",
-      "whyMattersEN": "This development reflects current legal practice and policy trends, offering reference value for understanding the field's trajectory.",
+      "summaryCN": "来自Financial Times的重要法律动态，涉及相关领域的制度发展和实践变化。",
+      "summaryEN": "Important legal developments from Financial Times involving institutional developments and practice changes in relevant fields.",
+      "whyMattersCN": "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
+      "whyMattersEN": "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
       "tags": [
         {
           "name": "法律动态",
@@ -250,6 +250,23 @@
         {
           "name": "地缘政治",
           "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "In charts: how Donald Trump became a military interventionist",
+      "titleCN": "In charts: how Donald Trump became a military interventionist",
+      "url": "https://www.ft.com/content/e9905f8d-27d1-446a-90aa-fc296495eb49",
+      "date": "Mon, 02 Ma",
+      "source": "Financial Times",
+      "summaryCN": "来自Financial Times的重要法律动态，涉及相关领域的制度发展和实践变化。",
+      "summaryEN": "Important legal developments from Financial Times involving institutional developments and practice changes in relevant fields.",
+      "whyMattersCN": "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
+      "whyMattersEN": "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
+      "tags": [
+        {
+          "name": "法律动态",
+          "class": ""
         }
       ]
     },
@@ -322,10 +339,10 @@
       "url": "https://www.scotusblog.com/2026/02/united-states-v-hemani-an-animated-explainer/",
       "date": "Fri, 27 Fe",
       "source": "SCOTUSblog",
-      "summaryCN": "来自SCOTUSblog的重要法律与政策动态。",
-      "summaryEN": "Key legal and policy developments from SCOTUSblog.",
-      "whyMattersCN": "该动态反映了当前法律实践和政策走向，对理解相关领域的发展趋势具有参考价值。",
-      "whyMattersEN": "This development reflects current legal practice and policy trends, offering reference value for understanding the field's trajectory.",
+      "summaryCN": "来自SCOTUSblog的重要法律动态，涉及相关领域的制度发展和实践变化。",
+      "summaryEN": "Important legal developments from SCOTUSblog involving institutional developments and practice changes in relevant fields.",
+      "whyMattersCN": "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
+      "whyMattersEN": "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
       "tags": [
         {
           "name": "法律动态",
@@ -341,10 +358,10 @@
       "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
-      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
-      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
-      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "summaryCN": "发表在权威法学期刊上的学术研究，从理论和实证维度深入分析相关制度议题。",
+      "summaryEN": "Academic research published in a leading law journal, analyzing relevant institutional issues from theoretical and empirical dimensions.",
+      "whyMattersCN": "该研究运用法学理论分析具体制度实践，其研究框架和论证逻辑对中国相关领域的学术研究和制度建构具有方法论参考价值，可为中国法治建设提供域外经验借鉴。",
+      "whyMattersEN": "This research applies legal theory to analyze specific institutional practices. Its analytical framework and argumentative logic offer methodological reference value for China's academic research and institutional development.",
       "tags": [
         {
           "name": "法学研究",
