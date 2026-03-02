@@ -1,6 +1,146 @@
 {
   "news": [
     {
+      "title": "Iran conflict: Israel targets Hizbollah in Lebanon",
+      "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
+      "summary": "Oil surges, US stock index futures slip and gold rises as conflict escalates",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "whyMatters": "该事件涉及国际法和国际关系的重要议题，对全球法治秩序和国际经济格局可能产生深远影响。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Trump’s epic gamble in the Middle East",
+      "url": "https://www.ft.com/content/e71429a4-c69e-4487-94ff-af5394c831c0",
+      "summary": "The US president’s goal of regime change augurs immense regional chaos",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "whyMatters": "该新闻涉及法律领域的重要发展，对于理解当前法治实践和政策走向具有参考意义。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "After Khamenei, who rules Iran?",
+      "url": "https://www.ft.com/content/6fe57836-7392-471f-875d-293c7f2db7d4",
+      "summary": "Under fire from US and Israeli jets, the Islamic republic’s leaders turn to succession",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "whyMatters": "该事件涉及国际法和国际关系的重要议题，对全球法治秩序和国际经济格局可能产生深远影响。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Military briefing: Iran’s new retaliation strategy",
+      "url": "https://www.ft.com/content/f2eae858-a5a4-4c49-9526-e1757a2d55e2",
+      "summary": "Islamic republic launches constant barrages at Israel while targeting civilian sites around the Gulf",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "whyMatters": "该事件涉及国际法和国际关系的重要议题，对全球法治秩序和国际经济格局可能产生深远影响。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "What will war in Iran do to the global economy?",
+      "url": "https://www.ft.com/content/31bfc01b-42a8-45f1-85d3-8f973595a456",
+      "summary": "Conflict has exposed how much growth depends on energy supplies through the Strait of Hormuz",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "whyMatters": "该事件涉及国际法和国际关系的重要议题，对全球法治秩序和国际经济格局可能产生深远影响。",
+      "tags": [
+        {
+          "name": "AI治理",
+          "class": "tech"
+        }
+      ]
+    },
+    {
+      "title": "Announcement of opinions for Wednesday, March 4",
+      "url": "https://www.scotusblog.com/2026/02/announcement-of-opinions-for-wednesday-march-4/",
+      "summary": "We will be live blogging as the court potentially releases opinions in one or more argued cases from the current term. Click here for a list of FAQs about opinion [&#8230;]\nThe post Announcement of opinions for Wednesday, March 4 appeared first on SCOTUSblog.",
+      "date": "Fri, 27 Fe",
+      "source": "SCOTUSblog",
+      "whyMatters": "这一司法动态可能影响相关领域的法律实践和学术研究方向，值得持续关注后续发展。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Supreme Court to consider whether freight brokers can be held liable for negligent hiring",
+      "url": "https://www.scotusblog.com/2026/02/court-to-consider-whether-freight-brokers-can-be-held-liable-for-negligent-hiring/",
+      "summary": "In Montgomery v. Caribe Transport II, to be argued on Wednesday, March 4, the court will consider whether a federal law initially designed to deal with state trucking regulations supersedes [&#8230;]\nThe post Supreme Court to consider whether freight brokers can be held liable for negligent hiring a",
+      "date": "Fri, 27 Fe",
+      "source": "SCOTUSblog",
+      "whyMatters": "这一司法动态可能影响相关领域的法律实践和学术研究方向，值得持续关注后续发展。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Justices appear dubious of challenge to constitutionality of foreclosure sales",
+      "url": "https://www.scotusblog.com/2026/02/justices-appear-dubious-of-challenge-to-constitutionality-of-foreclosure-sales/",
+      "summary": "The argument yesterday in Pung v. Isabella Countyhad two distinct threads. On the one hand, the justices who discussed the question presented seemed to have no doubt that they would [&#8230;]\nThe post Justices appear dubious of challenge to constitutionality of foreclosure sales appeared first on SC",
+      "date": "Fri, 27 Fe",
+      "source": "SCOTUSblog",
+      "whyMatters": "该新闻涉及法律领域的重要发展，对于理解当前法治实践和政策走向具有参考意义。",
+      "tags": [
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        }
+      ]
+    },
+    {
+      "title": "The major debate over major questions in the tariffs decision is only the beginning",
+      "url": "https://www.scotusblog.com/2026/02/the-major-debate-over-major-questions-in-the-tariffs-decision-is-only-the-beginning/",
+      "summary": "Clear Statements is a recurring series by&#160;Abbe R. Gluck on civil litigation and the modern regulatory and statutory state. The Supreme Court’s decision striking down the president’s tariffs last week [&#8230;]\nThe post The major debate over major questions in the tariffs decision is only the be",
+      "date": "Fri, 27 Fe",
+      "source": "SCOTUSblog",
+      "whyMatters": "这一司法动态可能影响相关领域的法律实践和学术研究方向，值得持续关注后续发展。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "United States v. Hemani: an animated explainer",
+      "url": "https://www.scotusblog.com/2026/02/united-states-v-hemani-an-animated-explainer/",
+      "summary": "SCOTUSblog is thrilled to introduce the first in a series of animated videos, done in partnership with Briefly, on some of the most important upcoming cases of the 2025-26 term. Today’s [&#8230;]\nThe post United States v. Hemani: an animated explainer appeared first on SCOTUSblog.",
+      "date": "Fri, 27 Fe",
+      "source": "SCOTUSblog",
+      "whyMatters": "这一科技政策动态反映了数字治理的最新趋势，对算法监管和科技法律研究具有重要参考价值。",
+      "tags": [
+        {
+          "name": "AI治理",
+          "class": "tech"
+        }
+      ]
+    },
+    {
       "title": "最高法院就关税法案中的重大问题上诉作出裁决",
       "source": "SCOTUSblog",
       "date": "2026-03-01",
@@ -8,9 +148,18 @@
       "summary": "最高法院推翻了总统关税法案的决定，引发了关于行政权力和重大问题原则的根本性问题。",
       "whyMatters": "这一裁决直接限制了总统在外贸政策上的单边权力，对行政法领域具有里程碑意义。法院对重大问题原则的适用可能影响未来所有涉及重大经济政策的行政解释。",
       "tags": [
-        {"name": "行政法", "class": "constitutional"},
-        {"name": "宪法", "class": "constitutional"},
-        {"name": "贸易政策", "class": "international"}
+        {
+          "name": "行政法",
+          "class": "constitutional"
+        },
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "贸易政策",
+          "class": "international"
+        }
       ]
     },
     {
@@ -21,9 +170,18 @@
       "summary": "在美以联合行动中，伊朗最高领袖哈梅内伊身亡。德黑兰誓言粉碎性回应，地区冲突风险显著上升。",
       "whyMatters": "这一事件可能导致中东地区冲突全面爆发，影响全球能源供应和国际法治秩序。国际法中的主权豁免和武力使用规范将面临新的考验。",
       "tags": [
-        {"name": "国际法", "class": "international"},
-        {"name": "地缘政治", "class": "international"},
-        {"name": "能源安全", "class": "international"}
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
+        },
+        {
+          "name": "能源安全",
+          "class": "international"
+        }
       ]
     },
     {
@@ -34,9 +192,18 @@
       "summary": "欧盟理事会正式通过《人工智能法案》最终文本，建立了全球首个全面的AI监管框架。",
       "whyMatters": "该法案确立了AI监管的风险分级模式，将深刻影响全球AI治理格局。对于研究算法问责和AI法律责任的学者而言，这是最重要的实证材料来源。",
       "tags": [
-        {"name": "AI治理", "class": "tech"},
-        {"name": "算法监管", "class": "tech"},
-        {"name": "欧盟法", "class": "international"}
+        {
+          "name": "AI治理",
+          "class": "tech"
+        },
+        {
+          "name": "算法监管",
+          "class": "tech"
+        },
+        {
+          "name": "欧盟法",
+          "class": "international"
+        }
       ]
     }
   ],
@@ -50,9 +217,18 @@
       "summary": "本文探讨了数字时代第四修正案如何适应新技术发展，提出了均衡调整理论来解释隐私权与执法需求之间的平衡。",
       "whyMatters": "Kerr的均衡调整理论为理解数字隐私权提供了重要框架。在中国算法治理和刑事司法数字化的背景下，这一理论对比较法研究具有重要参考价值。",
       "tags": [
-        {"name": "刑事程序", "class": "criminal"},
-        {"name": "数字隐私", "class": "tech"},
-        {"name": "宪法", "class": "constitutional"}
+        {
+          "name": "刑事程序",
+          "class": "criminal"
+        },
+        {
+          "name": "数字隐私",
+          "class": "tech"
+        },
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        }
       ]
     },
     {
@@ -64,9 +240,18 @@
       "summary": "本文分析了在保护儿童在线安全与维护言论自由之间的宪法张力，评估了内容中立原则在数字平台的适用。",
       "whyMatters": "儿童在线保护与言论自由的平衡是全球性难题。中国的未成年人网络保护立法可以从中借鉴宪法审查的标准和分析方法。",
       "tags": [
-        {"name": "言论自由", "class": "constitutional"},
-        {"name": "网络治理", "class": "tech"},
-        {"name": "儿童保护", "class": "constitutional"}
+        {
+          "name": "言论自由",
+          "class": "constitutional"
+        },
+        {
+          "name": "网络治理",
+          "class": "tech"
+        },
+        {
+          "name": "儿童保护",
+          "class": "constitutional"
+        }
       ]
     },
     {
@@ -78,8 +263,214 @@
       "summary": "本文通过分析十诫案件，重新审视了政教分离条款的解释方法，比较了原旨主义与活宪法主义的不同路径。",
       "whyMatters": "虽然十诫案件具有美国特色，但其背后反映的宪法解释方法论之争具有普遍意义。对于理解宪法文本解释与时代变迁的关系具有参考价值。",
       "tags": [
-        {"name": "宪法解释", "class": "constitutional"},
-        {"name": "宗教自由", "class": "constitutional"}
+        {
+          "name": "宪法解释",
+          "class": "constitutional"
+        },
+        {
+          "name": "宗教自由",
+          "class": "constitutional"
+        }
+      ]
+    },
+    {
+      "title": "Drug Scheduling as Institutional Design",
+      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
+      "summary": "The United States makes bad choices when it comes to psychoactive drugs. Under the Controlled Substances Act (CSA), U.S. drug law has simultaneously fueled mass incarceration, inhibited needed access, and enabled an opioid crisis.\nThe post Drug Scheduling as Institutional Design appeared first on Ha",
+      "date": "Wed, 11 Fe",
+      "source": "Harvard Law Review",
+      "journal": "Harvard Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
+      "url": "https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/",
+      "summary": "The Digital Fourth Amendment is written by Professor Orin Kerr, one of the country’s foremost authorities on the Fourth Amendment, electronic privacy, and criminal procedure. Kerr’s work has been deeply influential in shaping how courts are looking at and deciding issues raised by law enforcement’s ",
+      "date": "Wed, 11 Fe",
+      "source": "Harvard Law Review",
+      "journal": "Harvard Law Review",
+      "authors": "TBD",
+      "whyMatters": "该论文对刑事司法程序中的宪法权利保护进行了深入分析，对中国刑事诉讼法改革和数字时代的人权保障具有比较法参考价值。",
+      "tags": [
+        {
+          "name": "刑事司法",
+          "class": "criminal"
+        },
+        {
+          "name": "AI治理",
+          "class": "tech"
+        },
+        {
+          "name": "隐私权",
+          "class": "tech"
+        }
+      ]
+    },
+    {
+      "title": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "url": "https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/",
+      "summary": "The kids are not okay. Evidence of decreasing school performance, increasing rates of depression and anxiety, and declining social engagement among minors has created...\nThe post Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws appeared first on Harvard Law R",
+      "date": "Wed, 11 Fe",
+      "source": "Harvard Law Review",
+      "journal": "Harvard Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+      "summary": "Sometimes what we call a practice can matter just as much as the practice itself. Jury nullification has a storied history dating back to...\nThe post The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury&#8217;s Role appeared first on Harvard Law Review.",
+      "date": "Wed, 11 Fe",
+      "source": "Harvard Law Review",
+      "journal": "Harvard Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
+      "url": "https://harvardlawreview.org/print/vol-139/black-voters-matter-capacity-building-institute-inc-v-secretary-florida-department-of-state/",
+      "summary": "State constitutions serve as important sources of individual rights. They often extend broader protections than the Federal Constitution and have, in some instances, included...\nThe post &lt;em&gt;Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State&lt;/em&",
+      "date": "Wed, 11 Fe",
+      "source": "Harvard Law Review",
+      "journal": "Harvard Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Crypto Kleptocracy",
+      "url": "https://michiganlawreview.org/crypto-kleptocracy/",
+      "summary": "Many Americans are worrying about whether they will soon be living in a post-democracy autocracy. But in the meantime, they may already be living in a crypto-fueled kleptocracy. Less than one year into his second&#8230;\nThe post Crypto Kleptocracy appeared first on Michigan Law Review.",
+      "date": "Thu, 05 Fe",
+      "source": "Michigan Law Review",
+      "journal": "Michigan Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Ten Commandments Cases: Learning from Reformation Coercion",
+      "url": "https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/",
+      "summary": "The Supreme Court’s recent embrace of “historical practices and understandings” in interpreting the Establishment Clause has emboldened states to challenge forty-five years of precedent prohibiting Ten Commandments displays in public schools. Yet, these states advance&#8230;\nThe post Ten Commandment",
+      "date": "Wed, 07 Ja",
+      "source": "Michigan Law Review",
+      "journal": "Michigan Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "The Federal General Counsel, Law, and Our Democracy at a Crossroads",
+      "url": "https://michiganlawreview.org/the-federal-general-counsel-law-and-our-democracy-at-a-crossroads/",
+      "summary": "This speech, given by the general counsel of the Consumer Financial Protection Bureau (CFPB) on January 7, 2025, examines how federal government lawyers can help ensure that laws are faithfully administered to address the contemporary&#8230;\nThe post The Federal General Counsel, Law, and Our Democra",
+      "date": "Sun, 09 No",
+      "source": "Michigan Law Review",
+      "journal": "Michigan Law Review",
+      "authors": "TBD",
+      "whyMatters": "在数字技术快速发展的背景下，该研究为算法治理和科技监管提供了重要的理论支撑和实践参考。",
+      "tags": [
+        {
+          "name": "AI治理",
+          "class": "tech"
+        }
+      ]
+    },
+    {
+      "title": "What’s Left of the New Deal State?",
+      "url": "https://michiganlawreview.org/whats-left-of-the-new-deal-state/",
+      "summary": "New Deal Law and Order: How the War on Crime Built the Modern Liberal State. By Anthony Gregory. Harvard University Press. 2024. Pp. 473. $45. Introduction A vast body of scholarship situates itself in the&#8230;\nThe post What&#8217;s Left of the New Deal State? appeared first on Michigan Law Review",
+      "date": "Fri, 31 Oc",
+      "source": "Michigan Law Review",
+      "journal": "Michigan Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Crossing the Rubicon: Assembling a Litigation Colossus in Mass Torts",
+      "url": "https://michiganlawreview.org/crossing-the-rubicon-assembling-a-litigation-colossus-in-mass-torts/",
+      "summary": "In 2021, Arizona created the alternative business structure (ABS), which allows nonattorneys to own a firm that provides legal services and actively participate in firm management. Scholars have argued that this new paradigm will erode&#8230;\nThe post Crossing the Rubicon: Assembling a Litigation Co",
+      "date": "Mon, 21 Ju",
+      "source": "Michigan Law Review",
+      "journal": "Michigan Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Call for Submissions for Second Annual Student Essay Competition",
+      "url": "https://virginialawreview.org/call-for-submissions-for-second-annual-student-essay-competition/?utm_source=rss&utm_medium=rss&utm_campaign=call-for-submissions-for-second-annual-student-essay-competition",
+      "summary": "The&#160;Virginia Law Review&#160;(VLR)&#160;Online&#160;is excited to announce the topic for our second annual essay competition. This competition is open to all current law students (including LLMs) and recent graduates (from the Classes of 2018–2021) from any ABA-accredited American law school. W",
+      "date": "Fri, 09 Ju",
+      "source": "Virginia Law Review",
+      "journal": "Virginia Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Diversity and Inclusion",
+      "url": "https://virginialawreview.org/diversity-and-inclusion/?utm_source=rss&utm_medium=rss&utm_campaign=diversity-and-inclusion",
+      "summary": "Acknowledgement of History The Virginia Law Review, established in 1913, has enjoyed a reputation of publishing leading scholarship—pieces that have changed laws, been cited in Supreme Court opinions, and spotlighted the ideas of both prominent scholars and emerging voices. The Review is proud of th",
+      "date": "Thu, 07 Ja",
+      "source": "Virginia Law Review",
+      "journal": "Virginia Law Review",
+      "authors": "TBD",
+      "whyMatters": "本文在法学理论研究方面具有学术价值，为相关领域的进一步研究提供了重要的理论基础。",
+      "tags": [
+        {
+          "name": "法律综合",
+          "class": ""
+        }
       ]
     }
   ]
