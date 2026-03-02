@@ -29,6 +29,40 @@
       ]
     },
     {
+      "title": "Trump administration asks justices to allow it to remove protected status from Syrian nationals",
+      "titleCN": "Trump administration asks justices to allow it to remove protected status from Syrian nationals",
+      "url": "https://www.scotusblog.com/2026/02/trump-administration-asks-justices-to-allow-it-to-remove-protected-status-from-syrian-nationals/",
+      "date": "Thu, 26 Fe",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国刑事司法或民事诉讼程序中的最新司法动态，涉及程序正义和实体权利保护。",
+      "summaryEN": "Latest developments in U.S. criminal justice or civil procedure, involving procedural justice and substantive rights protection.",
+      "whyMattersCN": "该案件的审理和判决可能产生先例效应，对理解美国司法实践和程序正义的具体运作具有参考价值。",
+      "whyMattersEN": "The case may create precedent and offers insights into how procedural justice operates in U.S. judicial practice.",
+      "tags": [
+        {
+          "name": "刑事司法",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Court to hear argument on whether and when drug users may possess firearms",
+      "titleCN": "Court to hear argument on whether and when drug users may possess firearms",
+      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
+      "date": "Thu, 26 Fe",
+      "source": "SCOTUSblog",
+      "summaryCN": "来自SCOTUSblog的重要法律与政策动态。",
+      "summaryEN": "Key legal and policy developments from SCOTUSblog.",
+      "whyMattersCN": "该动态反映了当前法律实践和政策走向，对理解相关领域的发展趋势具有参考价值。",
+      "whyMattersEN": "This development reflects current legal practice and policy trends, offering reference value for understanding the field's trajectory.",
+      "tags": [
+        {
+          "name": "法律动态",
+          "class": ""
+        }
+      ]
+    },
+    {
       "title": "What will war in Iran do to the global economy?",
       "url": "https://www.ft.com/content/31bfc01b-42a8-45f1-85d3-8f973595a456",
       "summary": "Conflict has exposed how much growth depends on energy supplies through the Strait of Hormuz",
@@ -78,6 +112,132 @@
         },
         {
           "name": "国际法",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Iran conflict: Israel targets Hizbollah in Lebanon",
+      "titleCN": "Iran conflict: Israel targets Hizbollah in Lebanon",
+      "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Trump’s epic gamble in the Middle East",
+      "titleCN": "Trump’s epic gamble in the Middle East",
+      "url": "https://www.ft.com/content/e71429a4-c69e-4487-94ff-af5394c831c0",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "After Khamenei, who rules Iran?",
+      "titleCN": "After Khamenei, who rules Iran?",
+      "url": "https://www.ft.com/content/6fe57836-7392-471f-875d-293c7f2db7d4",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Military briefing: Iran’s new retaliation strategy",
+      "titleCN": "Military briefing: Iran’s new retaliation strategy",
+      "url": "https://www.ft.com/content/f2eae858-a5a4-4c49-9526-e1757a2d55e2",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Trump has no realistic plan for Iran’s future",
+      "titleCN": "Trump has no realistic plan for Iran’s future",
+      "url": "https://www.ft.com/content/437130e7-ed4e-4919-8bf3-ac38c2eed6af",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Starmer will let US use UK bases for attacks on Iranian missile sites",
+      "titleCN": "Starmer will let US use UK bases for attacks on Iranian missile sites",
+      "url": "https://www.ft.com/content/b988499b-1a89-4e56-b0cf-19d5a8ac7111",
+      "date": "Sun, 01 Ma",
+      "source": "Financial Times",
+      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
+      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
+      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
+      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "地缘政治",
           "class": "international"
         }
       ]
@@ -137,72 +297,258 @@
           "class": ""
         }
       ]
+    },
+    {
+      "title": "Supreme Court to consider whether freight brokers can be held liable for negligent hiring",
+      "titleCN": "Supreme Court to consider whether freight brokers can be held liable for negligent hiring",
+      "url": "https://www.scotusblog.com/2026/02/court-to-consider-whether-freight-brokers-can-be-held-liable-for-negligent-hiring/",
+      "date": "Fri, 27 Fe",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国联邦最高法院就行政权力边界作出重要裁决，涉及重大问题原则的适用。",
+      "summaryEN": "The Supreme Court rules on the boundaries of executive power, involving the Major Questions Doctrine.",
+      "whyMattersCN": "该判决将深刻影响联邦行政机构的规制权力，对理解司法权与行政权的宪法边界具有标杆意义，也可能影响全球行政法发展。",
+      "whyMattersEN": "This ruling will profoundly impact federal regulatory power and sets a precedent for understanding the constitutional boundaries between judicial and executive authority.",
+      "tags": [
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "行政法",
+          "class": "constitutional"
+        }
+      ]
     }
   ],
   "research": [
     {
-      "title": "Curbing Private Enforcement of the Voting Rights Act: Thoughts on Recent Developments",
-      "url": "https://michiganlawreview.org/curbing-private-enforcement-of-the-voting-rights-act-thoughts-on-recent-developments/",
-      "summary": "For decades, private plaintiffs have brought claims to enforce key provisions of the Voting Rights Act (VRA). Recent decisions have tossed out these claims on the ground that enforcement authority lies solely with the Attorney&#8230;\nThe post Curbing Private Enforcement of the Voting Rights Act: Thoughts on Recent Developments appeared first on Michigan Law Review.",
-      "date": "Thu, 31 Oc",
+      "title": "The Jurisprudence of Justice Gorsuch and Future Efforts to Address Climate Change",
+      "titleCN": "The Jurisprudence of Justice Gorsuch and Future Efforts to Address Climate Change",
+      "url": "https://michiganlawreview.org/the-jurisprudence-of-justice-gorsuch-and-future-efforts-to-address-climate-change/",
+      "date": "Wed, 14 Fe",
       "journal": "Michigan Law Review",
-      "whyMatters": "该论文发表在Michigan Law Review上，探讨了法学领域的重要理论问题。对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
       "tags": [
         {
-          "name": "科技与隐私",
-          "class": "tech"
+          "name": "法学研究",
+          "class": ""
         }
       ]
     },
     {
-      "title": "The Federal General Counsel, Law, and Our Democracy at a Crossroads",
-      "url": "https://michiganlawreview.org/the-federal-general-counsel-law-and-our-democracy-at-a-crossroads/",
-      "summary": "This speech, given by the general counsel of the Consumer Financial Protection Bureau (CFPB) on January 7, 2025, examines how federal government lawyers can help ensure that laws are faithfully administered to address the contemporary&#8230;\nThe post The Federal General Counsel, Law, and Our Democracy at a Crossroads appeared first on Michigan Law Review.",
-      "date": "Sun, 09 No",
+      "title": "Narrowing FOIA’s Exemption for Business Secrets",
+      "titleCN": "Narrowing FOIA’s Exemption for Business Secrets",
+      "url": "https://michiganlawreview.org/narrowing-foias-exemption-for-business-secrets/",
+      "date": "Fri, 12 Ju",
       "journal": "Michigan Law Review",
-      "whyMatters": "该论文发表在Michigan Law Review上，探讨了法学领域的重要理论问题。对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
       "tags": [
         {
-          "name": "科技与隐私",
-          "class": "tech"
+          "name": "法学研究",
+          "class": ""
         }
       ]
     },
     {
-      "title": "Ten Commandments Cases: Learning from Reformation Coercion",
-      "url": "https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/",
-      "summary": "The Supreme Court’s recent embrace of “historical practices and understandings” in interpreting the Establishment Clause has emboldened states to challenge forty-five years of precedent prohibiting Ten Commandments displays in public schools. Yet, these states advance&#8230;\nThe post Ten Commandments Cases: Learning from Reformation Coercion appeared first on Michigan Law Review.",
-      "date": "Wed, 07 Ja",
+      "title": "There Is No Helpful General Rule About Appealing Dismissals Without Prejudice",
+      "titleCN": "There Is No Helpful General Rule About Appealing Dismissals Without Prejudice",
+      "url": "https://michiganlawreview.org/there-is-no-helpful-general-rule-about-appealing-dismissals-without-prejudice/",
+      "date": "Thu, 10 Oc",
       "journal": "Michigan Law Review",
-      "whyMatters": "政教分离条款的解释涉及宪法文本主义与活宪法主义的方法论之争。该研究的历史分析路径，对理解宪法解释中历史材料的使用方法具有方法论价值。",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
       "tags": [
         {
-          "name": "宪法与行政法",
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "The Comstock Act’s Equal Protection Problem",
+      "titleCN": "The Comstock Act’s Equal Protection Problem",
+      "url": "https://michiganlawreview.org/the-comstock-acts-equal-protection-problem/",
+      "date": "Wed, 15 Ja",
+      "journal": "Michigan Law Review",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Crossing the Rubicon: Assembling a Litigation Colossus in Mass Torts",
+      "titleCN": "Crossing the Rubicon: Assembling a Litigation Colossus in Mass Torts",
+      "url": "https://michiganlawreview.org/crossing-the-rubicon-assembling-a-litigation-colossus-in-mass-torts/",
+      "date": "Mon, 21 Ju",
+      "journal": "Michigan Law Review",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "What’s Left of the New Deal State?",
+      "titleCN": "What’s Left of the New Deal State?",
+      "url": "https://michiganlawreview.org/whats-left-of-the-new-deal-state/",
+      "date": "Fri, 31 Oc",
+      "journal": "Michigan Law Review",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Crypto Kleptocracy",
+      "titleCN": "Crypto Kleptocracy",
+      "url": "https://michiganlawreview.org/crypto-kleptocracy/",
+      "date": "Thu, 05 Fe",
+      "journal": "Michigan Law Review",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Protecting Noncitizens’ Liberty When the Executive Seeks to Punish",
+      "titleCN": "Protecting Noncitizens’ Liberty When the Executive Seeks to Punish",
+      "url": "https://harvardlawreview.org/print/vol-139/protecting-noncitizens-liberty-when-the-executive-seeks-to-punish/",
+      "date": "Tue, 13 Ja",
+      "journal": "Harvard Law Review",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Practical Consequences in Statutory Interpretation",
+      "titleCN": "Practical Consequences in Statutory Interpretation",
+      "url": "https://harvardlawreview.org/print/vol-139/practical-consequences-in-statutory-interpretation-2/",
+      "date": "Tue, 13 Ja",
+      "journal": "Harvard Law Review",
+      "summaryCN": "探讨法律解释中的实用主义方法，分析政策后果和制度可行性在司法解释中的作用。",
+      "summaryEN": "Explores pragmatic approaches to statutory interpretation, analyzing the role of policy consequences and institutional feasibility in judicial interpretation.",
+      "whyMattersCN": "法律解释方法论是法理学的重要议题，该研究对后果主义解释路径的分析对中国法律解释方法的完善具有参考价值。",
+      "whyMattersEN": "Legal interpretation methodology is a key jurisprudential topic. This research's analysis of consequentialist interpretation offers reference value for China.",
+      "tags": [
+        {
+          "name": "法理学",
           "class": "constitutional"
         }
       ]
     },
     {
-      "title": "Appendix to Practical Consequences in Statutory Interpretation",
-      "url": "https://harvardlawreview.org/print/vol-139/practical-consequences-in-statutory-interpretation/",
-      "summary": "* * * Case NameCitationForm of Comparison / Level of RelianceOpinionDefensive?PlainMeaning?Abbott v. Perez138 S. Ct. 2305 (2018)Both policy and administrability / Undesirable results +...\nThe post Appendix to Practical Consequences in Statutory Interpretation appeared first on Harvard Law Review.",
-      "date": "Tue, 13 Ja",
+      "title": "Construction and Management of the South Florida Detention Facility",
+      "titleCN": "Construction and Management of the South Florida Detention Facility",
+      "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
+      "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "whyMatters": "该论文发表在Harvard Law Review上，探讨了法学领域的重要理论问题。对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
       "tags": [
         {
-          "name": "科技与隐私",
-          "class": "tech"
+          "name": "法学研究",
+          "class": ""
         }
       ]
     },
     {
-      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
-      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
-      "summary": "Sometimes what we call a practice can matter just as much as the practice itself. Jury nullification has a storied history dating back to...\nThe post The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury&#8217;s Role appeared first on Harvard Law Review.",
+      "title": "People v. Thompson",
+      "titleCN": "People v. Thompson",
+      "url": "https://harvardlawreview.org/print/vol-139/people-v-thompson/",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "whyMatters": "陪审团制度是普通法系的核心特征。该研究对陪审团裁判逻辑的深入分析，有助于理解对抗制诉讼中事实认定的制度设计，对中国人民陪审员制度的改革有启发意义。",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
+      "titleCN": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
+      "url": "https://harvardlawreview.org/print/vol-139/black-voters-matter-capacity-building-institute-inc-v-secretary-florida-department-of-state/",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "titleCN": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "url": "https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "summaryCN": "发表在权威法学期刊上的学术研究，探讨相关领域的理论和实践问题。",
+      "summaryEN": "Academic research published in a leading law journal, exploring theoretical and practical issues in the field.",
+      "whyMattersCN": "该研究在法学理论方面具有学术价值，对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "whyMattersEN": "This research has academic value in legal theory and offers comparative law reference for China's academic research and institutional improvement.",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ]
+    },
+    {
+      "title": "Drug Scheduling as Institutional Design",
+      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
+      "summary": "The United States makes bad choices when it comes to psychoactive drugs. Under the Controlled Substances Act (CSA), U.S. drug law has simultaneously fueled mass incarceration, inhibited needed access, and enabled an opioid crisis.\nThe post Drug Scheduling as Institutional Design appeared first on Harvard Law Review.",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "whyMatters": "量刑政策与大规模监禁是美国刑事司法的核心批评领域。该研究的实证发现可以为中国的量刑规范化改革提供比较视角，避免重蹈美国过度监禁的覆辙。",
       "tags": [
         {
           "name": "刑事司法",
@@ -229,16 +575,72 @@
       ]
     },
     {
-      "title": "Drug Scheduling as Institutional Design",
-      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
-      "summary": "The United States makes bad choices when it comes to psychoactive drugs. Under the Controlled Substances Act (CSA), U.S. drug law has simultaneously fueled mass incarceration, inhibited needed access, and enabled an opioid crisis.\nThe post Drug Scheduling as Institutional Design appeared first on Harvard Law Review.",
+      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+      "summary": "Sometimes what we call a practice can matter just as much as the practice itself. Jury nullification has a storied history dating back to...\nThe post The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury&#8217;s Role appeared first on Harvard Law Review.",
       "date": "Wed, 11 Fe",
       "journal": "Harvard Law Review",
-      "whyMatters": "量刑政策与大规模监禁是美国刑事司法的核心批评领域。该研究的实证发现可以为中国的量刑规范化改革提供比较视角，避免重蹈美国过度监禁的覆辙。",
+      "whyMatters": "陪审团制度是普通法系的核心特征。该研究对陪审团裁判逻辑的深入分析，有助于理解对抗制诉讼中事实认定的制度设计，对中国人民陪审员制度的改革有启发意义。",
       "tags": [
         {
           "name": "刑事司法",
           "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Appendix to Practical Consequences in Statutory Interpretation",
+      "url": "https://harvardlawreview.org/print/vol-139/practical-consequences-in-statutory-interpretation/",
+      "summary": "* * * Case NameCitationForm of Comparison / Level of RelianceOpinionDefensive?PlainMeaning?Abbott v. Perez138 S. Ct. 2305 (2018)Both policy and administrability / Undesirable results +...\nThe post Appendix to Practical Consequences in Statutory Interpretation appeared first on Harvard Law Review.",
+      "date": "Tue, 13 Ja",
+      "journal": "Harvard Law Review",
+      "whyMatters": "该论文发表在Harvard Law Review上，探讨了法学领域的重要理论问题。对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "tags": [
+        {
+          "name": "科技与隐私",
+          "class": "tech"
+        }
+      ]
+    },
+    {
+      "title": "Ten Commandments Cases: Learning from Reformation Coercion",
+      "url": "https://michiganlawreview.org/ten-commandments-cases-learning-from-reformation-coercion/",
+      "summary": "The Supreme Court’s recent embrace of “historical practices and understandings” in interpreting the Establishment Clause has emboldened states to challenge forty-five years of precedent prohibiting Ten Commandments displays in public schools. Yet, these states advance&#8230;\nThe post Ten Commandments Cases: Learning from Reformation Coercion appeared first on Michigan Law Review.",
+      "date": "Wed, 07 Ja",
+      "journal": "Michigan Law Review",
+      "whyMatters": "政教分离条款的解释涉及宪法文本主义与活宪法主义的方法论之争。该研究的历史分析路径，对理解宪法解释中历史材料的使用方法具有方法论价值。",
+      "tags": [
+        {
+          "name": "宪法与行政法",
+          "class": "constitutional"
+        }
+      ]
+    },
+    {
+      "title": "The Federal General Counsel, Law, and Our Democracy at a Crossroads",
+      "url": "https://michiganlawreview.org/the-federal-general-counsel-law-and-our-democracy-at-a-crossroads/",
+      "summary": "This speech, given by the general counsel of the Consumer Financial Protection Bureau (CFPB) on January 7, 2025, examines how federal government lawyers can help ensure that laws are faithfully administered to address the contemporary&#8230;\nThe post The Federal General Counsel, Law, and Our Democracy at a Crossroads appeared first on Michigan Law Review.",
+      "date": "Sun, 09 No",
+      "journal": "Michigan Law Review",
+      "whyMatters": "该论文发表在Michigan Law Review上，探讨了法学领域的重要理论问题。对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "tags": [
+        {
+          "name": "科技与隐私",
+          "class": "tech"
+        }
+      ]
+    },
+    {
+      "title": "Curbing Private Enforcement of the Voting Rights Act: Thoughts on Recent Developments",
+      "url": "https://michiganlawreview.org/curbing-private-enforcement-of-the-voting-rights-act-thoughts-on-recent-developments/",
+      "summary": "For decades, private plaintiffs have brought claims to enforce key provisions of the Voting Rights Act (VRA). Recent decisions have tossed out these claims on the ground that enforcement authority lies solely with the Attorney&#8230;\nThe post Curbing Private Enforcement of the Voting Rights Act: Thoughts on Recent Developments appeared first on Michigan Law Review.",
+      "date": "Thu, 31 Oc",
+      "journal": "Michigan Law Review",
+      "whyMatters": "该论文发表在Michigan Law Review上，探讨了法学领域的重要理论问题。对中国相关领域的学术研究和制度完善具有比较法参考价值。",
+      "tags": [
+        {
+          "name": "科技与隐私",
+          "class": "tech"
         }
       ]
     }
