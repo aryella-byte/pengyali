@@ -322,13 +322,25 @@
         // Load data
         async function loadData() {
             try {
-                const response = await fetch('./data/brief-data.json');
+                // Determine correct base path
+                const basePath = window.location.pathname.endsWith('/') ? '' : './';
+                const response = await fetch(basePath + 'data/brief-data.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
                 briefData = await response.json();
+                
+                if (!briefData.news || !briefData.research) {
+                    throw new Error('Invalid data structure');
+                }
+                
                 renderContent();
             } catch (error) {
                 console.error('Failed to load data:', error);
-                document.getElementById('news-content').innerHTML = '<div class="empty-state"><p>暂无数据 | No data available</p></div>';
-                document.getElementById('research-content').innerHTML = '<div class="empty-state"><p>暂无数据 | No data available</p></div>';
+                document.getElementById('news-content').innerHTML = '<div class="empty-state"><p>加载失败，请刷新重试 | Failed to load, please refresh</p></div>';
+                document.getElementById('research-content').innerHTML = '<div class="empty-state"><p>加载失败，请刷新重试 | Failed to load, please refresh</p></div>';
             }
         }
         
