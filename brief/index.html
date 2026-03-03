@@ -534,6 +534,9 @@
                 return;
             }
             
+            // Sort by date (newest first)
+            items.sort((a, b) => parseDate(b.date) - parseDate(a.date));
+            
             container.innerHTML = items.map(item => {
                 const summary = currentLang === 'zh' ? item.summaryCN : item.summaryEN;
                 const whyMatters = currentLang === 'zh' ? item.whyMattersCN : item.whyMattersEN;
@@ -570,6 +573,9 @@
                 container.innerHTML = '<div class="empty-state"><p>暂无论文 | No papers available</p></div>';
                 return;
             }
+            
+            // Sort by date (newest first)
+            items.sort((a, b) => parseDate(b.date) - parseDate(a.date));
             
             container.innerHTML = items.map(item => {
                 const summary = currentLang === 'zh' ? item.summaryCN : item.summaryEN;
