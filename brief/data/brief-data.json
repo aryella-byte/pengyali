@@ -1,6 +1,118 @@
 {
   "news": [
     {
+      "title": "Supreme Court skeptical of law banning drug users from possessing firearms",
+      "titleCN": "最高法院质疑禁止毒品使用者持枪法律",
+      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
+      "date": "Mon, 02 Ma",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国最高法院审理一起挑战联邦法律的案件，该法禁止非法药物使用者持有枪支。被告因持有大麻期间私藏枪支被定罪，主张该禁令违反宪法第二修正案。大法官们在口头辩论中对政府宽泛的枪支管控权表示怀疑，倾向于认为需更精确界定限制范围。",
+      "summaryEN": "The Supreme Court hears a challenge to federal law banning drug users from possessing firearms, with justices skeptical of broad government authority.",
+      "whyMattersCN": "此案关乎第二修正案权利边界与公共安全平衡的长期争议。若法院裁定该法违宪，将大幅限缩联邦枪支管控能力，影响数百万药物使用者的持枪资格；同时确立'危险人员'认定的司法标准，为后续涉枪案件树立先例。",
+      "whyMattersEN": "This case involves the tension between Second Amendment rights and public safety, potentially setting precedent for 'dangerous person' standards.",
+      "tags": [
+        {
+          "name": "第二修正案",
+          "class": "constitutional"
+        },
+        {
+          "name": "枪支管制",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 9
+    },
+    {
+      "title": "Justices to consider breadth of a federal defendant's waiver of appeal",
+      "titleCN": "最高法院将审查联邦被告放弃上诉权的范围",
+      "url": "https://www.scotusblog.com/2026/03/justices-to-consider-breadth-of-a-federal-defendants-waiver-of-appeal/",
+      "date": "Mon, 02 Ma",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院将审理一起刑事案件，核心争议在于联邦被告签署的认罪协议中放弃上诉权的条款范围——被告主张仅放弃直接上诉权，政府则认为连无效辩护主张也一并放弃，涉及对'上诉权'waiver的合理解释边界。",
+      "summaryEN": "The Supreme Court will consider the scope of appeal waiver clauses in federal plea agreements.",
+      "whyMattersCN": "此判决将统一联邦上诉waiver条款的适用标准：若采政府立场，被告将丧失以无效辩护挑战定罪的主要途径，实质削弱第六修正案权利救济；若采被告立场，则认罪协议谈判中检方或要求更明确措辞，深刻影响联邦辩诉交易实践与被告权利保护平衡。",
+      "whyMattersEN": "This ruling will standardize appeal waiver interpretation, affecting plea bargaining and Sixth Amendment rights.",
+      "tags": [
+        {
+          "name": "刑事程序",
+          "class": "criminal"
+        },
+        {
+          "name": "上诉权",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "Court sides with parents in dispute over California policies on transgender students",
+      "titleCN": "Court sides with parents in dispute over California policies on transgender students",
+      "url": "https://www.scotusblog.com/2026/03/divided-court-sides-with-parents-in-dispute-over-california-policies-on-transgender-students/",
+      "date": "Tue, 03 Ma",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国最高法院以6-3裁定支持家长，阻止加州部分学区执行向家长隐瞒学生性别认同变更的政策。争议焦点在于：学区依据州反歧视法，认为未经学生同意通知家长会构成'强制出柜'并违反隐私权；家长则主张其宪法第十四修正案正当程序条款下的父母权利被侵犯。法院未就实体问题作出终局裁决，仅批准临时禁令，将案件发回第九巡回法院重审。",
+      "summaryEN": "The Supreme Court ruled 6-3 to side with parents, blocking California school districts from enforcing policies that conceal students' gender identity changes from parents. The dispute centered on whether districts' reliance on state anti-discrimination laws to withhold such information violated parents' Fourteenth Amendment due process rights. The Court granted a preliminary injunction without ruling on the merits, remanding to the Ninth Circuit. The decision marks the first time the Roberts Court has addressed parental rights in the context of transgender student policies.",
+      "whyMattersCN": "制度影响：确立'家长知情权'与'学生隐私权'冲突时的初步审查标准，要求法院在平衡利益时优先考虑家长宪法权利的程序性保障，可能重塑全美K-12学校的信息披露政策框架。比较法价值：中国《未成年人保护法》第19条同样规定学校应'及时告知'家长学生身心异常情况，但缺乏对性别认同议题的细化规则；本案展示的'利益衡量+临时禁令'程序机制，可为处理类似家校冲突提供比较法参照，特别是如何在尊重未成年人意愿与保障家长监护权之间划定程序边界。",
+      "whyMattersEN": "The ruling establishes that parental notification policies trigger heightened constitutional scrutiny, potentially reshaping how schools nationwide balance student privacy against parental rights. It creates a procedural precedent requiring courts to weigh parents' due process interests before permitting non-disclosure policies. For comparative law, the case offers a framework for resolving conflicts between student autonomy and parental authority—relevant to jurisdictions including China, where Article 19 of the Minor Protection Law similarly mandates school-parent communication but lacks granularity on gender identity issues.",
+      "tags": [
+        {
+          "name": "美国宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "父母权利",
+          "class": ""
+        },
+        {
+          "name": "教育法",
+          "class": ""
+        },
+        {
+          "name": "性别认同",
+          "class": ""
+        },
+        {
+          "name": "正当程序条款",
+          "class": ""
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "Supreme Court grants Republicans’ request to pause order to redraw New York congressional map",
+      "titleCN": "Supreme Court grants Republicans’ request to pause order to redraw New York congressional map",
+      "url": "https://www.scotusblog.com/2026/03/supreme-court-grants-republicans-request-to-pause-order-to-redraw-new-york-congressional-map/",
+      "date": "Tue, 03 Ma",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国最高法院批准共和党请求，暂停执行纽约州法院要求重划国会选区地图的命令。此前纽约州上诉法院认定该选区地图存在党派性不公正划分（partisan gerrymandering），违反州宪法，下令由独立特别主事官重新绘制。最高法院的暂停令使2024年选举可能继续使用原地图， pending further review。",
+      "summaryEN": "The Supreme Court granted Republicans' request to pause a New York state court order requiring redrawing of congressional maps. The state appeals court had found the maps constituted partisan gerrymandering violating the state constitution and ordered an independent special master to redraw them. The stay potentially allows the disputed maps to be used in the 2024 elections pending further review.",
+      "whyMattersCN": "1) 制度影响：本案涉及联邦最高法院对州法院选举法裁决的干预边界，触及'独立州立法机关理论'的延伸适用——即联邦法院是否及如何审查州法院对州选举法的解释。这关系到2024年大选关键摇摆州的选区划分格局。2) 比较法价值：中国虽无选举诉讼，但本案展示了司法审查在选举制度中的制衡功能，以及联邦制下州法与联邦法的复杂互动，对理解司法权与立法权在选举管理中的分配具有参考价值。",
+      "whyMattersEN": "1) Institutional impact: The case involves federal judicial intervention in state court election law rulings, touching on extensions of the 'independent state legislature theory'—whether and how federal courts may review state court interpretations of state election law. This affects congressional map-drawing in key 2024 swing states. 2) Comparative value: While China lacks electoral litigation, the case demonstrates judicial review's checking function in electoral systems and federalism's complex state-federal interactions, offering reference for understanding judicial-legislative power allocation in election administration.",
+      "tags": [
+        {
+          "name": "美国宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "选举法",
+          "class": ""
+        },
+        {
+          "name": "选区划分",
+          "class": ""
+        },
+        {
+          "name": "联邦制",
+          "class": ""
+        },
+        {
+          "name": "司法审查",
+          "class": ""
+        }
+      ],
+      "quality_score": 7
+    },
+    {
       "title": "Court rejects ICE contractor's right to immediate appeal",
       "titleCN": "最高法院驳回ICE承包商即时上诉请求",
       "url": "https://www.scotusblog.com/2026/02/court-rejects-ice-contractors-right-to-immediate-appeal/",
@@ -253,160 +365,46 @@
       ]
     },
     {
-      "title": "Supreme Court skeptical of law banning drug users from possessing firearms",
-      "titleCN": "Supreme Court skeptical of law banning drug users from possessing firearms",
-      "url": "https://www.scotusblog.com/2026/03/supreme-court-skeptical-of-law-banning-drug-users-from-possessing-firearms/",
+      "title": "Court turns down several cases, including on filing fees for indigent prisoners and ability of felons to possess guns",
+      "titleCN": "Court turns down several cases, including on filing fees for indigent prisoners and ability of felons to possess guns",
+      "url": "https://www.scotusblog.com/2026/03/court-turns-down-several-cases-including-on-filing-fees-for-indigent-prisoners-and-ability-of-felons-to-possess-guns/",
       "date": "Mon, 02 Ma",
       "source": "SCOTUSblog",
-      "summaryCN": "美国联邦最高法院就行政权力边界作出重要裁决，涉及重大问题原则的适用。",
-      "summaryEN": "The Supreme Court rules on the boundaries of executive power, involving the Major Questions Doctrine.",
-      "whyMattersCN": "该判决将深刻影响联邦行政机构的规制权力，对理解司法权与行政权的宪法边界具有标杆意义，也可能影响全球行政法发展。",
-      "whyMattersEN": "This ruling will profoundly impact federal regulatory power and sets a precedent for understanding the constitutional boundaries between judicial and executive authority.",
+      "summaryCN": "美国联邦最高法院拒绝受理多起案件，包括两项重要议题：一是贫困囚犯是否享有免交诉讼费的宪法权利，二是重罪犯是否享有第二修正案持枪权。最高法院通过拒绝调卷令（denial of certiorari），维持了下级法院的分歧性裁决，未就这些争议性问题确立统一联邦标准。",
+      "summaryEN": "The U.S. Supreme Court declined to hear several cases, including disputes over filing fee waivers for indigent prisoners and Second Amendment rights for convicted felons. By denying certiorari, the Court left intact conflicting lower court rulings without establishing uniform federal standards on these contentious constitutional issues.",
+      "whyMattersCN": "制度影响：最高法院拒绝受理使得联邦上诉法院之间的分歧持续存在——贫困囚犯诉讼费豁免问题涉及《囚犯诉讼改革法》的合宪性解释，重罪犯持枪权则关乎第二修正案权利恢复的具体标准，形成'电路分裂'（circuit split）却未获解决。比较法价值：中国行政诉讼费用减免制度（《诉讼费用交纳办法》第45条）同样面临'贫困认定标准'与'滥诉防范'的平衡难题；此外，中国刑法第54条剥夺政治权利与附加刑的复权机制，可与美国重罪犯权利恢复程序形成比较研究，尤其涉及职业禁止、资格限制等'隐性刑罚'的合比例性审查。",
+      "whyMattersEN": "Institutional impact: The denials perpetuate circuit splits on two critical issues—interpretation of the Prison Litigation Reform Act's fee waiver provisions and the scope of Second Amendment rights restoration for felons—leaving inconsistent constitutional standards across federal jurisdictions. Comparative value: China's litigation fee waiver system (Article 45 of Litigation Costs Payment Measures) faces analogous tensions between access to justice and frivolous suit prevention; meanwhile, China's deprivation of political rights (Criminal Law Article 54) and rehabilitation mechanisms offer comparative frameworks for analyzing collateral consequences of conviction and proportionality review of 'invisible punishments' like occupational disqualifications.",
       "tags": [
         {
-          "name": "宪法",
-          "class": "constitutional"
+          "name": "美国最高法院",
+          "class": ""
         },
         {
-          "name": "行政法",
-          "class": "constitutional"
-        }
-      ]
-    },
-    {
-      "title": "Oral argument live blog for Monday, March 2",
-      "titleCN": "Oral argument live blog for Monday, March 2",
-      "url": "https://www.scotusblog.com/2026/03/oral-argument-live-blog-for-monday-march-2/",
-      "date": "Mon, 02 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "来自SCOTUSblog的重要法律动态，涉及相关领域的制度发展和实践变化。",
-      "summaryEN": "Important legal developments from SCOTUSblog involving institutional developments and practice changes in relevant fields.",
-      "whyMattersCN": "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
-      "whyMattersEN": "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
-      "tags": [
+          "name": "拒绝调卷令",
+          "class": ""
+        },
         {
-          "name": "法律动态",
+          "name": "诉讼费用减免",
+          "class": ""
+        },
+        {
+          "name": "第二修正案",
+          "class": ""
+        },
+        {
+          "name": "重罪犯权利",
+          "class": ""
+        },
+        {
+          "name": "电路分裂",
+          "class": ""
+        },
+        {
+          "name": "比较法",
           "class": ""
         }
-      ]
-    },
-    {
-      "title": "Justices to consider breadth of a federal defendant’s waiver of appeal",
-      "titleCN": "Justices to consider breadth of a federal defendant’s waiver of appeal",
-      "url": "https://www.scotusblog.com/2026/03/justices-to-consider-breadth-of-a-federal-defendants-waiver-of-appeal/",
-      "date": "Mon, 02 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "美国刑事司法或民事诉讼程序中的最新司法动态，涉及程序正义和实体权利保护。",
-      "summaryEN": "Latest developments in U.S. criminal justice or civil procedure, involving procedural justice and substantive rights protection.",
-      "whyMattersCN": "该案件的审理和判决可能产生先例效应，对理解美国司法实践和程序正义的具体运作具有参考价值。",
-      "whyMattersEN": "The case may create precedent and offers insights into how procedural justice operates in U.S. judicial practice.",
-      "tags": [
-        {
-          "name": "刑事司法",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Trump vows to do ‘whatever it takes’ in Iran as US sends more troops to Middle East",
-      "titleCN": "Trump vows to do ‘whatever it takes’ in Iran as US sends more troops to Middle East",
-      "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
-      "date": "Mon, 02 Ma",
-      "source": "Financial Times",
-      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
-      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
-      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
-      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
-      "tags": [
-        {
-          "name": "国际法",
-          "class": "international"
-        },
-        {
-          "name": "地缘政治",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Inside the plan to kill Ali Khamenei",
-      "titleCN": "Inside the plan to kill Ali Khamenei",
-      "url": "https://www.ft.com/content/bf998c69-ab46-4fa3-aae4-8f18f7387836",
-      "date": "Mon, 02 Ma",
-      "source": "Financial Times",
-      "summaryCN": "来自Financial Times的重要法律动态，涉及相关领域的制度发展和实践变化。",
-      "summaryEN": "Important legal developments from Financial Times involving institutional developments and practice changes in relevant fields.",
-      "whyMattersCN": "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
-      "whyMattersEN": "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
-      "tags": [
-        {
-          "name": "法律动态",
-          "class": ""
-        }
-      ]
-    },
-    {
-      "title": "Gas prices soar as Iranian attacks force shutdown of Qatari production",
-      "titleCN": "Gas prices soar as Iranian attacks force shutdown of Qatari production",
-      "url": "https://www.ft.com/content/dac7a77d-e0f4-4f52-a3d4-55b145e67347",
-      "date": "Mon, 02 Ma",
-      "source": "Financial Times",
-      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
-      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
-      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
-      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
-      "tags": [
-        {
-          "name": "国际法",
-          "class": "international"
-        },
-        {
-          "name": "地缘政治",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Iran attacks show US haven status is in peril",
-      "titleCN": "Iran attacks show US haven status is in peril",
-      "url": "https://www.ft.com/content/a8c8cfbd-b5fa-4c61-b72a-38531b029623",
-      "date": "Mon, 02 Ma",
-      "source": "Financial Times",
-      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
-      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
-      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
-      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
-      "tags": [
-        {
-          "name": "国际法",
-          "class": "international"
-        },
-        {
-          "name": "地缘政治",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Hedge funds rethink emerging market bets after US-Israel strikes on Iran",
-      "titleCN": "Hedge funds rethink emerging market bets after US-Israel strikes on Iran",
-      "url": "https://www.ft.com/content/25d61973-30a0-4290-940d-8a51fd79b0be",
-      "date": "Mon, 02 Ma",
-      "source": "Financial Times",
-      "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
-      "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
-      "whyMattersCN": "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
-      "whyMattersEN": "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
-      "tags": [
-        {
-          "name": "国际法",
-          "class": "international"
-        },
-        {
-          "name": "地缘政治",
-          "class": "international"
-        }
-      ]
+      ],
+      "quality_score": 7
     }
   ],
   "research": [
@@ -510,6 +508,108 @@
           "class": "criminal"
         }
       ]
+    },
+    {
+      "title": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "titleCN": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "url": "https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "summaryCN": "本文主张对社交媒体年龄验证法适用内容中立审查标准（intermediate scrutiny），而非传统上针对未成年人的家长式严格审查。作者认为，此类法律虽以保护儿童为名，实则构成基于内容的发言者身份分类，触发第一修正案审查。论文分析了NetChoice案等近期判例，论证年龄验证要求对匿名言论、获取合法信息造成过度限制，提出法院应采用\"内容中立\"框架平衡儿童保护与宪法权利。",
+      "summaryEN": "This article argues that social media age-verification laws should be subject to content-neutral intermediate scrutiny rather than traditional paternalistic strict scrutiny for minors. The author contends these laws, though framed as child protection, constitute content-based speaker identity classifications triggering First Amendment review. Analyzing recent cases like NetChoice, the paper demonstrates that age-verification requirements impose excessive burdens on anonymous speech and lawful information access, proposing courts adopt a \"content neutrality\" framework to balance child safety with constitutional rights.",
+      "whyMattersCN": "制度影响：该研究挑战了美国法院长期将儿童保护法规置于宽松审查的传统，试图确立\"技术中立审查\"新框架，可能重塑TikTok、Instagram等平台监管的合宪性标准。比较法价值：中国《未成年人网络保护条例》同样面临年龄验证与个人信息保护的冲突，美国第一修正案分析中的\"发言者身份分类\"\"内容中立性\"等工具，可为我国审查网络实名制、青少年模式的合比例性提供比较法资源，尤其关于\"过度限制\"（overbreadth）的分析方法具有借鉴意义。",
+      "whyMattersEN": "Institutional impact: The study challenges the long-standing tradition of applying deferential scrutiny to child protection regulations in U.S. courts, seeking to establish a new \"technological neutrality review\" framework that could reshape constitutional standards for regulating platforms like TikTok and Instagram. Comparative value: China's Regulations on the Protection of Minors in Cyberspace faces similar tensions between age verification and personal information protection. The First Amendment analytical tools—such as \"speaker identity classification\" and \"content neutrality\"—offer comparative resources for assessing the proportionality of China's real-name registration and youth mode requirements, particularly the overbreadth doctrine.",
+      "tags": [
+        {
+          "name": "第一修正案",
+          "class": ""
+        },
+        {
+          "name": "网络监管",
+          "class": ""
+        },
+        {
+          "name": "未成年人保护",
+          "class": ""
+        },
+        {
+          "name": "比较宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "平台治理",
+          "class": ""
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
+      "titleCN": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
+      "url": "https://harvardlawreview.org/print/vol-139/black-voters-matter-capacity-building-institute-inc-v-secretary-florida-department-of-state/",
+      "date": "Wed, 11 Fe",
+      "journal": "Harvard Law Review",
+      "summaryCN": "本案涉及佛罗里达州选举法对选民登记组织的限制规定，包括禁止非公民参与登记工作、设定每日罚款上限及强制提交宣誓书等要求。第十一巡回法院以2:1裁决驳回原告的宪法挑战，认定这些规定不构成对第一修正案言论自由和第十四修正案平等保护权的过度限制，维持了州法对选民登记活动的监管框架。",
+      "summaryEN": "This case concerns Florida's election law restrictions on voter registration organizations, including prohibitions on non-citizen participation, daily fine caps, and mandatory affidavit requirements. The Eleventh Circuit ruled 2-1 to reject plaintiffs' constitutional challenges, holding that these provisions do not impermissibly burden First Amendment free speech or Fourteenth Amendment equal protection rights, upholding the state's regulatory framework for voter registration activities.",
+      "whyMattersCN": "本案确立了审查选民登记组织监管法的司法标准：法院采用\"合理关联\"测试而非严格审查，显著降低了州法合宪性门槛。这一先例将影响全美各州类似立法的合宪性判断，尤其涉及公民社会组织参与选举的边界。对中国而言，本案展示了美国如何通过司法审查平衡选举诚信与公民参与，其比例原则的运用与比例原则在中国行政法中的发展形成对照，但美国法院对立法事实的尊重程度明显高于中国行政诉讼中的司法审查强度。",
+      "whyMattersEN": "This case establishes the judicial standard for reviewing voter registration organization regulations: the court applied a 'reasonable fit' test rather than strict scrutiny, significantly lowering the constitutional bar for state laws. This precedent will affect similar legislation nationwide, particularly concerning boundaries of civil society participation in elections. For China, it demonstrates how U.S. courts balance electoral integrity with civic participation through judicial review; its proportionality analysis contrasts with developing proportionality principles in Chinese administrative law, though U.S. courts show notably greater deference to legislative findings than Chinese administrative litigation typically exhibits.",
+      "tags": [
+        {
+          "name": "选举法",
+          "class": ""
+        },
+        {
+          "name": "第一修正案",
+          "class": ""
+        },
+        {
+          "name": "公民社会组织",
+          "class": ""
+        },
+        {
+          "name": "司法审查标准",
+          "class": ""
+        },
+        {
+          "name": "比较宪法",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 7
+    },
+    {
+      "title": "Appendix to Practical Consequences in Statutory Interpretation",
+      "titleCN": "Appendix to Practical Consequences in Statutory Interpretation",
+      "url": "https://harvardlawreview.org/print/vol-139/practical-consequences-in-statutory-interpretation/",
+      "date": "Tue, 13 Ja",
+      "journal": "Harvard Law Review",
+      "summaryCN": "该附录探讨了美国法下法律解释中\"实际后果\"（practical consequences）的运用，分析了法院在解释制定法时如何考量判决的现实效果，包括行政可行性、经济影响与社会成本。研究梳理了相关判例，评估了后果主义解释方法的正当性边界及其与文本主义、原旨主义的关系。",
+      "summaryEN": "This appendix examines the use of 'practical consequences' in American statutory interpretation, analyzing how courts consider real-world effects—administrative feasibility, economic impact, and social costs—when construing statutes. It surveys relevant case law and evaluates the legitimacy boundaries of consequentialist interpretation methods and their relationship with textualism and originalism.",
+      "whyMattersCN": "制度影响：该研究系统化了美国制定法解释中后果考量的操作框架，区分了'荒谬结果规则'（absurdity doctrine）与广义的政策分析，对法官裁量权的行使提供了方法论指引。比较法价值：中国行政审判中亦存在\"社会效果\"考量（如指导性案例的裁判要旨），但缺乏理论化边界；该文可为厘清中国法官后果考量的正当性范围、防止任意解释提供比较法参照，尤其在涉及重大公共政策的行政案件解释中。",
+      "whyMattersEN": "Institutional impact: The study systematizes the operational framework for consequential considerations in American statutory interpretation, distinguishing the 'absurdity doctrine' from broad policy analysis, providing methodological guidance for judicial discretion. Comparative value: Chinese administrative adjudication also incorporates 'social effects' considerations (e.g., in guiding cases' holdings), but lacks theoretical boundaries; this article offers comparative reference for clarifying the legitimate scope of consequential reasoning by Chinese judges and preventing arbitrary interpretation, particularly in administrative cases involving significant public policy.",
+      "tags": [
+        {
+          "name": "制定法解释",
+          "class": ""
+        },
+        {
+          "name": "法律解释方法",
+          "class": ""
+        },
+        {
+          "name": "比较法",
+          "class": ""
+        },
+        {
+          "name": "后果主义",
+          "class": ""
+        },
+        {
+          "name": "行政法",
+          "class": ""
+        }
+      ],
+      "quality_score": 7
     }
   ]
 }
