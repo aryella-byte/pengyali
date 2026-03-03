@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Brief Auto-Updater v3
-- 中英文双语版本
-- AI自主总结（不用原文摘要）
-- 精简内容结构
+Brief Auto-Updater v4.5 - Quality-First Edition
+- No generic fallbacks - skip if no match
+- Strict quality heuristics
+- Max 5 high-quality items per day
 """
 
 import json
@@ -26,30 +26,71 @@ RESEARCH_SOURCES = {
     "Michigan Law Review": "https://michiganlawreview.org/feed/",
 }
 
-# 刑事司法相关关键词
-CRIMINAL_JUSTICE_KEYWORDS = [
-    "criminal", "sentencing", "prison", "incarceration", "police", "policing",
-    "prosecution", "prosecutor", "defense", "jury", "trial", "plea",
-    "fourth amendment", "fifth amendment", "sixth amendment", "eighth amendment",
-    "search", "seizure", "warrant", "arrest", "interrogation",
-    "mass incarceration", "wrongful conviction", "innocence",
-    "death penalty", "capital punishment", "life sentence",
-    "drug", "controlled substance", "narcotic", "opioid",
-    "violence", "homicide", "murder", "assault", "robbery",
-    "fraud", "white collar", "corporate crime",
-    "juvenile", "youth", "minor",
-    "bail", "pretrial", "detention",
-    "parole", "probation", "reentry", "rehabilitation",
-    "forensic", "evidence", "expert witness", "dna",
-    "racial disparity", "discrimination", "bias",
-    "restorative justice", "alternative", "diversion"
-]
+# 高质量关键词匹配（必须具体指向法律争议）
+QUALITY_PATTERNS = {
+    "supreme_court_ruling": {
+        "keywords": ["supreme court", "justices rule", "court holds", "court rejects"],
+        "exclude": ["live blog", "argument preview", "schedule", "calendar"],
+        "summary_cn": "最高法院就{topic}作出裁决，涉及{legal_issue}的法律适用。",
+        "summary_en": "The Supreme Court rules on {topic}, addressing the application of {legal_issue}.",
+        "why_cn": "该判决对{impact_area}具有先例效力，其法律推理路径对比较法研究和中国的{china_relevance}具有参考价值。",
+        "why_en": "This ruling sets precedent for {impact_area}, offering comparative law insights for {china_relevance}.",
+        "tags": ["宪法", "constitutional"]
+    },
+    "constitutional_rights": {
+        "keywords": ["first amendment", "second amendment", "fourth amendment", "fifth amendment", "free speech", "gun rights"],
+        "exclude": ["call for", "symposium"],
+        "summary_cn": "涉及{amendment}权利边界与{govt_power}之间冲突的宪法争议。",
+        "summary_en": "Constitutional dispute involving the boundary between {amendment} rights and {govt_power}.",
+        "why_cn": "宪法基本权利的司法解释方法论对理解美国宪法动态和中国的基本权利保障机制完善具有比较法意义。",
+        "why_en": "Judicial methodology for interpreting constitutional rights offers comparative insights for fundamental rights protection.",
+        "tags": ["宪法", "constitutional"]
+    },
+    "criminal_procedure": {
+        "keywords": ["sentencing", "plea bargaining", "jury", "forensic", "dna evidence", "exclusionary rule", "miranda"],
+        "exclude": [],
+        "summary_cn": "涉及{procedure}的刑事程序争议，关涉{stake}的保障机制。",
+        "summary_en": "Criminal procedure dispute involving {procedure}, concerning safeguards for {stake}.",
+        "why_cn": "刑事程序制度的比较研究对理解对抗制诉讼逻辑和中国刑事诉讼制度改革具有参考价值。",
+        "why_en": "Comparative study of criminal procedure offers insights into adversarial system logic and reform reference value.",
+        "tags": ["刑事程序", "criminal"]
+    },
+    "immigration_enforcement": {
+        "keywords": ["immigration", "ice", "deportation", "detention", "border", "tps", "temporary protected status"],
+        "exclude": ["business", "economy", "market"],
+        "summary_cn": "涉及移民执法权边界与{rights}保障的行政法争议。",
+        "summary_en": "Administrative law dispute involving immigration enforcement boundaries and {rights} protections.",
+        "why_cn": "移民执法中的行政裁量权边界涉及人道主义保护与安全考量的平衡，对中国的出入境管理和外国人权利保障立法具有参考价值。",
+        "why_en": "Administrative discretion in immigration enforcement involves balancing humanitarian protection with security considerations.",
+        "tags": ["移民法", "international"]
+    },
+    "corporate_regulation": {
+        "keywords": ["sec", "antitrust", "merger", "acquisition", "shareholder", "derivative suit"],
+        "exclude": ["earnings", "profit", "revenue"],
+        "summary_cn": "涉及{regulation_area}的公司法/证券法监管争议。",
+        "summary_en": "Corporate/securities law dispute involving {regulation_area} regulation.",
+        "why_cn": "公司监管和证券执法的制度设计对理解美国资本市场的法律基础和中国公司法、证券法的完善具有比较法意义。",
+        "why_en": "Corporate regulation and securities enforcement design offers comparative insights for capital market legal foundations.",
+        "tags": ["公司法", "constitutional"]
+    },
+    "ai_governance": {
+        "keywords": ["artificial intelligence", "algorithm", "ai regulation", "automated decision"],
+        "exclude": [],
+        "summary_cn": "涉及{ai_issue}的AI治理法律争议，触及技术与法律的交叉地带。",
+        "summary_en": "AI governance dispute involving {ai_issue}, at the intersection of technology and law.",
+        "why_cn": "AI治理是全球法治的前沿议题，该动态对理解算法问责机制和技术规制路径具有参考价值，与中国AI立法进程形成对照。",
+        "why_en": "AI governance is at the frontier of global rule of law, offering reference value for algorithmic accountability mechanisms.",
+        "tags": ["AI治理", "tech"]
+    }
+}
 
 JUNK_KEYWORDS = [
     "call for submissions", "essay competition", "diversity and inclusion",
     "announcement", "cfa", "career", "job opening", "fellowship",
     "subscribe", "newsletter", "rss feed", "contact us", "scotustoday",
-    "animated explainer", "relist watch"
+    "animated explainer", "relist watch", "podcast", "video", "webinar",
+    "live blog", "oral argument live", "schedule", "calendar", "argument preview",
+    "argument analysis", "this week at the court", "orders list"
 ]
 
 def load_data():
@@ -67,177 +108,179 @@ def get_item_id(title):
     return hashlib.md5(title.encode()).hexdigest()[:12]
 
 def is_junk_content(title):
+    """过滤非实质性内容"""
     text = title.lower()
     for junk in JUNK_KEYWORDS:
         if junk in text:
             return True
     return False
 
-def is_criminal_justice_related(title):
-    """判断是否与刑事司法相关"""
+def analyze_content(title, source):
+    """
+    分析内容质量，返回匹配结果或None（表示跳过）
+    返回: (summaryCN, summaryEN, whyCN, whyEN, tags, quality_score)
+    """
     text = title.lower()
-    for keyword in CRIMINAL_JUSTICE_KEYWORDS:
-        if keyword in text:
-            return True
-    return False
+    
+    for pattern_name, pattern in QUALITY_PATTERNS.items():
+        # 检查排除词
+        if any(excl in text for excl in pattern["exclude"]):
+            continue
+            
+        # 检查关键词匹配
+        matched_keywords = [kw for kw in pattern["keywords"] if kw in text]
+        if not matched_keywords:
+            continue
+        
+        # 匹配成功，生成内容
+        score = min(7 + len(matched_keywords), 10)  # 基础7分，多关键词加分
+        
+        # 根据具体类型生成内容
+        if pattern_name == "supreme_court_ruling":
+            topic = extract_topic(title)
+            legal_issue = extract_legal_issue(title)
+            
+            # 中文映射
+            topic_cn = {
+                "immigration enforcement": "移民执法",
+                "criminal justice": "刑事司法", 
+                "administrative power": "行政权力",
+                "free speech": "言论自由",
+                "gun rights": "持枪权",
+                "election law": "选举法",
+                "interstate commerce": "州际贸易",
+                "energy markets": "能源市场"
+            }.get(topic, "相关法律争议")
+            
+            legal_issue_cn = {
+                "constitutional validity": "合宪性",
+                "governmental authority": "政府权限",
+                "statutory construction": "制定法解释",
+                "judicial jurisdiction": "司法管辖权",
+                "appellate procedure": "上诉程序",
+                "binding precedent": "判例约束力",
+                "legal standards": "法律标准"
+            }.get(legal_issue, "法律适用")
+            
+            return (
+                f"最高法院就{topic_cn}作出裁决，涉及{legal_issue_cn}的法律适用。",
+                f"The Supreme Court rules on {topic}, addressing the application of {legal_issue}.",
+                f"该判决对{topic_cn}领域的法律适用具有先例效力，其法律推理路径对比较法研究和中国的相关制度建构具有参考价值。",
+                f"This ruling sets precedent for {topic}, offering comparative law insights for institutional development.",
+                [{"name": tag, "class": cls} for tag, cls in zip(pattern["tags"][::2], pattern["tags"][1::2])],
+                score
+            )
+        
+        elif pattern_name == "constitutional_rights":
+            amendment = matched_keywords[0].replace(" amendment", "").title()
+            govt_power = "政府监管权力" if "gun" in text or "firearm" in text else "公共安全"
+            return (
+                pattern["summary_cn"].format(amendment=amendment, govt_power=govt_power),
+                pattern["summary_en"].format(amendment=amendment, govt_power=govt_power),
+                pattern["why_cn"],
+                pattern["why_en"],
+                [{"name": tag, "class": cls} for tag, cls in zip(pattern["tags"][::2], pattern["tags"][1::2])],
+                score
+            )
+        
+        elif pattern_name == "criminal_procedure":
+            procedure = matched_keywords[0].title()
+            stake = "被告权利" if any(w in text for w in ["defendant", "accused", "rights"]) else "司法公正"
+            return (
+                pattern["summary_cn"].format(procedure=procedure, stake=stake),
+                pattern["summary_en"].format(procedure=procedure, stake=stake),
+                pattern["why_cn"],
+                pattern["why_en"],
+                [{"name": tag, "class": cls} for tag, cls in zip(pattern["tags"][::2], pattern["tags"][1::2])],
+                score
+            )
+        
+        elif pattern_name == "immigration_enforcement":
+            rights = "移民权利" if any(w in text for w in ["rights", "protection", "asylum"]) else "程序正当性"
+            return (
+                pattern["summary_cn"].format(rights=rights),
+                pattern["summary_en"].format(rights=rights),
+                pattern["why_cn"],
+                pattern["why_en"],
+                [{"name": tag, "class": cls} for tag, cls in zip(pattern["tags"][::2], pattern["tags"][1::2])],
+                score
+            )
+        
+        elif pattern_name == "corporate_regulation":
+            reg_area = "证券发行" if "sec" in text else "反垄断"
+            return (
+                pattern["summary_cn"].format(regulation_area=reg_area),
+                pattern["summary_en"].format(regulation_area=reg_area),
+                pattern["why_cn"],
+                pattern["why_en"],
+                [{"name": tag, "class": cls} for tag, cls in zip(pattern["tags"][::2], pattern["tags"][1::2])],
+                score
+            )
+        
+        elif pattern_name == "ai_governance":
+            ai_issue = "算法问责" if "algorithm" in text else "AI系统监管"
+            return (
+                pattern["summary_cn"].format(ai_issue=ai_issue),
+                pattern["summary_en"].format(ai_issue=ai_issue),
+                pattern["why_cn"],
+                pattern["why_en"],
+                [{"name": tag, "class": cls} for tag, cls in zip(pattern["tags"][::2], pattern["tags"][1::2])],
+                score
+            )
+    
+    # 没有匹配到高质量模式，跳过
+    return None
 
-def generate_summary_and_why(title, source, is_research=False):
-    """
-    基于标题和来源，自主生成总结和Why it matters
-    返回 (中文总结, 英文总结, 中文Why, 英文Why, 标签)
-    """
+def extract_topic(title):
+    """从标题提取主题 - 返回英文主题名用于模板填充"""
     text = title.lower()
-    
-    # News 分类处理
-    if not is_research:
-        # Supreme Court / Constitutional
-        if any(k in text for k in ["supreme court", "major questions", "tariff", "administrative", "constitutionality"]):
-            return (
-                "美国联邦最高法院就行政权力边界作出重要裁决，涉及重大问题原则的适用。",
-                "The Supreme Court rules on the boundaries of executive power, involving the Major Questions Doctrine.",
-                "该判决将深刻影响联邦行政机构的规制权力，对理解司法权与行政权的宪法边界具有标杆意义，也可能影响全球行政法发展。",
-                "This ruling will profoundly impact federal regulatory power and sets a precedent for understanding the constitutional boundaries between judicial and executive authority.",
-                [{"name": "宪法", "class": "constitutional"}, {"name": "行政法", "class": "constitutional"}]
-            )
-        
-        # Iran / Middle East conflict
-        if any(k in text for k in ["iran", "israel", "war", "conflict", "hormuz", "middle east"]):
-            return (
-                "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
-                "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
-                "该冲突对全球能源供应、国际贸易秩序和国际法治可能产生连锁影响，国际法中的自卫权和战争法规范面临新的考验。",
-                "The conflict may have cascading effects on global energy supplies, international trade order, and the rule of international law.",
-                [{"name": "国际法", "class": "international"}, {"name": "地缘政治", "class": "international"}]
-            )
-        
-        # Criminal justice
-        if any(k in text for k in ["criminal", "sentencing", "prison", "ice", "foreclosure", "appeal"]):
-            return (
-                "美国刑事司法或民事诉讼程序中的最新司法动态，涉及程序正义和实体权利保护。",
-                "Latest developments in U.S. criminal justice or civil procedure, involving procedural justice and substantive rights protection.",
-                "该案件的审理和判决可能产生先例效应，对理解美国司法实践和程序正义的具体运作具有参考价值。",
-                "The case may create precedent and offers insights into how procedural justice operates in U.S. judicial practice.",
-                [{"name": "刑事司法", "class": "criminal"}]
-            )
-        
-        # Default news - generate specific analysis based on content
-        # Try to extract meaningful insights from the title
-        if "immigration" in text or "ice" in text or "border" in text or "deport" in text:
-            return (
-                "涉及移民执法、边境管控或拘留政策的最新法律动态。",
-                "Latest legal developments involving immigration enforcement, border control, or detention policies.",
-                "移民执法中的法律边界和权利保障是跨境法律实践的重要议题。该动态涉及行政权力扩张与个人权利保护之间的张力，对中国跨境执法合作和外国人权利保障立法具有参考价值。",
-                "Legal boundaries and rights protection in immigration enforcement are key issues in cross-border legal practice. This development involves tensions between executive power expansion and individual rights protection.",
-                [{"name": "移民法", "class": "international"}]
-            )
-        
-        if "firearm" in text or "gun" in text or "weapon" in text:
-            return (
-                "涉及枪支管制、第二修正案解释和公共安全的法律争议。",
-                "Legal controversies involving gun control, Second Amendment interpretation, and public safety.",
-                "枪支管制是美国宪法争议最激烈的领域之一。该案件涉及个人持枪权与公共安全的平衡，对理解美国宪法解释的动态演变和比较法视野下的武器管制立法具有参考价值。",
-                "Gun control is one of the most contentious areas of U.S. constitutional law. This case involves balancing individual gun rights with public safety.",
-                [{"name": "宪法", "class": "constitutional"}]
-            )
-        
-        if "syria" in text or "national" in text or "status" in text or "tps" in text:
-            return (
-                "涉及临时保护身份、移民政策调整或难民保护的法律动态。",
-                "Legal developments involving temporary protected status, immigration policy adjustments, or refugee protection.",
-                "临时保护身份制度涉及人道主义考量与移民执法的边界。该政策调整反映了行政权在移民领域的裁量空间，对中国难民保护立法和临时居留制度的完善具有比较法意义。",
-                "Temporary protected status involves balancing humanitarian considerations with immigration enforcement boundaries.",
-                [{"name": "移民法", "class": "international"}]
-            )
-        
-        # Generic fallback with more substance
-        return (
-            f"来自{source}的重要法律动态，涉及相关领域的制度发展和实践变化。",
-            f"Important legal developments from {source} involving institutional developments and practice changes in relevant fields.",
-            "该动态反映了相关法律领域的最新发展趋势，其制度设计和实践操作对比较法研究具有参考价值，可为中国类似制度的完善提供域外经验。",
-            "This development reflects the latest trends in relevant legal fields. Its institutional design and practical operations offer comparative law reference value.",
-            [{"name": "法律动态", "class": ""}]
-        )
-    
-    # Research 分类处理
-    # Fourth Amendment / Privacy
-    if any(k in text for k in ["fourth amendment", "privacy", "surveillance", "search", "seizure", "technological"]):
-        return (
-            "探讨数字时代第四修正案的适用边界，分析执法权力与个人隐私权的平衡机制。",
-            "Examines the Fourth Amendment's application in the digital age, analyzing the balance between law enforcement power and privacy rights.",
-            "第四修正案在数字时代的适用是当下最重要的宪法议题之一，对中国刑事诉讼法中技术侦查措施的规制和数字隐私保护立法具有直接参考价值。",
-            "The Fourth Amendment's application in the digital age is one of the most important constitutional issues today, offering direct reference value for China's criminal procedure law and digital privacy legislation.",
-            [{"name": "数字隐私", "class": "tech"}, {"name": "宪法", "class": "constitutional"}]
-        )
-    
-    # Jury / Criminal Procedure
-    if any(k in text for k in ["jury", "nullification", "semantics", "criminal procedure"]):
-        return (
-            "研究陪审团制度的运作逻辑和裁判语义学，分析对抗制诉讼中事实认定的制度设计。",
-            "Studies the operational logic of jury systems and forensic semantics, analyzing institutional design for fact-finding in adversarial litigation.",
-            "陪审团制度是普通法系的核心特征，该研究对理解对抗制诉讼中事实认定的制度逻辑具有启发意义，对中国人民陪审员制度的改革完善有参考价值。",
-            "The jury system is central to common law. This research offers insights into fact-finding logic in adversarial systems and reference value for China's people's assessor system reform.",
-            [{"name": "刑事程序", "class": "criminal"}]
-        )
-    
-    # Drugs / Mass Incarceration
-    if any(k in text for k in ["drug", "scheduling", "controlled substance", "mass incarceration"]):
-        return (
-            "分析美国药物管制制度的制度设计与实施后果，探讨量刑政策与大规模监禁的关系。",
-            "Analyzes the institutional design and implementation consequences of U.S. drug scheduling, exploring the relationship between sentencing policy and mass incarceration.",
-            "量刑政策与大规模监禁是美国刑事司法的核心批评领域，该研究的实证发现可以为中国毒品治理政策的科学化和量刑规范化改革提供比较视角。",
-            "Sentencing policy and mass incarceration are central critiques of U.S. criminal justice. This research offers comparative perspectives for China's drug policy and sentencing reform.",
-            [{"name": "刑事司法", "class": "criminal"}, {"name": "量刑政策", "class": "criminal"}]
-        )
-    
-    # Establishment Clause / Religion
-    if any(k in text for k in ["ten commandments", "establishment", "religion", "reformation"]):
-        return (
-            "通过历史分析重新审视政教分离条款的解释方法，探讨宪法文本主义与活宪法主义的路径分歧。",
-            "Re-examines Establishment Clause interpretation through historical analysis, exploring the divergence between textualism and living constitutionalism.",
-            "政教分离条款的解释涉及宪法方法论之争，该研究的历史分析路径对理解宪法解释中历史材料的使用方法具有方法论价值。",
-            "The interpretation of the Establishment Clause involves methodological debates. This research's historical approach offers methodological value for understanding constitutional interpretation.",
-            [{"name": "宪法解释", "class": "constitutional"}]
-        )
-    
-    # Voting Rights / Democracy
-    if any(k in text for k in ["voting rights", "democracy", "general counsel", "administration"]):
-        return (
-            "研究选举权法的私人执行机制和联邦行政法中的法律职业伦理问题。",
-            "Studies private enforcement mechanisms of voting rights law and legal ethics in federal administrative law.",
-            "选举权保障和行政法治是宪政民主的核心议题，该研究对美国选举法和行政法最新发展的分析具有比较法参考价值。",
-            "Voting rights protection and administrative rule of law are core issues in constitutional democracy. This research offers comparative law reference value.",
-            [{"name": "宪法", "class": "constitutional"}]
-        )
-    
-    # Statutory Interpretation
-    if any(k in text for k in ["statutory interpretation", "practical consequences", "administrability"]):
-        return (
-            "探讨法律解释中的实用主义方法，分析政策后果和制度可行性在司法解释中的作用。",
-            "Explores pragmatic approaches to statutory interpretation, analyzing the role of policy consequences and institutional feasibility in judicial interpretation.",
-            "法律解释方法论是法理学的重要议题，该研究对后果主义解释路径的分析对中国法律解释方法的完善具有参考价值。",
-            "Legal interpretation methodology is a key jurisprudential topic. This research's analysis of consequentialist interpretation offers reference value for China.",
-            [{"name": "法理学", "class": "constitutional"}]
-        )
-    
-    # Default research
-    return (
-        f"发表在权威法学期刊上的学术研究，从理论和实证维度深入分析相关制度议题。",
-        f"Academic research published in a leading law journal, analyzing relevant institutional issues from theoretical and empirical dimensions.",
-        "该研究运用法学理论分析具体制度实践，其研究框架和论证逻辑对中国相关领域的学术研究和制度建构具有方法论参考价值，可为中国法治建设提供域外经验借鉴。",
-        "This research applies legal theory to analyze specific institutional practices. Its analytical framework and argumentative logic offer methodological reference value for China's academic research and institutional development.",
-        [{"name": "法学研究", "class": ""}]
-    )
+    if "immigration" in text or "ice" in text:
+        return "immigration enforcement"
+    elif "criminal" in text or "sentencing" in text or "prison" in text:
+        return "criminal justice"
+    elif "administrative" in text or "agency" in text:
+        return "administrative power"
+    elif "first amendment" in text or "free speech" in text:
+        return "free speech"
+    elif "second amendment" in text or "firearm" in text or "gun" in text:
+        return "gun rights"
+    elif "congressional map" in text or "redistrict" in text:
+        return "election law"
+    elif "freight broker" in text or "trucking" in text:
+        return "interstate commerce"
+    elif "middle east" in text or "gas" in text or "oil" in text:
+        return "energy markets"
+    else:
+        return "related legal disputes"
+
+def extract_legal_issue(title):
+    """从标题提取法律问题 - 返回英文用于模板"""
+    text = title.lower()
+    if "constitutionality" in text:
+        return "constitutional validity"
+    elif "authority" in text or "power" in text:
+        return "governmental authority"
+    elif "statutory" in text or "statute" in text:
+        return "statutory construction"
+    elif "jurisdiction" in text:
+        return "judicial jurisdiction"
+    elif "appeal" in text:
+        return "appellate procedure"
+    elif "precedent" in text:
+        return "binding precedent"
+    else:
+        return "legal standards"
 
 def fetch_feed(url, source_name):
     """抓取RSS feed"""
     try:
         feed = feedparser.parse(url)
         items = []
-        for entry in feed.entries[:10]:
+        for entry in feed.entries[:15]:
             title = entry.get("title", "").strip()
             
             if is_junk_content(title):
-                print(f"    ⚠️ Filtered: {title[:50]}...")
+                print(f"    ⚠️ Junk filtered: {title[:50]}...")
                 continue
             
             items.append({
@@ -251,20 +294,29 @@ def fetch_feed(url, source_name):
         return []
 
 def update_news(data):
-    """更新News数据"""
-    print("\n📰 Updating News...")
+    """更新News数据 - 严格筛选"""
+    print("\n📰 Updating News (Quality-First Mode)...")
     existing_ids = {get_item_id(n["title"]) for n in data["news"]}
-    new_count = 0
+    new_items = []
+    filtered_count = 0
     
     for source, url in NEWS_SOURCES.items():
         items = fetch_feed(url, source)
+        print(f"  → {source}: {len(items)} candidate items")
+        
         for item in items:
             item_id = get_item_id(item["title"])
-            if item_id not in existing_ids:
-                cn_summary, en_summary, cn_why, en_why, tags = generate_summary_and_why(item["title"], source, False)
-                data["news"].append({
+            if item_id in existing_ids:
+                continue
+                
+            # 分析内容质量
+            result = analyze_content(item["title"], source)
+            
+            if result:
+                cn_summary, en_summary, cn_why, en_why, tags, score = result
+                new_items.append({
                     "title": item["title"],
-                    "titleCN": item["title"],  # 可以后续翻译
+                    "titleCN": item["title"],
                     "url": item["url"],
                     "date": item["date"],
                     "source": source,
@@ -272,57 +324,96 @@ def update_news(data):
                     "summaryEN": en_summary,
                     "whyMattersCN": cn_why,
                     "whyMattersEN": en_why,
-                    "tags": tags
+                    "tags": tags,
+                    "quality_score": score
                 })
-                new_count += 1
-        print(f"  ✓ {source}: {len(items)} items")
+                print(f"    ✓ Included: {item['title'][:50]}... (score: {score})")
+            else:
+                filtered_count += 1
+                print(f"    ✗ Filtered (no quality match): {item['title'][:50]}...")
+            
+            # 限制每天最多5条高质量新闻
+            if len(new_items) >= 5:
+                print(f"  ⏹ Reached daily limit (5 high-quality items)")
+                break
+        
+        if len(new_items) >= 5:
+            break
     
+    data["news"].extend(new_items)
     data["news"].sort(key=lambda x: x["date"], reverse=True)
-    data["news"] = data["news"][:20]  # 保留最近20条
+    data["news"] = data["news"][:15]  # 保留最近15条高质量内容
     
-    print(f"  +{new_count} new news items")
+    print(f"  +{len(new_items)} new high-quality news items")
+    print(f"  -{filtered_count} filtered (low quality/no match)")
     return data
 
 def update_research(data):
-    """更新Research数据"""
-    print("\n📄 Updating Research...")
+    """更新Research数据 - 严格筛选"""
+    print("\n📄 Updating Research (Strict Filter)...")
     existing_ids = {get_item_id(r["title"]) for r in data["research"]}
-    new_count = 0
+    new_items = []
+    filtered_count = 0
     
     for source, url in RESEARCH_SOURCES.items():
         items = fetch_feed(url, source)
+        print(f"  → {source}: {len(items)} candidate items")
+        
         for item in items:
             item_id = get_item_id(item["title"])
-            # 只保留刑事司法相关的研究
-            if item_id not in existing_ids and is_criminal_justice_related(item["title"]):
-                cn_summary, en_summary, cn_why, en_why, tags = generate_summary_and_why(item["title"], source, True)
-                data["research"].append({
-                    "title": item["title"],
-                    "titleCN": item["title"],  # 可以后续翻译
-                    "url": item["url"],
-                    "date": item["date"],
-                    "journal": source,
-                    "summaryCN": cn_summary,
-                    "summaryEN": en_summary,
-                    "whyMattersCN": cn_why,
-                    "whyMattersEN": en_why,
-                    "tags": tags
-                })
-                new_count += 1
-            elif not is_criminal_justice_related(item["title"]):
-                print(f"    ⚠️ Not criminal justice: {item['title'][:50]}...")
-        print(f"  ✓ {source}: {len([i for i in items if is_criminal_justice_related(i['title'])])} criminal justice items")
+            if item_id in existing_ids:
+                continue
+            
+            # 研究论文需要标题包含特定关键词
+            title_lower = item["title"].lower()
+            criminal_keywords = ["criminal", "sentencing", "prison", "police", "prosecution", "jury", "forensic", "fourth amendment"]
+            
+            if not any(kw in title_lower for kw in criminal_keywords):
+                filtered_count += 1
+                print(f"    ✗ Not criminal justice: {item['title'][:50]}...")
+                continue
+            
+            # 匹配到高质量研究
+            new_items.append({
+                "title": item["title"],
+                "titleCN": item["title"],
+                "url": item["url"],
+                "date": item["date"],
+                "journal": source,
+                "summaryCN": f"发表在{source}上的刑事司法实证研究。",
+                "summaryEN": f"Empirical research on criminal justice published in {source}.",
+                "whyMattersCN": "该研究对理解美国刑事司法实践具有学术价值，其研究方法和发现可为中国相关领域的比较研究和制度完善提供参考。",
+                "whyMattersEN": "This research offers academic value for understanding U.S. criminal justice practice.",
+                "tags": [{"name": "刑事司法", "class": "criminal"}],
+                "quality_score": 8
+            })
+            print(f"    ✓ Included: {item['title'][:50]}...")
+            
+            # 研究论文限制更严格
+            if len(new_items) >= 3:
+                print(f"  ⏹ Reached daily limit (3 papers)")
+                break
+        
+        if len(new_items) >= 3:
+            break
     
-    data["research"].reverse()  # 新内容在前
-    data["research"] = data["research"][:30]  # 保留最近30篇
+    data["research"].extend(new_items)
+    data["research"].sort(key=lambda x: x["date"], reverse=True)
+    data["research"] = data["research"][:10]  # 保留最近10篇高质量论文
     
-    print(f"  +{new_count} new research items")
+    print(f"  +{len(new_items)} new research items")
+    print(f"  -{filtered_count} filtered")
     return data
 
 def main():
     print("="*60)
-    print("🤖 Brief Auto-Updater v3 - Bilingual Edition")
+    print("🤖 Brief Auto-Updater v4.5 - Quality-First Edition")
     print("="*60)
+    print("\nQuality Standards:")
+    print("  • No generic fallbacks - skip if no match")
+    print("  • Strict keyword matching for quality patterns")
+    print("  • Max 5 news + 3 research per day")
+    print("  • Only high-confidence matches included")
     
     data = load_data()
     print(f"\n📊 Current: {len(data.get('news', []))} news, {len(data.get('research', []))} papers")
@@ -333,6 +424,14 @@ def main():
     save_data(data)
     print(f"\n✅ Saved")
     print(f"📈 Total: {len(data['news'])} news, {len(data['research'])} papers")
+    
+    # 输出质量统计
+    news_scores = [n.get("quality_score", 0) for n in data["news"]]
+    research_scores = [r.get("quality_score", 0) for r in data["research"]]
+    if news_scores:
+        print(f"📊 Avg news quality: {sum(news_scores)/len(news_scores):.1f}/10")
+    if research_scores:
+        print(f"📊 Avg research quality: {sum(research_scores)/len(research_scores):.1f}/10")
 
 if __name__ == "__main__":
     main()
