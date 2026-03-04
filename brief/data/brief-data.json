@@ -1,44 +1,36 @@
 {
   "news": [
     {
-      "title": "Supreme Court skeptical of law banning drug users from possessing firearms",
-      "titleCN": "最高法院质疑禁止毒品使用者持枪法律",
-      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
-      "date": "Mon, 02 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "美国最高法院审理一起挑战联邦法律的案件，该法禁止非法药物使用者持有枪支。被告因持有大麻期间私藏枪支被定罪，主张该禁令违反宪法第二修正案。大法官们在口头辩论中对政府宽泛的枪支管控权表示怀疑，倾向于认为需更精确界定限制范围。",
-      "summaryEN": "The Supreme Court hears a challenge to federal law banning drug users from possessing firearms, with justices skeptical of broad government authority.",
-      "whyMattersCN": "此案关乎第二修正案权利边界与公共安全平衡的长期争议。若法院裁定该法违宪，将大幅限缩联邦枪支管控能力，影响数百万药物使用者的持枪资格；同时确立'危险人员'认定的司法标准，为后续涉枪案件树立先例。",
-      "whyMattersEN": "This case involves the tension between Second Amendment rights and public safety, potentially setting precedent for 'dangerous person' standards.",
+      "title": "Gulf states in race to secure more US interceptors",
+      "titleCN": "Gulf states in race to secure more US interceptors",
+      "url": "https://www.ft.com/content/9353bcc0-ae95-48a3-bc6b-0a7b2f643a2a",
+      "date": "Wed, 04 Ma",
+      "source": "Financial Times",
+      "summaryCN": "涉及证券发行的公司法/证券法监管争议。",
+      "summaryEN": "Corporate/securities law dispute involving 证券发行 regulation.",
+      "whyMattersCN": "公司监管和证券执法的制度设计对理解美国资本市场的法律基础和中国公司法、证券法的完善具有比较法意义。",
+      "whyMattersEN": "Corporate regulation and securities enforcement design offers comparative insights for capital market legal foundations.",
       "tags": [
         {
-          "name": "第二修正案",
-          "class": "constitutional"
-        },
-        {
-          "name": "枪支管制",
+          "name": "公司法",
           "class": "constitutional"
         }
       ],
-      "quality_score": 9
+      "quality_score": 8
     },
     {
-      "title": "Justices to consider breadth of a federal defendant's waiver of appeal",
-      "titleCN": "最高法院将审查联邦被告放弃上诉权的范围",
-      "url": "https://www.scotusblog.com/2026/03/justices-to-consider-breadth-of-a-federal-defendants-waiver-of-appeal/",
-      "date": "Mon, 02 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院将审理一起刑事案件，核心争议在于联邦被告签署的认罪协议中放弃上诉权的条款范围——被告主张仅放弃直接上诉权，政府则认为连无效辩护主张也一并放弃，涉及对'上诉权'waiver的合理解释边界。",
-      "summaryEN": "The Supreme Court will consider the scope of appeal waiver clauses in federal plea agreements.",
-      "whyMattersCN": "此判决将统一联邦上诉waiver条款的适用标准：若采政府立场，被告将丧失以无效辩护挑战定罪的主要途径，实质削弱第六修正案权利救济；若采被告立场，则认罪协议谈判中检方或要求更明确措辞，深刻影响联邦辩诉交易实践与被告权利保护平衡。",
-      "whyMattersEN": "This ruling will standardize appeal waiver interpretation, affecting plea bargaining and Sixth Amendment rights.",
+      "title": "Owner of collapsed Brazilian bank arrested for second time",
+      "titleCN": "Owner of collapsed Brazilian bank arrested for second time",
+      "url": "https://www.ft.com/content/6f11fd62-9aef-4e39-a62b-1902011247ce",
+      "date": "Wed, 04 Ma",
+      "source": "Financial Times",
+      "summaryCN": "涉及证券发行的公司法/证券法监管争议。",
+      "summaryEN": "Corporate/securities law dispute involving 证券发行 regulation.",
+      "whyMattersCN": "公司监管和证券执法的制度设计对理解美国资本市场的法律基础和中国公司法、证券法的完善具有比较法意义。",
+      "whyMattersEN": "Corporate regulation and securities enforcement design offers comparative insights for capital market legal foundations.",
       "tags": [
         {
-          "name": "刑事程序",
-          "class": "criminal"
-        },
-        {
-          "name": "上诉权",
+          "name": "公司法",
           "class": "constitutional"
         }
       ],
@@ -111,6 +103,42 @@
         }
       ],
       "quality_score": 7
+    },
+    {
+      "title": "The UK Supreme Court",
+      "titleCN": "The UK Supreme Court",
+      "url": "https://www.scotusblog.com/2026/03/the-uk-supreme-court/",
+      "date": "Tue, 03 Ma",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院就相关法律争议作出裁决，涉及法律标准的法律适用。",
+      "summaryEN": "The Supreme Court rules on related legal disputes, addressing the application of legal standards.",
+      "whyMattersCN": "该判决对相关法律争议领域的法律适用具有先例效力，其法律推理路径对比较法研究和中国的相关制度建构具有参考价值。",
+      "whyMattersEN": "This ruling sets precedent for related legal disputes, offering comparative law insights for institutional development.",
+      "tags": [
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "The justices’ troubling message to lower courts",
+      "titleCN": "The justices’ troubling message to lower courts",
+      "url": "https://www.scotusblog.com/2026/03/the-justices-troubling-message-to-lower-courts/",
+      "date": "Tue, 03 Ma",
+      "source": "SCOTUSblog",
+      "summaryCN": "涉及移民执法权边界与程序正当性保障的行政法争议。",
+      "summaryEN": "Administrative law dispute involving immigration enforcement boundaries and 程序正当性 protections.",
+      "whyMattersCN": "移民执法中的行政裁量权边界涉及人道主义保护与安全考量的平衡，对中国的出入境管理和外国人权利保障立法具有参考价值。",
+      "whyMattersEN": "Administrative discretion in immigration enforcement involves balancing humanitarian protection with security considerations.",
+      "tags": [
+        {
+          "name": "移民法",
+          "class": "international"
+        }
+      ],
+      "quality_score": 8
     },
     {
       "title": "Court rejects ICE contractor's right to immediate appeal",
@@ -300,111 +328,6 @@
           "class": "international"
         }
       ]
-    },
-    {
-      "title": "Trump has no realistic plan for Iran's future",
-      "titleCN": "特朗普对伊朗未来缺乏现实规划",
-      "url": "https://www.ft.com/content/437130e7-ed4e-4919-8bf3-ac38c2eed6af",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "FT评论指出，特朗普政府的伊朗政策聚焦于军事打击但缺乏战后重建和政权过渡规划，可能导致类似伊拉克战争后的混乱局面。",
-      "summaryEN": "FT commentary notes that the Trump administration's Iran policy focuses on military strikes but lacks post-war reconstruction and regime transition planning.",
-      "whyMattersCN": "该案涉及国际法中的战后重建责任和占领国义务。美国若缺乏战后规划便发动战争，可能违反海牙公约中的占领法义务，对理解战争法中的国家责任、战后重建法律框架以及预防性战争的合法性具有警示意义。",
-      "whyMattersEN": "This case involves post-war reconstruction responsibilities and occupying power obligations in international law.",
-      "tags": [
-        {
-          "name": "占领法",
-          "class": "international"
-        },
-        {
-          "name": "战后重建",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Air travel heavily disrupted following Iranian strikes",
-      "titleCN": "伊朗袭击后航空交通严重中断",
-      "url": "https://www.ft.com/content/5fcfaf76-54e6-41f1-860b-0ca6c6380395",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "伊朗导弹袭击导致中东地区航空交通大规模中断，数万旅客滞留，国际航空法中的安全管辖权和航空器主权豁免问题凸显。",
-      "summaryEN": "Iranian missile strikes cause large-scale disruption of air traffic in the Middle East, stranding tens of thousands of passengers.",
-      "whyMattersCN": "该案涉及国际航空法中的安全管辖权和航空器主权豁免问题。武装冲突对国际民航安全的威胁及其法律后果，对中国民航安全监管和紧急情况下的航空管制具有参考价值。",
-      "whyMattersEN": "This case involves issues of safety jurisdiction and aircraft sovereign immunity in international aviation law.",
-      "tags": [
-        {
-          "name": "国际航空法",
-          "class": "international"
-        },
-        {
-          "name": "安全监管",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Starmer will let US use UK bases for attacks on Iranian missile sites",
-      "titleCN": "英国首相授权美军使用英国基地打击伊朗导弹设施",
-      "url": "https://www.ft.com/content/b988499b-1a89-4e56-b0cf-19d5a8ac7111",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "英国首相斯塔默授权美军使用英国在塞浦路斯的军事基地对伊朗境内导弹设施发动打击，引发英国国内关于战争权力和议会监督的宪法争议。",
-      "summaryEN": "UK Prime Minister Starmer authorizes U.S. forces to use British military bases in Cyprus to strike Iranian missile facilities.",
-      "whyMattersCN": "该案涉及战争权力的宪法分配和议会监督机制。首相绕过议会授权外国军队使用英国领土发动战争，触及英国宪法中行政权与立法权的权力边界，对中国紧急状态下的权力行使和军事决策程序具有比较法参考价值。",
-      "whyMattersEN": "This case involves the constitutional allocation of war powers and parliamentary oversight mechanisms.",
-      "tags": [
-        {
-          "name": "战争权力",
-          "class": "constitutional"
-        },
-        {
-          "name": "宪法监督",
-          "class": "constitutional"
-        }
-      ]
-    },
-    {
-      "title": "Court turns down several cases, including on filing fees for indigent prisoners and ability of felons to possess guns",
-      "titleCN": "Court turns down several cases, including on filing fees for indigent prisoners and ability of felons to possess guns",
-      "url": "https://www.scotusblog.com/2026/03/court-turns-down-several-cases-including-on-filing-fees-for-indigent-prisoners-and-ability-of-felons-to-possess-guns/",
-      "date": "Mon, 02 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "美国联邦最高法院拒绝受理多起案件，包括两项重要议题：一是贫困囚犯是否享有免交诉讼费的宪法权利，二是重罪犯是否享有第二修正案持枪权。最高法院通过拒绝调卷令（denial of certiorari），维持了下级法院的分歧性裁决，未就这些争议性问题确立统一联邦标准。",
-      "summaryEN": "The U.S. Supreme Court declined to hear several cases, including disputes over filing fee waivers for indigent prisoners and Second Amendment rights for convicted felons. By denying certiorari, the Court left intact conflicting lower court rulings without establishing uniform federal standards on these contentious constitutional issues.",
-      "whyMattersCN": "制度影响：最高法院拒绝受理使得联邦上诉法院之间的分歧持续存在——贫困囚犯诉讼费豁免问题涉及《囚犯诉讼改革法》的合宪性解释，重罪犯持枪权则关乎第二修正案权利恢复的具体标准，形成'电路分裂'（circuit split）却未获解决。比较法价值：中国行政诉讼费用减免制度（《诉讼费用交纳办法》第45条）同样面临'贫困认定标准'与'滥诉防范'的平衡难题；此外，中国刑法第54条剥夺政治权利与附加刑的复权机制，可与美国重罪犯权利恢复程序形成比较研究，尤其涉及职业禁止、资格限制等'隐性刑罚'的合比例性审查。",
-      "whyMattersEN": "Institutional impact: The denials perpetuate circuit splits on two critical issues—interpretation of the Prison Litigation Reform Act's fee waiver provisions and the scope of Second Amendment rights restoration for felons—leaving inconsistent constitutional standards across federal jurisdictions. Comparative value: China's litigation fee waiver system (Article 45 of Litigation Costs Payment Measures) faces analogous tensions between access to justice and frivolous suit prevention; meanwhile, China's deprivation of political rights (Criminal Law Article 54) and rehabilitation mechanisms offer comparative frameworks for analyzing collateral consequences of conviction and proportionality review of 'invisible punishments' like occupational disqualifications.",
-      "tags": [
-        {
-          "name": "美国最高法院",
-          "class": ""
-        },
-        {
-          "name": "拒绝调卷令",
-          "class": ""
-        },
-        {
-          "name": "诉讼费用减免",
-          "class": ""
-        },
-        {
-          "name": "第二修正案",
-          "class": ""
-        },
-        {
-          "name": "重罪犯权利",
-          "class": ""
-        },
-        {
-          "name": "电路分裂",
-          "class": ""
-        },
-        {
-          "name": "比较法",
-          "class": ""
-        }
-      ],
-      "quality_score": 7
     }
   ],
   "research": [
