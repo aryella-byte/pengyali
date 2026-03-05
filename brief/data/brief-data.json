@@ -1,262 +1,10 @@
 {
   "news": [
     {
-      "title": "Court rejects ICE contractor's right to immediate appeal",
-      "titleCN": "最高法院驳回ICE承包商即时上诉请求",
-      "url": "https://www.scotusblog.com/2026/02/court-rejects-ice-contractors-right-to-immediate-appeal/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院裁定私人监狱承包商GEO Group不能就有关其拘留设施条件的判决立即提起上诉，涉及《囚犯诉讼改革法》的适用范围。",
-      "summaryEN": "The Supreme Court rules that private prison contractor GEO Group cannot immediately appeal a judgment regarding conditions at its detention facility.",
-      "whyMattersCN": "该案涉及私人监狱监管的法律边界和移民拘留条件的人权保障。GEO Group作为ICE承包商，其拘留设施的人权争议反映了移民执法中外包模式的制度困境。",
-      "whyMattersEN": "This case involves the legal boundaries of private prison oversight and human rights protections in immigration detention.",
-      "tags": [
-        {
-          "name": "移民拘留",
-          "class": "criminal"
-        },
-        {
-          "name": "私人监狱",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Beach blasts and unusually dangerous weapons",
-      "titleCN": "海滩爆炸案与异常危险武器界定",
-      "url": "https://www.scotusblog.com/2026/02/beach-blasts-and-unusually-dangerous-weapons/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院审查一起因海滩燃放烟花导致严重伤害的案件，涉及《联邦爆炸物法》中异常危险武器的定义边界。",
-      "summaryEN": "The Supreme Court reviews a case involving serious injuries from fireworks on a beach, addressing the definitional boundaries of unusually dangerous weapons.",
-      "whyMattersCN": "该案涉及刑法中危险物品监管的法律标准界定。法院对异常危险武器的解释将影响烟花等消费品的监管责任和刑事责任认定。",
-      "whyMattersEN": "This case involves the legal standards for regulating dangerous items in criminal law.",
-      "tags": [
-        {
-          "name": "刑法解释",
-          "class": "criminal"
-        },
-        {
-          "name": "危险物品监管",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Trump administration asks justices to allow it to remove protected status from Syrian nationals",
-      "titleCN": "特朗普政府请求最高法院终止叙利亚公民临时保护身份",
-      "url": "https://www.scotusblog.com/2026/02/trump-administration-asks-justices-to-allow-it-to-remove-protected-status-from-syrian-nationals/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "特朗普政府请求最高法院授权终止约8000名叙利亚公民的临时保护身份(TPS)，该身份原本保护他们免于因祖国战乱被驱逐出境。",
-      "summaryEN": "The Trump administration asks the Supreme Court to authorize terminating Temporary Protected Status for approximately 8,000 Syrian nationals.",
-      "whyMattersCN": "该案涉及行政权在移民政策中的裁量边界和人道主义保护的法律基础。TPS制度的存废争议反映了美国移民执法中安全考量与人道义务的冲突。",
-      "whyMattersEN": "This case involves the boundaries of executive discretion in immigration policy and the legal foundations of humanitarian protection.",
-      "tags": [
-        {
-          "name": "移民法",
-          "class": "international"
-        },
-        {
-          "name": "人道主义保护",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Court to hear argument on whether and when drug users may possess firearms",
-      "titleCN": "最高法院将审理毒品使用者持枪权案",
-      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院将审理United States v. Daniels案，挑战联邦法律禁止非法药物使用者持有枪支的规定，涉及第二修正案权利与公共安全监管的冲突。",
-      "summaryEN": "The Supreme Court will hear United States v. Daniels, challenging federal law that prohibits unlawful drug users from possessing firearms.",
-      "whyMattersCN": "该案触及美国宪法争议最激烈的两个领域——枪支管制与毒品政策的交叉点。法院对危险人群禁枪标准的界定，将影响数百万药物使用者的宪法权利。",
-      "whyMattersEN": "This case touches the intersection of America's most contentious constitutional issues—gun control and drug policy.",
-      "tags": [
-        {
-          "name": "第二修正案",
-          "class": "constitutional"
-        },
-        {
-          "name": "毒品政策",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Iran conflict: Israel targets Hizbollah in Lebanon",
-      "titleCN": "以色列空袭黎巴嫩真主党目标",
-      "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "以色列对黎巴嫩境内真主党目标发动空袭，伊朗威胁报复，中东地区紧张局势急剧升级，国际油价和黄金价格大幅波动。",
-      "summaryEN": "Israel launches airstrikes against Hizbollah targets in Lebanon, Iran threatens retaliation, and tensions in the Middle East escalate sharply.",
-      "whyMattersCN": "以色列与真主党的冲突升级涉及国际法中的自卫权行使和武力使用比例原则。伊朗威胁报复可能引发区域性战争，国际法中的预防性自卫和武装冲突法规范的适用边界面临新的考验。",
-      "whyMattersEN": "The escalation of conflict between Israel and Hizbollah involves the exercise of self-defense rights and proportionality principles in the use of force under international law.",
-      "tags": [
-        {
-          "name": "武装冲突法",
-          "class": "international"
-        },
-        {
-          "name": "自卫权",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Trump's epic gamble in the Middle East",
-      "titleCN": "特朗普在中东的史诗级赌博",
-      "url": "https://www.ft.com/content/e71429a4-c69e-4487-94ff-af5394c831c0",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "FT分析指出，特朗普政府推动的伊朗政权更迭政策缺乏后续规划，可能引发地区权力真空和长期动荡，其外交决策模式体现了单边主义的风险。",
-      "summaryEN": "FT analysis suggests the Trump administration's Iran regime change policy lacks follow-up planning and could trigger regional power vacuums and long-term instability.",
-      "whyMattersCN": "该案涉及国际法中的政权更迭合法性和人道主义干预的边界争议。美国单方面推动政权更迭的做法，对理解国际法中的不干涉内政原则和使用武力的合法性标准具有警示意义。",
-      "whyMattersEN": "This case involves controversies over the legitimacy of regime change and the boundaries of humanitarian intervention in international law.",
-      "tags": [
-        {
-          "name": "国际法",
-          "class": "international"
-        },
-        {
-          "name": "政权更迭",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "After Khamenei, who rules Iran?",
-      "titleCN": "哈梅内伊之后，谁来统治伊朗？",
-      "url": "https://www.ft.com/content/6fe57836-7392-471f-875d-293c7f2db7d4",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "若哈梅内伊身亡，伊朗权力继承面临不确定性，革命卫队与神权体制内部的权力斗争可能决定未来走向，对外政策或更加激进。",
-      "summaryEN": "If Khamenei dies, Iran's power succession faces uncertainty, with power struggles between the Revolutionary Guard and theocratic institutions likely determining future directions.",
-      "whyMattersCN": "该案涉及国际法中的国家继承和政权连续性原则。伊朗最高权力继承的不确定性，将影响国际条约义务的履行和国际法律责任的承担。",
-      "whyMattersEN": "This case involves principles of state succession and regime continuity in international law.",
-      "tags": [
-        {
-          "name": "国家继承",
-          "class": "international"
-        },
-        {
-          "name": "宪法危机",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Military briefing: Iran's new retaliation strategy",
-      "titleCN": "军事简报：伊朗的新报复战略",
-      "url": "https://www.ft.com/content/f2eae858-a5a4-4c49-9526-e1757a2d55e2",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "伊朗采用持续骚扰战术，对以色列发动多轮导弹袭击，同时针对海湾地区民用设施，试图通过消耗战迫使对方让步。",
-      "summaryEN": "Iran adopts a persistent harassment tactic, launching multiple rounds of missile strikes against Israel while targeting civilian facilities in the Gulf region.",
-      "whyMattersCN": "该案涉及武装冲突法中的平民保护原则和军事目标界定标准。伊朗针对民用设施的袭击可能构成战争罪，对理解国际人道法中的区分原则、比例原则以及战争罪行的认定标准具有参考价值。",
-      "whyMattersEN": "This case involves the principle of civilian protection and standards for defining military targets in the laws of armed conflict.",
-      "tags": [
-        {
-          "name": "战争罪",
-          "class": "international"
-        },
-        {
-          "name": "人道主义法",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "What will war in Iran do to the global economy?",
-      "titleCN": "伊朗战争将对全球经济产生何种影响？",
-      "url": "https://www.ft.com/content/31bfc01b-42a8-45f1-85d3-8f973595a456",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "霍尔木兹海峡石油运输中断可能导致油价飙升至每桶130美元，全球通胀压力加剧，国际制裁法的域外适用引发贸易争端。",
-      "summaryEN": "Disruption of oil transportation through the Strait of Hormuz could cause oil prices to soar to $130 per barrel, intensifying global inflation pressures.",
-      "whyMattersCN": "该案涉及国际经济法中的制裁法域外适用和贸易救济机制。霍尔木兹海峡封锁将触发国际能源危机，对理解国际法中的不可抗力条款、贸易救济措施以及制裁法的域外管辖权限制具有现实意义。",
-      "whyMattersEN": "This case involves the extraterritorial application of sanctions law and trade remedy mechanisms in international economic law.",
-      "tags": [
-        {
-          "name": "制裁法",
-          "class": "international"
-        },
-        {
-          "name": "能源安全",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Trump has no realistic plan for Iran's future",
-      "titleCN": "特朗普对伊朗未来缺乏现实规划",
-      "url": "https://www.ft.com/content/437130e7-ed4e-4919-8bf3-ac38c2eed6af",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "FT评论指出，特朗普政府的伊朗政策聚焦于军事打击但缺乏战后重建和政权过渡规划，可能导致类似伊拉克战争后的混乱局面。",
-      "summaryEN": "FT commentary notes that the Trump administration's Iran policy focuses on military strikes but lacks post-war reconstruction and regime transition planning.",
-      "whyMattersCN": "该案涉及国际法中的战后重建责任和占领国义务。美国若缺乏战后规划便发动战争，可能违反海牙公约中的占领法义务，对理解战争法中的国家责任、战后重建法律框架以及预防性战争的合法性具有警示意义。",
-      "whyMattersEN": "This case involves post-war reconstruction responsibilities and occupying power obligations in international law.",
-      "tags": [
-        {
-          "name": "占领法",
-          "class": "international"
-        },
-        {
-          "name": "战后重建",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Air travel heavily disrupted following Iranian strikes",
-      "titleCN": "伊朗袭击后航空交通严重中断",
-      "url": "https://www.ft.com/content/5fcfaf76-54e6-41f1-860b-0ca6c6380395",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "伊朗导弹袭击导致中东地区航空交通大规模中断，数万旅客滞留，国际航空法中的安全管辖权和航空器主权豁免问题凸显。",
-      "summaryEN": "Iranian missile strikes cause large-scale disruption of air traffic in the Middle East, stranding tens of thousands of passengers.",
-      "whyMattersCN": "该案涉及国际航空法中的安全管辖权和航空器主权豁免问题。武装冲突对国际民航安全的威胁及其法律后果，对中国民航安全监管和紧急情况下的航空管制具有参考价值。",
-      "whyMattersEN": "This case involves issues of safety jurisdiction and aircraft sovereign immunity in international aviation law.",
-      "tags": [
-        {
-          "name": "国际航空法",
-          "class": "international"
-        },
-        {
-          "name": "安全监管",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Starmer will let US use UK bases for attacks on Iranian missile sites",
-      "titleCN": "英国首相授权美军使用英国基地打击伊朗导弹设施",
-      "url": "https://www.ft.com/content/b988499b-1a89-4e56-b0cf-19d5a8ac7111",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "英国首相斯塔默授权美军使用英国在塞浦路斯的军事基地对伊朗境内导弹设施发动打击，引发英国国内关于战争权力和议会监督的宪法争议。",
-      "summaryEN": "UK Prime Minister Starmer authorizes U.S. forces to use British military bases in Cyprus to strike Iranian missile facilities.",
-      "whyMattersCN": "该案涉及战争权力的宪法分配和议会监督机制。首相绕过议会授权外国军队使用英国领土发动战争，触及英国宪法中行政权与立法权的权力边界，对中国紧急状态下的权力行使和军事决策程序具有比较法参考价值。",
-      "whyMattersEN": "This case involves the constitutional allocation of war powers and parliamentary oversight mechanisms.",
-      "tags": [
-        {
-          "name": "战争权力",
-          "class": "constitutional"
-        },
-        {
-          "name": "宪法监督",
-          "class": "constitutional"
-        }
-      ]
-    },
-    {
       "title": "Supreme Court skeptical of law banning drug users from possessing firearms",
       "titleCN": "Supreme Court skeptical of law banning drug users from possessing firearms",
       "url": "https://www.scotusblog.com/2026/03/supreme-court-skeptical-of-law-banning-drug-users-from-possessing-firearms/",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "SCOTUSblog",
       "summaryCN": "美国联邦最高法院就行政权力边界作出重要裁决，涉及重大问题原则的适用。",
       "summaryEN": "The Supreme Court rules on the boundaries of executive power, involving the Major Questions Doctrine.",
@@ -277,7 +25,7 @@
       "title": "Oral argument live blog for Monday, March 2",
       "titleCN": "Oral argument live blog for Monday, March 2",
       "url": "https://www.scotusblog.com/2026/03/oral-argument-live-blog-for-monday-march-2/",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "SCOTUSblog",
       "summaryCN": "来自SCOTUSblog的重要法律动态，涉及相关领域的制度发展和实践变化。",
       "summaryEN": "Important legal developments from SCOTUSblog involving institutional developments and practice changes in relevant fields.",
@@ -294,7 +42,7 @@
       "title": "Justices to consider breadth of a federal defendant’s waiver of appeal",
       "titleCN": "Justices to consider breadth of a federal defendant’s waiver of appeal",
       "url": "https://www.scotusblog.com/2026/03/justices-to-consider-breadth-of-a-federal-defendants-waiver-of-appeal/",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "SCOTUSblog",
       "summaryCN": "美国刑事司法或民事诉讼程序中的最新司法动态，涉及程序正义和实体权利保护。",
       "summaryEN": "Latest developments in U.S. criminal justice or civil procedure, involving procedural justice and substantive rights protection.",
@@ -311,7 +59,7 @@
       "title": "Trump vows to do ‘whatever it takes’ in Iran as US sends more troops to Middle East",
       "titleCN": "Trump vows to do ‘whatever it takes’ in Iran as US sends more troops to Middle East",
       "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "Financial Times",
       "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
       "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
@@ -332,7 +80,7 @@
       "title": "Inside the plan to kill Ali Khamenei",
       "titleCN": "Inside the plan to kill Ali Khamenei",
       "url": "https://www.ft.com/content/bf998c69-ab46-4fa3-aae4-8f18f7387836",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "Financial Times",
       "summaryCN": "来自Financial Times的重要法律动态，涉及相关领域的制度发展和实践变化。",
       "summaryEN": "Important legal developments from Financial Times involving institutional developments and practice changes in relevant fields.",
@@ -349,7 +97,7 @@
       "title": "Gas prices soar as Iranian attacks force shutdown of Qatari production",
       "titleCN": "Gas prices soar as Iranian attacks force shutdown of Qatari production",
       "url": "https://www.ft.com/content/dac7a77d-e0f4-4f52-a3d4-55b145e67347",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "Financial Times",
       "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
       "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
@@ -370,7 +118,7 @@
       "title": "Iran attacks show US haven status is in peril",
       "titleCN": "Iran attacks show US haven status is in peril",
       "url": "https://www.ft.com/content/a8c8cfbd-b5fa-4c61-b72a-38531b029623",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "Financial Times",
       "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
       "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
@@ -391,7 +139,7 @@
       "title": "Hedge funds rethink emerging market bets after US-Israel strikes on Iran",
       "titleCN": "Hedge funds rethink emerging market bets after US-Israel strikes on Iran",
       "url": "https://www.ft.com/content/25d61973-30a0-4290-940d-8a51fd79b0be",
-      "date": "Mon, 02 Ma",
+      "date": "2026-03-02",
       "source": "Financial Times",
       "summaryCN": "中东地区冲突升级，涉及国际法中的武力使用、主权豁免和战争法规范。",
       "summaryEN": "Escalating conflict in the Middle East raises questions about use of force, sovereign immunity, and the laws of war.",
@@ -407,6 +155,258 @@
           "class": "international"
         }
       ]
+    },
+    {
+      "title": "Iran conflict: Israel targets Hizbollah in Lebanon",
+      "titleCN": "以色列空袭黎巴嫩真主党目标",
+      "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "以色列对黎巴嫩境内真主党目标发动空袭，伊朗威胁报复，中东地区紧张局势急剧升级，国际油价和黄金价格大幅波动。",
+      "summaryEN": "Israel launches airstrikes against Hizbollah targets in Lebanon, Iran threatens retaliation, and tensions in the Middle East escalate sharply.",
+      "whyMattersCN": "以色列与真主党的冲突升级涉及国际法中的自卫权行使和武力使用比例原则。伊朗威胁报复可能引发区域性战争，国际法中的预防性自卫和武装冲突法规范的适用边界面临新的考验。",
+      "whyMattersEN": "The escalation of conflict between Israel and Hizbollah involves the exercise of self-defense rights and proportionality principles in the use of force under international law.",
+      "tags": [
+        {
+          "name": "武装冲突法",
+          "class": "international"
+        },
+        {
+          "name": "自卫权",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Trump's epic gamble in the Middle East",
+      "titleCN": "特朗普在中东的史诗级赌博",
+      "url": "https://www.ft.com/content/e71429a4-c69e-4487-94ff-af5394c831c0",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "FT分析指出，特朗普政府推动的伊朗政权更迭政策缺乏后续规划，可能引发地区权力真空和长期动荡，其外交决策模式体现了单边主义的风险。",
+      "summaryEN": "FT analysis suggests the Trump administration's Iran regime change policy lacks follow-up planning and could trigger regional power vacuums and long-term instability.",
+      "whyMattersCN": "该案涉及国际法中的政权更迭合法性和人道主义干预的边界争议。美国单方面推动政权更迭的做法，对理解国际法中的不干涉内政原则和使用武力的合法性标准具有警示意义。",
+      "whyMattersEN": "This case involves controversies over the legitimacy of regime change and the boundaries of humanitarian intervention in international law.",
+      "tags": [
+        {
+          "name": "国际法",
+          "class": "international"
+        },
+        {
+          "name": "政权更迭",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "After Khamenei, who rules Iran?",
+      "titleCN": "哈梅内伊之后，谁来统治伊朗？",
+      "url": "https://www.ft.com/content/6fe57836-7392-471f-875d-293c7f2db7d4",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "若哈梅内伊身亡，伊朗权力继承面临不确定性，革命卫队与神权体制内部的权力斗争可能决定未来走向，对外政策或更加激进。",
+      "summaryEN": "If Khamenei dies, Iran's power succession faces uncertainty, with power struggles between the Revolutionary Guard and theocratic institutions likely determining future directions.",
+      "whyMattersCN": "该案涉及国际法中的国家继承和政权连续性原则。伊朗最高权力继承的不确定性，将影响国际条约义务的履行和国际法律责任的承担。",
+      "whyMattersEN": "This case involves principles of state succession and regime continuity in international law.",
+      "tags": [
+        {
+          "name": "国家继承",
+          "class": "international"
+        },
+        {
+          "name": "宪法危机",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Military briefing: Iran's new retaliation strategy",
+      "titleCN": "军事简报：伊朗的新报复战略",
+      "url": "https://www.ft.com/content/f2eae858-a5a4-4c49-9526-e1757a2d55e2",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "伊朗采用持续骚扰战术，对以色列发动多轮导弹袭击，同时针对海湾地区民用设施，试图通过消耗战迫使对方让步。",
+      "summaryEN": "Iran adopts a persistent harassment tactic, launching multiple rounds of missile strikes against Israel while targeting civilian facilities in the Gulf region.",
+      "whyMattersCN": "该案涉及武装冲突法中的平民保护原则和军事目标界定标准。伊朗针对民用设施的袭击可能构成战争罪，对理解国际人道法中的区分原则、比例原则以及战争罪行的认定标准具有参考价值。",
+      "whyMattersEN": "This case involves the principle of civilian protection and standards for defining military targets in the laws of armed conflict.",
+      "tags": [
+        {
+          "name": "战争罪",
+          "class": "international"
+        },
+        {
+          "name": "人道主义法",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "What will war in Iran do to the global economy?",
+      "titleCN": "伊朗战争将对全球经济产生何种影响？",
+      "url": "https://www.ft.com/content/31bfc01b-42a8-45f1-85d3-8f973595a456",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "霍尔木兹海峡石油运输中断可能导致油价飙升至每桶130美元，全球通胀压力加剧，国际制裁法的域外适用引发贸易争端。",
+      "summaryEN": "Disruption of oil transportation through the Strait of Hormuz could cause oil prices to soar to $130 per barrel, intensifying global inflation pressures.",
+      "whyMattersCN": "该案涉及国际经济法中的制裁法域外适用和贸易救济机制。霍尔木兹海峡封锁将触发国际能源危机，对理解国际法中的不可抗力条款、贸易救济措施以及制裁法的域外管辖权限制具有现实意义。",
+      "whyMattersEN": "This case involves the extraterritorial application of sanctions law and trade remedy mechanisms in international economic law.",
+      "tags": [
+        {
+          "name": "制裁法",
+          "class": "international"
+        },
+        {
+          "name": "能源安全",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Trump has no realistic plan for Iran's future",
+      "titleCN": "特朗普对伊朗未来缺乏现实规划",
+      "url": "https://www.ft.com/content/437130e7-ed4e-4919-8bf3-ac38c2eed6af",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "FT评论指出，特朗普政府的伊朗政策聚焦于军事打击但缺乏战后重建和政权过渡规划，可能导致类似伊拉克战争后的混乱局面。",
+      "summaryEN": "FT commentary notes that the Trump administration's Iran policy focuses on military strikes but lacks post-war reconstruction and regime transition planning.",
+      "whyMattersCN": "该案涉及国际法中的战后重建责任和占领国义务。美国若缺乏战后规划便发动战争，可能违反海牙公约中的占领法义务，对理解战争法中的国家责任、战后重建法律框架以及预防性战争的合法性具有警示意义。",
+      "whyMattersEN": "This case involves post-war reconstruction responsibilities and occupying power obligations in international law.",
+      "tags": [
+        {
+          "name": "占领法",
+          "class": "international"
+        },
+        {
+          "name": "战后重建",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Air travel heavily disrupted following Iranian strikes",
+      "titleCN": "伊朗袭击后航空交通严重中断",
+      "url": "https://www.ft.com/content/5fcfaf76-54e6-41f1-860b-0ca6c6380395",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "伊朗导弹袭击导致中东地区航空交通大规模中断，数万旅客滞留，国际航空法中的安全管辖权和航空器主权豁免问题凸显。",
+      "summaryEN": "Iranian missile strikes cause large-scale disruption of air traffic in the Middle East, stranding tens of thousands of passengers.",
+      "whyMattersCN": "该案涉及国际航空法中的安全管辖权和航空器主权豁免问题。武装冲突对国际民航安全的威胁及其法律后果，对中国民航安全监管和紧急情况下的航空管制具有参考价值。",
+      "whyMattersEN": "This case involves issues of safety jurisdiction and aircraft sovereign immunity in international aviation law.",
+      "tags": [
+        {
+          "name": "国际航空法",
+          "class": "international"
+        },
+        {
+          "name": "安全监管",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Starmer will let US use UK bases for attacks on Iranian missile sites",
+      "titleCN": "英国首相授权美军使用英国基地打击伊朗导弹设施",
+      "url": "https://www.ft.com/content/b988499b-1a89-4e56-b0cf-19d5a8ac7111",
+      "date": "2026-03-01",
+      "source": "Financial Times",
+      "summaryCN": "英国首相斯塔默授权美军使用英国在塞浦路斯的军事基地对伊朗境内导弹设施发动打击，引发英国国内关于战争权力和议会监督的宪法争议。",
+      "summaryEN": "UK Prime Minister Starmer authorizes U.S. forces to use British military bases in Cyprus to strike Iranian missile facilities.",
+      "whyMattersCN": "该案涉及战争权力的宪法分配和议会监督机制。首相绕过议会授权外国军队使用英国领土发动战争，触及英国宪法中行政权与立法权的权力边界，对中国紧急状态下的权力行使和军事决策程序具有比较法参考价值。",
+      "whyMattersEN": "This case involves the constitutional allocation of war powers and parliamentary oversight mechanisms.",
+      "tags": [
+        {
+          "name": "战争权力",
+          "class": "constitutional"
+        },
+        {
+          "name": "宪法监督",
+          "class": "constitutional"
+        }
+      ]
+    },
+    {
+      "title": "Court rejects ICE contractor's right to immediate appeal",
+      "titleCN": "最高法院驳回ICE承包商即时上诉请求",
+      "url": "https://www.scotusblog.com/2026/02/court-rejects-ice-contractors-right-to-immediate-appeal/",
+      "date": "2026-02-26",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院裁定私人监狱承包商GEO Group不能就有关其拘留设施条件的判决立即提起上诉，涉及《囚犯诉讼改革法》的适用范围。",
+      "summaryEN": "The Supreme Court rules that private prison contractor GEO Group cannot immediately appeal a judgment regarding conditions at its detention facility.",
+      "whyMattersCN": "该案涉及私人监狱监管的法律边界和移民拘留条件的人权保障。GEO Group作为ICE承包商，其拘留设施的人权争议反映了移民执法中外包模式的制度困境。",
+      "whyMattersEN": "This case involves the legal boundaries of private prison oversight and human rights protections in immigration detention.",
+      "tags": [
+        {
+          "name": "移民拘留",
+          "class": "criminal"
+        },
+        {
+          "name": "私人监狱",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Beach blasts and unusually dangerous weapons",
+      "titleCN": "海滩爆炸案与异常危险武器界定",
+      "url": "https://www.scotusblog.com/2026/02/beach-blasts-and-unusually-dangerous-weapons/",
+      "date": "2026-02-26",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院审查一起因海滩燃放烟花导致严重伤害的案件，涉及《联邦爆炸物法》中异常危险武器的定义边界。",
+      "summaryEN": "The Supreme Court reviews a case involving serious injuries from fireworks on a beach, addressing the definitional boundaries of unusually dangerous weapons.",
+      "whyMattersCN": "该案涉及刑法中危险物品监管的法律标准界定。法院对异常危险武器的解释将影响烟花等消费品的监管责任和刑事责任认定。",
+      "whyMattersEN": "This case involves the legal standards for regulating dangerous items in criminal law.",
+      "tags": [
+        {
+          "name": "刑法解释",
+          "class": "criminal"
+        },
+        {
+          "name": "危险物品监管",
+          "class": "criminal"
+        }
+      ]
+    },
+    {
+      "title": "Trump administration asks justices to allow it to remove protected status from Syrian nationals",
+      "titleCN": "特朗普政府请求最高法院终止叙利亚公民临时保护身份",
+      "url": "https://www.scotusblog.com/2026/02/trump-administration-asks-justices-to-allow-it-to-remove-protected-status-from-syrian-nationals/",
+      "date": "2026-02-26",
+      "source": "SCOTUSblog",
+      "summaryCN": "特朗普政府请求最高法院授权终止约8000名叙利亚公民的临时保护身份(TPS)，该身份原本保护他们免于因祖国战乱被驱逐出境。",
+      "summaryEN": "The Trump administration asks the Supreme Court to authorize terminating Temporary Protected Status for approximately 8,000 Syrian nationals.",
+      "whyMattersCN": "该案涉及行政权在移民政策中的裁量边界和人道主义保护的法律基础。TPS制度的存废争议反映了美国移民执法中安全考量与人道义务的冲突。",
+      "whyMattersEN": "This case involves the boundaries of executive discretion in immigration policy and the legal foundations of humanitarian protection.",
+      "tags": [
+        {
+          "name": "移民法",
+          "class": "international"
+        },
+        {
+          "name": "人道主义保护",
+          "class": "international"
+        }
+      ]
+    },
+    {
+      "title": "Court to hear argument on whether and when drug users may possess firearms",
+      "titleCN": "最高法院将审理毒品使用者持枪权案",
+      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
+      "date": "2026-02-26",
+      "source": "SCOTUSblog",
+      "summaryCN": "最高法院将审理United States v. Daniels案，挑战联邦法律禁止非法药物使用者持有枪支的规定，涉及第二修正案权利与公共安全监管的冲突。",
+      "summaryEN": "The Supreme Court will hear United States v. Daniels, challenging federal law that prohibits unlawful drug users from possessing firearms.",
+      "whyMattersCN": "该案触及美国宪法争议最激烈的两个领域——枪支管制与毒品政策的交叉点。法院对危险人群禁枪标准的界定，将影响数百万药物使用者的宪法权利。",
+      "whyMattersEN": "This case touches the intersection of America's most contentious constitutional issues—gun control and drug policy.",
+      "tags": [
+        {
+          "name": "第二修正案",
+          "class": "constitutional"
+        },
+        {
+          "name": "毒品政策",
+          "class": "criminal"
+        }
+      ]
     }
   ],
   "research": [
@@ -414,7 +414,7 @@
       "title": "Construction and Management of the South Florida Detention Facility",
       "titleCN": "南佛罗里达拘留所的建设与管理",
       "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
-      "date": "Wed, 11 Fe",
+      "date": "2026-02-11",
       "journal": "Harvard Law Review",
       "summaryCN": "研究南佛罗里达移民拘留所的私营化建设和管理模式，分析私人监狱在移民执法中的角色及其对人权保障的影响。",
       "summaryEN": "Studies the privatized construction and management model of the South Florida immigration detention facility.",
@@ -435,7 +435,7 @@
       "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury's Role",
       "titleCN": "陪审团否决权的语义学：术语如何塑造（与扭曲）陪审团角色",
       "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
-      "date": "Wed, 11 Fe",
+      "date": "2026-02-11",
       "journal": "Harvard Law Review",
       "summaryCN": "从语言学角度分析陪审团否决权这一术语如何影响陪审员对自我角色的认知，进而影响事实认定的制度设计。",
       "summaryEN": "Analyzes from a linguistic perspective how the term jury nullification influences jurors' self-perception of their role.",
@@ -456,7 +456,7 @@
       "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
       "titleCN": "技术剧变时代第四修正案的均衡调整",
       "url": "https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/",
-      "date": "Wed, 11 Fe",
+      "date": "2026-02-11",
       "journal": "Harvard Law Review",
       "summaryCN": "Orin Kerr提出均衡调整理论，主张第四修正案的保护标准应随技术发展而动态调整，以维持执法权力与个人隐私的合理平衡。",
       "summaryEN": "Orin Kerr proposes the equilibrium adjustment theory, arguing that Fourth Amendment protection standards should dynamically adjust with technological development.",
@@ -477,7 +477,7 @@
       "title": "Drug Scheduling as Institutional Design",
       "titleCN": "药物管制作为制度设计",
       "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
-      "date": "Wed, 11 Fe",
+      "date": "2026-02-11",
       "journal": "Harvard Law Review",
       "summaryCN": "分析美国《管制物质法》的制度设计缺陷，揭示药物分级制度如何同时导致大规模监禁、医疗可及性受限和阿片类药物危机的三重失败。",
       "summaryEN": "Analyzes the institutional design flaws of the U.S. Controlled Substances Act, revealing how the drug scheduling system simultaneously leads to three failures.",
@@ -498,7 +498,7 @@
       "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
       "titleCN": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
       "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
-      "date": "Wed, 11 Fe",
+      "date": "2026-02-11",
       "journal": "Harvard Law Review",
       "summaryCN": "研究陪审团制度的运作逻辑和裁判语义学，分析对抗制诉讼中事实认定的制度设计。",
       "summaryEN": "Studies the operational logic of jury systems and forensic semantics, analyzing institutional design for fact-finding in adversarial litigation.",
