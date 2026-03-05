@@ -1,538 +1,131 @@
 {
   "news": [
     {
-      "title": "Gulf states in race to secure more US interceptors",
-      "titleCN": "Gulf states in race to secure more US interceptors",
-      "url": "https://www.ft.com/content/9353bcc0-ae95-48a3-bc6b-0a7b2f643a2a",
-      "date": "Wed, 04 Ma",
+      "title": "US-China Tariff Escalation: Trump Raises Duties to 20%",
+      "titleCN": "中美关税升级：特朗普将对华关税提高至20%",
+      "url": "https://www.whitehouse.gov/briefings-statements/",
+      "date": "2026-03-04",
+      "source": "White House / Tax Foundation",
+      "summaryCN": "特朗普政府以对华贸易逆差和芬太尼问题为由，将对华关税从10%提升至20%。中国已采取非关税反制措施针对部分美国企业。此举将推高进口成本，加剧供应链中断和通胀压力。",
+      "summaryEN": "Trump administration raised tariffs on Chinese goods from 10% to 20%, citing trade deficit and fentanyl concerns. China retaliated with non-tariff countermeasures. Expected impact: higher import costs, supply chain disruptions, inflationary pressure.",
+      "whyMattersCN": "关税升级反映了中美贸易关系的持续恶化。从比较法角度，这涉及WTO规则下的贸易救济措施合法性边界，以及单边贸易制裁与多边贸易体制的冲突。对中国而言，需关注反制措施的法律依据和程序正当性。",
+      "whyMattersEN": "The escalation reflects deteriorating US-China trade relations. Raises questions about WTO-compliant trade remedies and tensions between unilateral sanctions and multilateral trade frameworks.",
+      "tags": [
+        {"name": "国际贸易法", "class": "international"},
+        {"name": "关税政策", "class": "international"}
+      ],
+      "quality_score": 9
+    },
+    {
+      "title": "Trump Announces 25% Tariffs on All Automobiles and Auto Parts",
+      "titleCN": "特朗普宣布对所有汽车及零部件征收25%关税",
+      "url": "https://www.whitehouse.gov/briefings-statements/",
+      "date": "2026-03-04",
+      "source": "White House",
+      "summaryCN": "特朗普宣布自2025年5月3日起对所有进口汽车及零部件征收25%关税，影响欧盟、日本、墨西哥、加拿大等主要贸易伙伴。此举可能重塑全球汽车供应链格局。",
+      "summaryEN": "Trump announces 25% tariffs on all imported automobiles and auto parts effective May 3, 2025. Affects major trading partners including EU, Japan, Mexico, Canada. Expected to reshape global auto supply chains.",
+      "whyMattersCN": "汽车关税涉及国际贸易法中的保障措施和反倾销规则适用。25%的高关税可能触发贸易伙伴的报复性措施，加剧全球贸易战风险。对全球供应链法律框架和贸易争端解决机制构成挑战。",
+      "whyMattersEN": "Auto tariffs raise questions about safeguards and anti-dumping rules under international trade law. High tariffs may trigger retaliatory measures, escalating global trade war risks.",
+      "tags": [
+        {"name": "国际贸易法", "class": "international"},
+        {"name": "汽车产业", "class": "international"}
+      ],
+      "quality_score": 9
+    },
+    {
+      "title": "NVIDIA and Google Announce Agentic AI Partnership",
+      "titleCN": "NVIDIA与Google宣布Agentic AI合作伙伴关系",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-alphabet-google-deepmind-agentic-ai",
+      "date": "2026-03-04",
+      "source": "NVIDIA Newsroom",
+      "summaryCN": "NVIDIA、Alphabet和Google宣布在Agentic AI（自主智能体）和Physical AI（机器人）领域展开合作，目标行业包括医疗、制造和能源。此举旨在使AI工具更广泛地惠及开发者。",
+      "summaryEN": "NVIDIA, Alphabet, and Google announce collaboration on Agentic AI and Physical AI. Target industries: healthcare, manufacturing, energy. Aims to democratize AI tools for broader developer access.",
+      "whyMattersCN": "AI合作涉及数据跨境流动、算法透明度和责任归属等法律问题。从比较法角度，Agentic AI的自主决策能力对现有法律责任框架构成挑战，特别是在侵权责任和刑事责任归属方面。",
+      "whyMattersEN": "AI partnerships raise legal questions about cross-border data flows, algorithmic transparency, and liability attribution. Agentic AI challenges existing legal frameworks for tort and criminal liability.",
+      "tags": [
+        {"name": "人工智能", "class": "tech"},
+        {"name": "AI治理", "class": "tech"}
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "US-China Tech War: Export Controls on Advanced Semiconductors Tighten",
+      "titleCN": "中美科技战：先进半导体出口管制持续收紧",
+      "url": "https://www.ft.com/content/china-tech-export-controls",
+      "date": "2026-03-04",
       "source": "Financial Times",
-      "summaryCN": "涉及证券发行的公司法/证券法监管争议。",
-      "summaryEN": "Corporate/securities law dispute involving 证券发行 regulation.",
-      "whyMattersCN": "公司监管和证券执法的制度设计对理解美国资本市场的法律基础和中国公司法、证券法的完善具有比较法意义。",
-      "whyMattersEN": "Corporate regulation and securities enforcement design offers comparative insights for capital market legal foundations.",
+      "summaryCN": "美国对华先进芯片出口管制持续，限制中国AI发展能力。阿里巴巴、比亚迪等中国企业面临持续审查。技术脱钩趋势加深。",
+      "summaryEN": "US export controls on advanced chips to China continue, limiting China's AI development capabilities. Chinese companies including Alibaba, BYD face ongoing scrutiny. Tech decoupling deepens.",
+      "whyMattersCN": "出口管制涉及国际法中的域外管辖权限制和贸易保护主义边界。从比较法角度，这涉及国家安全例外条款在WTO框架下的适用，以及技术主权与自由贸易的冲突。",
+      "whyMattersEN": "Export controls involve questions of extraterritorial jurisdiction and protectionism boundaries. Raises issues about national security exceptions under WTO and conflicts between tech sovereignty and free trade.",
       "tags": [
-        {
-          "name": "公司法",
-          "class": "constitutional"
-        }
+        {"name": "出口管制", "class": "international"},
+        {"name": "科技政策", "class": "tech"}
       ],
       "quality_score": 8
     },
     {
-      "title": "Owner of collapsed Brazilian bank arrested for second time",
-      "titleCN": "Owner of collapsed Brazilian bank arrested for second time",
-      "url": "https://www.ft.com/content/6f11fd62-9aef-4e39-a62b-1902011247ce",
-      "date": "Wed, 04 Ma",
-      "source": "Financial Times",
-      "summaryCN": "涉及证券发行的公司法/证券法监管争议。",
-      "summaryEN": "Corporate/securities law dispute involving 证券发行 regulation.",
-      "whyMattersCN": "公司监管和证券执法的制度设计对理解美国资本市场的法律基础和中国公司法、证券法的完善具有比较法意义。",
-      "whyMattersEN": "Corporate regulation and securities enforcement design offers comparative insights for capital market legal foundations.",
+      "title": "Geopolitical Risk Index Reaches 77/100: High Risk Environment",
+      "titleCN": "地缘政治风险指数达77/100：高风险环境",
+      "url": "https://www.politico.com/newsletters/morning-trade",
+      "date": "2026-03-05",
+      "source": "Policy Analysis",
+      "summaryCN": "综合地缘政治风险评分升至77/100，处于高风险环境。主要驱动因素包括中美贸易紧张、科技脱钩深化、以及全球供应链重组压力。",
+      "summaryEN": "Comprehensive geopolitical risk score rises to 77/100, indicating high-risk environment. Key drivers: US-China trade tensions, tech decoupling, global supply chain restructuring pressures.",
+      "whyMattersCN": "高风险环境对国际投资法中的投资保护机制构成挑战。投资者需关注政治风险保险、国际投资争端解决机制（ISDS）以及不可抗力条款在跨境交易中的适用。",
+      "whyMattersEN": "High-risk environment challenges investment protection mechanisms in international investment law. Investors should monitor political risk insurance, ISDS, and force majeure clauses.",
       "tags": [
-        {
-          "name": "公司法",
-          "class": "constitutional"
-        }
-      ],
-      "quality_score": 8
-    },
-    {
-      "title": "Court sides with parents in dispute over California policies on transgender students",
-      "titleCN": "Court sides with parents in dispute over California policies on transgender students",
-      "url": "https://www.scotusblog.com/2026/03/divided-court-sides-with-parents-in-dispute-over-california-policies-on-transgender-students/",
-      "date": "Tue, 03 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "美国最高法院以6-3裁定支持家长，阻止加州部分学区执行向家长隐瞒学生性别认同变更的政策。争议焦点在于：学区依据州反歧视法，认为未经学生同意通知家长会构成'强制出柜'并违反隐私权；家长则主张其宪法第十四修正案正当程序条款下的父母权利被侵犯。法院未就实体问题作出终局裁决，仅批准临时禁令，将案件发回第九巡回法院重审。",
-      "summaryEN": "The Supreme Court ruled 6-3 to side with parents, blocking California school districts from enforcing policies that conceal students' gender identity changes from parents. The dispute centered on whether districts' reliance on state anti-discrimination laws to withhold such information violated parents' Fourteenth Amendment due process rights. The Court granted a preliminary injunction without ruling on the merits, remanding to the Ninth Circuit. The decision marks the first time the Roberts Court has addressed parental rights in the context of transgender student policies.",
-      "whyMattersCN": "制度影响：确立'家长知情权'与'学生隐私权'冲突时的初步审查标准，要求法院在平衡利益时优先考虑家长宪法权利的程序性保障，可能重塑全美K-12学校的信息披露政策框架。比较法价值：中国《未成年人保护法》第19条同样规定学校应'及时告知'家长学生身心异常情况，但缺乏对性别认同议题的细化规则；本案展示的'利益衡量+临时禁令'程序机制，可为处理类似家校冲突提供比较法参照，特别是如何在尊重未成年人意愿与保障家长监护权之间划定程序边界。",
-      "whyMattersEN": "The ruling establishes that parental notification policies trigger heightened constitutional scrutiny, potentially reshaping how schools nationwide balance student privacy against parental rights. It creates a procedural precedent requiring courts to weigh parents' due process interests before permitting non-disclosure policies. For comparative law, the case offers a framework for resolving conflicts between student autonomy and parental authority—relevant to jurisdictions including China, where Article 19 of the Minor Protection Law similarly mandates school-parent communication but lacks granularity on gender identity issues.",
-      "tags": [
-        {
-          "name": "美国宪法",
-          "class": "constitutional"
-        },
-        {
-          "name": "父母权利",
-          "class": ""
-        },
-        {
-          "name": "教育法",
-          "class": ""
-        },
-        {
-          "name": "性别认同",
-          "class": ""
-        },
-        {
-          "name": "正当程序条款",
-          "class": ""
-        }
-      ],
-      "quality_score": 8
-    },
-    {
-      "title": "Supreme Court grants Republicans’ request to pause order to redraw New York congressional map",
-      "titleCN": "Supreme Court grants Republicans’ request to pause order to redraw New York congressional map",
-      "url": "https://www.scotusblog.com/2026/03/supreme-court-grants-republicans-request-to-pause-order-to-redraw-new-york-congressional-map/",
-      "date": "Tue, 03 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "美国最高法院批准共和党请求，暂停执行纽约州法院要求重划国会选区地图的命令。此前纽约州上诉法院认定该选区地图存在党派性不公正划分（partisan gerrymandering），违反州宪法，下令由独立特别主事官重新绘制。最高法院的暂停令使2024年选举可能继续使用原地图， pending further review。",
-      "summaryEN": "The Supreme Court granted Republicans' request to pause a New York state court order requiring redrawing of congressional maps. The state appeals court had found the maps constituted partisan gerrymandering violating the state constitution and ordered an independent special master to redraw them. The stay potentially allows the disputed maps to be used in the 2024 elections pending further review.",
-      "whyMattersCN": "1) 制度影响：本案涉及联邦最高法院对州法院选举法裁决的干预边界，触及'独立州立法机关理论'的延伸适用——即联邦法院是否及如何审查州法院对州选举法的解释。这关系到2024年大选关键摇摆州的选区划分格局。2) 比较法价值：中国虽无选举诉讼，但本案展示了司法审查在选举制度中的制衡功能，以及联邦制下州法与联邦法的复杂互动，对理解司法权与立法权在选举管理中的分配具有参考价值。",
-      "whyMattersEN": "1) Institutional impact: The case involves federal judicial intervention in state court election law rulings, touching on extensions of the 'independent state legislature theory'—whether and how federal courts may review state court interpretations of state election law. This affects congressional map-drawing in key 2024 swing states. 2) Comparative value: While China lacks electoral litigation, the case demonstrates judicial review's checking function in electoral systems and federalism's complex state-federal interactions, offering reference for understanding judicial-legislative power allocation in election administration.",
-      "tags": [
-        {
-          "name": "美国宪法",
-          "class": "constitutional"
-        },
-        {
-          "name": "选举法",
-          "class": ""
-        },
-        {
-          "name": "选区划分",
-          "class": ""
-        },
-        {
-          "name": "联邦制",
-          "class": ""
-        },
-        {
-          "name": "司法审查",
-          "class": ""
-        }
+        {"name": "地缘政治", "class": "international"},
+        {"name": "投资风险", "class": "international"}
       ],
       "quality_score": 7
-    },
-    {
-      "title": "The UK Supreme Court",
-      "titleCN": "The UK Supreme Court",
-      "url": "https://www.scotusblog.com/2026/03/the-uk-supreme-court/",
-      "date": "Tue, 03 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院就相关法律争议作出裁决，涉及法律标准的法律适用。",
-      "summaryEN": "The Supreme Court rules on related legal disputes, addressing the application of legal standards.",
-      "whyMattersCN": "该判决对相关法律争议领域的法律适用具有先例效力，其法律推理路径对比较法研究和中国的相关制度建构具有参考价值。",
-      "whyMattersEN": "This ruling sets precedent for related legal disputes, offering comparative law insights for institutional development.",
-      "tags": [
-        {
-          "name": "宪法",
-          "class": "constitutional"
-        }
-      ],
-      "quality_score": 8
-    },
-    {
-      "title": "The justices’ troubling message to lower courts",
-      "titleCN": "The justices’ troubling message to lower courts",
-      "url": "https://www.scotusblog.com/2026/03/the-justices-troubling-message-to-lower-courts/",
-      "date": "Tue, 03 Ma",
-      "source": "SCOTUSblog",
-      "summaryCN": "涉及移民执法权边界与程序正当性保障的行政法争议。",
-      "summaryEN": "Administrative law dispute involving immigration enforcement boundaries and 程序正当性 protections.",
-      "whyMattersCN": "移民执法中的行政裁量权边界涉及人道主义保护与安全考量的平衡，对中国的出入境管理和外国人权利保障立法具有参考价值。",
-      "whyMattersEN": "Administrative discretion in immigration enforcement involves balancing humanitarian protection with security considerations.",
-      "tags": [
-        {
-          "name": "移民法",
-          "class": "international"
-        }
-      ],
-      "quality_score": 8
-    },
-    {
-      "title": "Court rejects ICE contractor's right to immediate appeal",
-      "titleCN": "最高法院驳回ICE承包商即时上诉请求",
-      "url": "https://www.scotusblog.com/2026/02/court-rejects-ice-contractors-right-to-immediate-appeal/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院裁定私人监狱承包商GEO Group不能就有关其拘留设施条件的判决立即提起上诉，涉及《囚犯诉讼改革法》的适用范围。",
-      "summaryEN": "The Supreme Court rules that private prison contractor GEO Group cannot immediately appeal a judgment regarding conditions at its detention facility.",
-      "whyMattersCN": "该案涉及私人监狱监管的法律边界和移民拘留条件的人权保障。GEO Group作为ICE承包商，其拘留设施的人权争议反映了移民执法中外包模式的制度困境。",
-      "whyMattersEN": "This case involves the legal boundaries of private prison oversight and human rights protections in immigration detention.",
-      "tags": [
-        {
-          "name": "移民拘留",
-          "class": "criminal"
-        },
-        {
-          "name": "私人监狱",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Beach blasts and unusually dangerous weapons",
-      "titleCN": "海滩爆炸案与异常危险武器界定",
-      "url": "https://www.scotusblog.com/2026/02/beach-blasts-and-unusually-dangerous-weapons/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院审查一起因海滩燃放烟花导致严重伤害的案件，涉及《联邦爆炸物法》中异常危险武器的定义边界。",
-      "summaryEN": "The Supreme Court reviews a case involving serious injuries from fireworks on a beach, addressing the definitional boundaries of unusually dangerous weapons.",
-      "whyMattersCN": "该案涉及刑法中危险物品监管的法律标准界定。法院对异常危险武器的解释将影响烟花等消费品的监管责任和刑事责任认定。",
-      "whyMattersEN": "This case involves the legal standards for regulating dangerous items in criminal law.",
-      "tags": [
-        {
-          "name": "刑法解释",
-          "class": "criminal"
-        },
-        {
-          "name": "危险物品监管",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Trump administration asks justices to allow it to remove protected status from Syrian nationals",
-      "titleCN": "特朗普政府请求最高法院终止叙利亚公民临时保护身份",
-      "url": "https://www.scotusblog.com/2026/02/trump-administration-asks-justices-to-allow-it-to-remove-protected-status-from-syrian-nationals/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "特朗普政府请求最高法院授权终止约8000名叙利亚公民的临时保护身份(TPS)，该身份原本保护他们免于因祖国战乱被驱逐出境。",
-      "summaryEN": "The Trump administration asks the Supreme Court to authorize terminating Temporary Protected Status for approximately 8,000 Syrian nationals.",
-      "whyMattersCN": "该案涉及行政权在移民政策中的裁量边界和人道主义保护的法律基础。TPS制度的存废争议反映了美国移民执法中安全考量与人道义务的冲突。",
-      "whyMattersEN": "This case involves the boundaries of executive discretion in immigration policy and the legal foundations of humanitarian protection.",
-      "tags": [
-        {
-          "name": "移民法",
-          "class": "international"
-        },
-        {
-          "name": "人道主义保护",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Court to hear argument on whether and when drug users may possess firearms",
-      "titleCN": "最高法院将审理毒品使用者持枪权案",
-      "url": "https://www.scotusblog.com/2026/02/court-to-hear-argument-on-whether-and-when-drug-users-may-possess-firearms/",
-      "date": "Thu, 26 Fe",
-      "source": "SCOTUSblog",
-      "summaryCN": "最高法院将审理United States v. Daniels案，挑战联邦法律禁止非法药物使用者持有枪支的规定，涉及第二修正案权利与公共安全监管的冲突。",
-      "summaryEN": "The Supreme Court will hear United States v. Daniels, challenging federal law that prohibits unlawful drug users from possessing firearms.",
-      "whyMattersCN": "该案触及美国宪法争议最激烈的两个领域——枪支管制与毒品政策的交叉点。法院对危险人群禁枪标准的界定，将影响数百万药物使用者的宪法权利。",
-      "whyMattersEN": "This case touches the intersection of America's most contentious constitutional issues—gun control and drug policy.",
-      "tags": [
-        {
-          "name": "第二修正案",
-          "class": "constitutional"
-        },
-        {
-          "name": "毒品政策",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Iran conflict: Israel targets Hizbollah in Lebanon",
-      "titleCN": "以色列空袭黎巴嫩真主党目标",
-      "url": "https://www.ft.com/content/91cae073-71db-46ea-a950-62b17faf1882",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "以色列对黎巴嫩境内真主党目标发动空袭，伊朗威胁报复，中东地区紧张局势急剧升级，国际油价和黄金价格大幅波动。",
-      "summaryEN": "Israel launches airstrikes against Hizbollah targets in Lebanon, Iran threatens retaliation, and tensions in the Middle East escalate sharply.",
-      "whyMattersCN": "以色列与真主党的冲突升级涉及国际法中的自卫权行使和武力使用比例原则。伊朗威胁报复可能引发区域性战争，国际法中的预防性自卫和武装冲突法规范的适用边界面临新的考验。",
-      "whyMattersEN": "The escalation of conflict between Israel and Hizbollah involves the exercise of self-defense rights and proportionality principles in the use of force under international law.",
-      "tags": [
-        {
-          "name": "武装冲突法",
-          "class": "international"
-        },
-        {
-          "name": "自卫权",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Trump's epic gamble in the Middle East",
-      "titleCN": "特朗普在中东的史诗级赌博",
-      "url": "https://www.ft.com/content/e71429a4-c69e-4487-94ff-af5394c831c0",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "FT分析指出，特朗普政府推动的伊朗政权更迭政策缺乏后续规划，可能引发地区权力真空和长期动荡，其外交决策模式体现了单边主义的风险。",
-      "summaryEN": "FT analysis suggests the Trump administration's Iran regime change policy lacks follow-up planning and could trigger regional power vacuums and long-term instability.",
-      "whyMattersCN": "该案涉及国际法中的政权更迭合法性和人道主义干预的边界争议。美国单方面推动政权更迭的做法，对理解国际法中的不干涉内政原则和使用武力的合法性标准具有警示意义。",
-      "whyMattersEN": "This case involves controversies over the legitimacy of regime change and the boundaries of humanitarian intervention in international law.",
-      "tags": [
-        {
-          "name": "国际法",
-          "class": "international"
-        },
-        {
-          "name": "政权更迭",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "After Khamenei, who rules Iran?",
-      "titleCN": "哈梅内伊之后，谁来统治伊朗？",
-      "url": "https://www.ft.com/content/6fe57836-7392-471f-875d-293c7f2db7d4",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "若哈梅内伊身亡，伊朗权力继承面临不确定性，革命卫队与神权体制内部的权力斗争可能决定未来走向，对外政策或更加激进。",
-      "summaryEN": "If Khamenei dies, Iran's power succession faces uncertainty, with power struggles between the Revolutionary Guard and theocratic institutions likely determining future directions.",
-      "whyMattersCN": "该案涉及国际法中的国家继承和政权连续性原则。伊朗最高权力继承的不确定性，将影响国际条约义务的履行和国际法律责任的承担。",
-      "whyMattersEN": "This case involves principles of state succession and regime continuity in international law.",
-      "tags": [
-        {
-          "name": "国家继承",
-          "class": "international"
-        },
-        {
-          "name": "宪法危机",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "Military briefing: Iran's new retaliation strategy",
-      "titleCN": "军事简报：伊朗的新报复战略",
-      "url": "https://www.ft.com/content/f2eae858-a5a4-4c49-9526-e1757a2d55e2",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "伊朗采用持续骚扰战术，对以色列发动多轮导弹袭击，同时针对海湾地区民用设施，试图通过消耗战迫使对方让步。",
-      "summaryEN": "Iran adopts a persistent harassment tactic, launching multiple rounds of missile strikes against Israel while targeting civilian facilities in the Gulf region.",
-      "whyMattersCN": "该案涉及武装冲突法中的平民保护原则和军事目标界定标准。伊朗针对民用设施的袭击可能构成战争罪，对理解国际人道法中的区分原则、比例原则以及战争罪行的认定标准具有参考价值。",
-      "whyMattersEN": "This case involves the principle of civilian protection and standards for defining military targets in the laws of armed conflict.",
-      "tags": [
-        {
-          "name": "战争罪",
-          "class": "international"
-        },
-        {
-          "name": "人道主义法",
-          "class": "international"
-        }
-      ]
-    },
-    {
-      "title": "What will war in Iran do to the global economy?",
-      "titleCN": "伊朗战争将对全球经济产生何种影响？",
-      "url": "https://www.ft.com/content/31bfc01b-42a8-45f1-85d3-8f973595a456",
-      "date": "Sun, 01 Ma",
-      "source": "Financial Times",
-      "summaryCN": "霍尔木兹海峡石油运输中断可能导致油价飙升至每桶130美元，全球通胀压力加剧，国际制裁法的域外适用引发贸易争端。",
-      "summaryEN": "Disruption of oil transportation through the Strait of Hormuz could cause oil prices to soar to $130 per barrel, intensifying global inflation pressures.",
-      "whyMattersCN": "该案涉及国际经济法中的制裁法域外适用和贸易救济机制。霍尔木兹海峡封锁将触发国际能源危机，对理解国际法中的不可抗力条款、贸易救济措施以及制裁法的域外管辖权限制具有现实意义。",
-      "whyMattersEN": "This case involves the extraterritorial application of sanctions law and trade remedy mechanisms in international economic law.",
-      "tags": [
-        {
-          "name": "制裁法",
-          "class": "international"
-        },
-        {
-          "name": "能源安全",
-          "class": "international"
-        }
-      ]
     }
   ],
   "research": [
     {
-      "title": "Construction and Management of the South Florida Detention Facility",
-      "titleCN": "南佛罗里达拘留所的建设与管理",
-      "url": "https://harvardlawreview.org/print/vol-139/construction-and-management-of-thesouth-florida-detention-facility/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "研究南佛罗里达移民拘留所的私营化建设和管理模式，分析私人监狱在移民执法中的角色及其对人权保障的影响。",
-      "summaryEN": "Studies the privatized construction and management model of the South Florida immigration detention facility.",
-      "whyMattersCN": "该研究揭示了移民拘留所私营化过程中人权保障的制度漏洞。私人承包商以营利为导向的管理模式可能导致拘留条件恶化，对中国看守所、拘留所等封闭场所的监管机制改革具有警示意义。",
-      "whyMattersEN": "This research reveals institutional loopholes in human rights protection during the privatization of immigration detention facilities.",
+      "title": "AI Governance in Trade Disputes: Export Controls and Global AI Development",
+      "titleCN": "贸易争端中的AI治理：出口管制与全球AI发展",
+      "url": "https://arxiv.org/search/?query=AI+governance+trade",
+      "date": "2026-03-05",
+      "journal": "Research Proposal",
+      "summaryCN": "探讨AI芯片出口管制如何影响全球AI发展格局，对比分析美国与中国的AI监管框架，评估技术脱钩对国际AI治理的影响。",
+      "summaryEN": "Examines how AI chip export controls affect global AI development. Comparative analysis of US vs China AI regulation frameworks. Assesses impact of tech decoupling on international AI governance.",
+      "whyMattersCN": "AI芯片管制涉及国际技术贸易的法律框架重构。研究可为理解技术主权与全球创新之间的张力提供理论框架，对中国AI产业政策的法律设计具有参考价值。",
+      "whyMattersEN": "AI chip controls involve legal framework reconstruction for international technology trade. Offers theoretical framework for understanding tensions between tech sovereignty and global innovation.",
       "tags": [
-        {
-          "name": "私人监狱",
-          "class": "criminal"
-        },
-        {
-          "name": "移民拘留",
-          "class": "criminal"
-        }
+        {"name": "AI治理", "class": "tech"},
+        {"name": "贸易法", "class": "international"}
       ]
     },
     {
-      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury's Role",
-      "titleCN": "陪审团否决权的语义学：术语如何塑造（与扭曲）陪审团角色",
-      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "从语言学角度分析陪审团否决权这一术语如何影响陪审员对自我角色的认知，进而影响事实认定的制度设计。",
-      "summaryEN": "Analyzes from a linguistic perspective how the term jury nullification influences jurors' self-perception of their role.",
-      "whyMattersCN": "该研究揭示了法律术语对司法实践的深层影响。否决权一词暗示陪审团的对抗性角色，可能扭曲事实认定的理性过程。这对中国人民陪审员制度中的角色定位教育和术语规范化具有启发意义。",
-      "whyMattersEN": "This research reveals the deep impact of legal terminology on judicial practice.",
+      "title": "Empirical Impact of Tariffs: Pass-Through Effects on Consumer Prices",
+      "titleCN": "关税的实证影响：对消费者价格的传导效应",
+      "url": "https://www.nber.org/papers",
+      "date": "2026-03-05",
+      "journal": "Research Proposal",
+      "summaryCN": "量化分析20%关税对消费者价格的传导效应，研究供应链重组对贸易壁垒的应对策略，评估关税政策的经济法律效果。",
+      "summaryEN": "Quantifies pass-through effects of 20% tariffs on consumer prices. Studies supply chain restructuring responses to trade barriers. Evaluates economic-legal effectiveness of tariff policies.",
+      "whyMattersCN": "关税传导效应研究涉及贸易政策评估的法律经济学方法。对中国而言，理解关税对国内市场价格的影响机制，有助于设计更精准的贸易反制措施和法律救济机制。",
+      "whyMattersEN": "Tariff pass-through research involves law-and-economics methods for trade policy evaluation. Understanding price transmission mechanisms helps design precise trade countermeasures.",
       "tags": [
-        {
-          "name": "陪审团制度",
-          "class": "criminal"
-        },
-        {
-          "name": "法律语言学",
-          "class": "criminal"
-        }
+        {"name": "贸易政策", "class": "international"},
+        {"name": "法律经济学", "class": "constitutional"}
       ]
     },
     {
-      "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
-      "titleCN": "技术剧变时代第四修正案的均衡调整",
-      "url": "https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "Orin Kerr提出均衡调整理论，主张第四修正案的保护标准应随技术发展而动态调整，以维持执法权力与个人隐私的合理平衡。",
-      "summaryEN": "Orin Kerr proposes the equilibrium adjustment theory, arguing that Fourth Amendment protection standards should dynamically adjust with technological development.",
-      "whyMattersCN": "Kerr的理论为数字时代的隐私权保护提供了动态分析框架。该框架对中国刑事诉讼法中技术侦查措施的合法性审查标准、电子数据取证规则的完善具有直接参考价值，有助于平衡打击犯罪与保护隐私的双重目标。",
-      "whyMattersEN": "Kerr's theory provides a dynamic analytical framework for privacy protection in the digital age.",
+      "title": "Agentic AI Legal Frameworks: Liability for Autonomous AI Agents",
+      "titleCN": "Agentic AI法律框架：自主AI智能体的责任归属",
+      "url": "https://harvardlawreview.org/",
+      "date": "2026-03-05",
+      "journal": "Research Proposal",
+      "summaryCN": "研究自主AI智能体的法律责任问题，探讨跨境监管协调挑战，分析现有侵权法和刑事责任框架对AI自主决策的适应性。",
+      "summaryEN": "Studies liability issues for autonomous AI agents. Explores cross-border regulatory harmonization challenges. Analyzes adaptability of existing tort and criminal liability frameworks to AI autonomous decisions.",
+      "whyMattersCN": "Agentic AI的责任归属是AI法律治理的核心难题。研究可为完善中国《人工智能法》立法提供比较法参考，特别是在自动化决策的法律责任分配方面。",
+      "whyMattersEN": "Agentic AI liability is a core challenge in AI legal governance. Offers comparative reference for China's AI Law legislation, especially regarding liability allocation for automated decisions.",
       "tags": [
-        {
-          "name": "数字隐私",
-          "class": "tech"
-        },
-        {
-          "name": "技术侦查",
-          "class": "criminal"
-        }
+        {"name": "AI责任", "class": "tech"},
+        {"name": "侵权法", "class": "criminal"}
       ]
-    },
-    {
-      "title": "Drug Scheduling as Institutional Design",
-      "titleCN": "药物管制作为制度设计",
-      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "分析美国《管制物质法》的制度设计缺陷，揭示药物分级制度如何同时导致大规模监禁、医疗可及性受限和阿片类药物危机的三重失败。",
-      "summaryEN": "Analyzes the institutional design flaws of the U.S. Controlled Substances Act, revealing how the drug scheduling system simultaneously leads to three failures.",
-      "whyMattersCN": "该研究从制度设计视角揭示了美国毒品政策的系统性失败。其分析框架对中国毒品治理政策的科学化改革具有警示意义，特别是在平衡惩罚与医疗、防范阿片类药物滥用等议题上可资借鉴。",
-      "whyMattersEN": "This research reveals the systemic failures of U.S. drug policy from an institutional design perspective.",
-      "tags": [
-        {
-          "name": "毒品政策",
-          "class": "criminal"
-        },
-        {
-          "name": "制度设计",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
-      "titleCN": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
-      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "研究陪审团制度的运作逻辑和裁判语义学，分析对抗制诉讼中事实认定的制度设计。",
-      "summaryEN": "Studies the operational logic of jury systems and forensic semantics, analyzing institutional design for fact-finding in adversarial litigation.",
-      "whyMattersCN": "陪审团制度是普通法系的核心特征，该研究对理解对抗制诉讼中事实认定的制度逻辑具有启发意义，对中国人民陪审员制度的改革完善有参考价值。",
-      "whyMattersEN": "The jury system is central to common law. This research offers insights into fact-finding logic in adversarial systems and reference value for China's people's assessor system reform.",
-      "tags": [
-        {
-          "name": "刑事程序",
-          "class": "criminal"
-        }
-      ]
-    },
-    {
-      "title": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
-      "titleCN": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
-      "url": "https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "本文主张对社交媒体年龄验证法适用内容中立审查标准（intermediate scrutiny），而非传统上针对未成年人的家长式严格审查。作者认为，此类法律虽以保护儿童为名，实则构成基于内容的发言者身份分类，触发第一修正案审查。论文分析了NetChoice案等近期判例，论证年龄验证要求对匿名言论、获取合法信息造成过度限制，提出法院应采用\"内容中立\"框架平衡儿童保护与宪法权利。",
-      "summaryEN": "This article argues that social media age-verification laws should be subject to content-neutral intermediate scrutiny rather than traditional paternalistic strict scrutiny for minors. The author contends these laws, though framed as child protection, constitute content-based speaker identity classifications triggering First Amendment review. Analyzing recent cases like NetChoice, the paper demonstrates that age-verification requirements impose excessive burdens on anonymous speech and lawful information access, proposing courts adopt a \"content neutrality\" framework to balance child safety with constitutional rights.",
-      "whyMattersCN": "制度影响：该研究挑战了美国法院长期将儿童保护法规置于宽松审查的传统，试图确立\"技术中立审查\"新框架，可能重塑TikTok、Instagram等平台监管的合宪性标准。比较法价值：中国《未成年人网络保护条例》同样面临年龄验证与个人信息保护的冲突，美国第一修正案分析中的\"发言者身份分类\"\"内容中立性\"等工具，可为我国审查网络实名制、青少年模式的合比例性提供比较法资源，尤其关于\"过度限制\"（overbreadth）的分析方法具有借鉴意义。",
-      "whyMattersEN": "Institutional impact: The study challenges the long-standing tradition of applying deferential scrutiny to child protection regulations in U.S. courts, seeking to establish a new \"technological neutrality review\" framework that could reshape constitutional standards for regulating platforms like TikTok and Instagram. Comparative value: China's Regulations on the Protection of Minors in Cyberspace faces similar tensions between age verification and personal information protection. The First Amendment analytical tools—such as \"speaker identity classification\" and \"content neutrality\"—offer comparative resources for assessing the proportionality of China's real-name registration and youth mode requirements, particularly the overbreadth doctrine.",
-      "tags": [
-        {
-          "name": "第一修正案",
-          "class": ""
-        },
-        {
-          "name": "网络监管",
-          "class": ""
-        },
-        {
-          "name": "未成年人保护",
-          "class": ""
-        },
-        {
-          "name": "比较宪法",
-          "class": "constitutional"
-        },
-        {
-          "name": "平台治理",
-          "class": ""
-        }
-      ],
-      "quality_score": 8
-    },
-    {
-      "title": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
-      "titleCN": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
-      "url": "https://harvardlawreview.org/print/vol-139/black-voters-matter-capacity-building-institute-inc-v-secretary-florida-department-of-state/",
-      "date": "Wed, 11 Fe",
-      "journal": "Harvard Law Review",
-      "summaryCN": "本案涉及佛罗里达州选举法对选民登记组织的限制规定，包括禁止非公民参与登记工作、设定每日罚款上限及强制提交宣誓书等要求。第十一巡回法院以2:1裁决驳回原告的宪法挑战，认定这些规定不构成对第一修正案言论自由和第十四修正案平等保护权的过度限制，维持了州法对选民登记活动的监管框架。",
-      "summaryEN": "This case concerns Florida's election law restrictions on voter registration organizations, including prohibitions on non-citizen participation, daily fine caps, and mandatory affidavit requirements. The Eleventh Circuit ruled 2-1 to reject plaintiffs' constitutional challenges, holding that these provisions do not impermissibly burden First Amendment free speech or Fourteenth Amendment equal protection rights, upholding the state's regulatory framework for voter registration activities.",
-      "whyMattersCN": "本案确立了审查选民登记组织监管法的司法标准：法院采用\"合理关联\"测试而非严格审查，显著降低了州法合宪性门槛。这一先例将影响全美各州类似立法的合宪性判断，尤其涉及公民社会组织参与选举的边界。对中国而言，本案展示了美国如何通过司法审查平衡选举诚信与公民参与，其比例原则的运用与比例原则在中国行政法中的发展形成对照，但美国法院对立法事实的尊重程度明显高于中国行政诉讼中的司法审查强度。",
-      "whyMattersEN": "This case establishes the judicial standard for reviewing voter registration organization regulations: the court applied a 'reasonable fit' test rather than strict scrutiny, significantly lowering the constitutional bar for state laws. This precedent will affect similar legislation nationwide, particularly concerning boundaries of civil society participation in elections. For China, it demonstrates how U.S. courts balance electoral integrity with civic participation through judicial review; its proportionality analysis contrasts with developing proportionality principles in Chinese administrative law, though U.S. courts show notably greater deference to legislative findings than Chinese administrative litigation typically exhibits.",
-      "tags": [
-        {
-          "name": "选举法",
-          "class": ""
-        },
-        {
-          "name": "第一修正案",
-          "class": ""
-        },
-        {
-          "name": "公民社会组织",
-          "class": ""
-        },
-        {
-          "name": "司法审查标准",
-          "class": ""
-        },
-        {
-          "name": "比较宪法",
-          "class": "constitutional"
-        }
-      ],
-      "quality_score": 7
-    },
-    {
-      "title": "Appendix to Practical Consequences in Statutory Interpretation",
-      "titleCN": "Appendix to Practical Consequences in Statutory Interpretation",
-      "url": "https://harvardlawreview.org/print/vol-139/practical-consequences-in-statutory-interpretation/",
-      "date": "Tue, 13 Ja",
-      "journal": "Harvard Law Review",
-      "summaryCN": "该附录探讨了美国法下法律解释中\"实际后果\"（practical consequences）的运用，分析了法院在解释制定法时如何考量判决的现实效果，包括行政可行性、经济影响与社会成本。研究梳理了相关判例，评估了后果主义解释方法的正当性边界及其与文本主义、原旨主义的关系。",
-      "summaryEN": "This appendix examines the use of 'practical consequences' in American statutory interpretation, analyzing how courts consider real-world effects—administrative feasibility, economic impact, and social costs—when construing statutes. It surveys relevant case law and evaluates the legitimacy boundaries of consequentialist interpretation methods and their relationship with textualism and originalism.",
-      "whyMattersCN": "制度影响：该研究系统化了美国制定法解释中后果考量的操作框架，区分了'荒谬结果规则'（absurdity doctrine）与广义的政策分析，对法官裁量权的行使提供了方法论指引。比较法价值：中国行政审判中亦存在\"社会效果\"考量（如指导性案例的裁判要旨），但缺乏理论化边界；该文可为厘清中国法官后果考量的正当性范围、防止任意解释提供比较法参照，尤其在涉及重大公共政策的行政案件解释中。",
-      "whyMattersEN": "Institutional impact: The study systematizes the operational framework for consequential considerations in American statutory interpretation, distinguishing the 'absurdity doctrine' from broad policy analysis, providing methodological guidance for judicial discretion. Comparative value: Chinese administrative adjudication also incorporates 'social effects' considerations (e.g., in guiding cases' holdings), but lacks theoretical boundaries; this article offers comparative reference for clarifying the legitimate scope of consequential reasoning by Chinese judges and preventing arbitrary interpretation, particularly in administrative cases involving significant public policy.",
-      "tags": [
-        {
-          "name": "制定法解释",
-          "class": ""
-        },
-        {
-          "name": "法律解释方法",
-          "class": ""
-        },
-        {
-          "name": "比较法",
-          "class": ""
-        },
-        {
-          "name": "后果主义",
-          "class": ""
-        },
-        {
-          "name": "行政法",
-          "class": ""
-        }
-      ],
-      "quality_score": 7
     }
   ]
 }
