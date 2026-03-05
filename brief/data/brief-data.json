@@ -1,70 +1,6 @@
 {
   "news": [
     {
-      "title": "US-China Tariff Escalation: Trump Raises Duties to 20%",
-      "titleCN": "中美关税升级：特朗普将对华关税提高至20%",
-      "url": "https://www.whitehouse.gov/briefings-statements/",
-      "date": "2026-03-04",
-      "source": "White House / Tax Foundation",
-      "summaryCN": "特朗普政府以对华贸易逆差和芬太尼问题为由，将对华关税从10%提升至20%。中国已采取非关税反制措施针对部分美国企业。此举将推高进口成本，加剧供应链中断和通胀压力。",
-      "summaryEN": "Trump administration raised tariffs on Chinese goods from 10% to 20%, citing trade deficit and fentanyl concerns. China retaliated with non-tariff countermeasures. Expected impact: higher import costs, supply chain disruptions, inflationary pressure.",
-      "whyMattersCN": "关税升级反映了中美贸易关系的持续恶化。从比较法角度，这涉及WTO规则下的贸易救济措施合法性边界，以及单边贸易制裁与多边贸易体制的冲突。对中国而言，需关注反制措施的法律依据和程序正当性。",
-      "whyMattersEN": "The escalation reflects deteriorating US-China trade relations. Raises questions about WTO-compliant trade remedies and tensions between unilateral sanctions and multilateral trade frameworks.",
-      "tags": [
-        {"name": "国际贸易法", "class": "international"},
-        {"name": "关税政策", "class": "international"}
-      ],
-      "quality_score": 9
-    },
-    {
-      "title": "Trump Announces 25% Tariffs on All Automobiles and Auto Parts",
-      "titleCN": "特朗普宣布对所有汽车及零部件征收25%关税",
-      "url": "https://www.whitehouse.gov/briefings-statements/",
-      "date": "2026-03-04",
-      "source": "White House",
-      "summaryCN": "特朗普宣布自2025年5月3日起对所有进口汽车及零部件征收25%关税，影响欧盟、日本、墨西哥、加拿大等主要贸易伙伴。此举可能重塑全球汽车供应链格局。",
-      "summaryEN": "Trump announces 25% tariffs on all imported automobiles and auto parts effective May 3, 2025. Affects major trading partners including EU, Japan, Mexico, Canada. Expected to reshape global auto supply chains.",
-      "whyMattersCN": "汽车关税涉及国际贸易法中的保障措施和反倾销规则适用。25%的高关税可能触发贸易伙伴的报复性措施，加剧全球贸易战风险。对全球供应链法律框架和贸易争端解决机制构成挑战。",
-      "whyMattersEN": "Auto tariffs raise questions about safeguards and anti-dumping rules under international trade law. High tariffs may trigger retaliatory measures, escalating global trade war risks.",
-      "tags": [
-        {"name": "国际贸易法", "class": "international"},
-        {"name": "汽车产业", "class": "international"}
-      ],
-      "quality_score": 9
-    },
-    {
-      "title": "NVIDIA and Google Announce Agentic AI Partnership",
-      "titleCN": "NVIDIA与Google宣布Agentic AI合作伙伴关系",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-alphabet-google-deepmind-agentic-ai",
-      "date": "2026-03-04",
-      "source": "NVIDIA Newsroom",
-      "summaryCN": "NVIDIA、Alphabet和Google宣布在Agentic AI（自主智能体）和Physical AI（机器人）领域展开合作，目标行业包括医疗、制造和能源。此举旨在使AI工具更广泛地惠及开发者。",
-      "summaryEN": "NVIDIA, Alphabet, and Google announce collaboration on Agentic AI and Physical AI. Target industries: healthcare, manufacturing, energy. Aims to democratize AI tools for broader developer access.",
-      "whyMattersCN": "AI合作涉及数据跨境流动、算法透明度和责任归属等法律问题。从比较法角度，Agentic AI的自主决策能力对现有法律责任框架构成挑战，特别是在侵权责任和刑事责任归属方面。",
-      "whyMattersEN": "AI partnerships raise legal questions about cross-border data flows, algorithmic transparency, and liability attribution. Agentic AI challenges existing legal frameworks for tort and criminal liability.",
-      "tags": [
-        {"name": "人工智能", "class": "tech"},
-        {"name": "AI治理", "class": "tech"}
-      ],
-      "quality_score": 8
-    },
-    {
-      "title": "US-China Tech War: Export Controls on Advanced Semiconductors Tighten",
-      "titleCN": "中美科技战：先进半导体出口管制持续收紧",
-      "url": "https://www.ft.com/content/china-tech-export-controls",
-      "date": "2026-03-04",
-      "source": "Financial Times",
-      "summaryCN": "美国对华先进芯片出口管制持续，限制中国AI发展能力。阿里巴巴、比亚迪等中国企业面临持续审查。技术脱钩趋势加深。",
-      "summaryEN": "US export controls on advanced chips to China continue, limiting China's AI development capabilities. Chinese companies including Alibaba, BYD face ongoing scrutiny. Tech decoupling deepens.",
-      "whyMattersCN": "出口管制涉及国际法中的域外管辖权限制和贸易保护主义边界。从比较法角度，这涉及国家安全例外条款在WTO框架下的适用，以及技术主权与自由贸易的冲突。",
-      "whyMattersEN": "Export controls involve questions of extraterritorial jurisdiction and protectionism boundaries. Raises issues about national security exceptions under WTO and conflicts between tech sovereignty and free trade.",
-      "tags": [
-        {"name": "出口管制", "class": "international"},
-        {"name": "科技政策", "class": "tech"}
-      ],
-      "quality_score": 8
-    },
-    {
       "title": "Geopolitical Risk Index Reaches 77/100: High Risk Environment",
       "titleCN": "地缘政治风险指数达77/100：高风险环境",
       "url": "https://www.politico.com/newsletters/morning-trade",
@@ -75,8 +11,124 @@
       "whyMattersCN": "高风险环境对国际投资法中的投资保护机制构成挑战。投资者需关注政治风险保险、国际投资争端解决机制（ISDS）以及不可抗力条款在跨境交易中的适用。",
       "whyMattersEN": "High-risk environment challenges investment protection mechanisms in international investment law. Investors should monitor political risk insurance, ISDS, and force majeure clauses.",
       "tags": [
-        {"name": "地缘政治", "class": "international"},
-        {"name": "投资风险", "class": "international"}
+        {
+          "name": "地缘政治",
+          "class": "international"
+        },
+        {
+          "name": "投资风险",
+          "class": "international"
+        }
+      ],
+      "quality_score": 7
+    },
+    {
+      "title": "The SCOTUS attorney switcheroo",
+      "titleCN": "The SCOTUS attorney switcheroo",
+      "url": "https://www.scotusblog.com/2026/03/the-scotus-attorney-switcheroo/",
+      "date": "2026-03-05",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国联邦最高法院允许诉讼当事人在案件审理中途更换政府律师，引发关于律师连续性、政府立场一致性与司法效率的争议。核心问题在于行政分支内部人员变动是否应影响已提交最高法院的诉讼立场。",
+      "summaryEN": "",
+      "whyMattersCN": "对美国制度而言，此事关涉三权分立中行政权与司法权的互动边界，以及政府律师作为'法庭之友'的伦理义务。对中国具有比较法价值：我国行政诉讼中行政机关负责人出庭应诉制度、以及政府法律顾问/公职律师制度，可借鉴美国经验思考——当政府换届或人事调整时，如何保障诉讼立法的连贯性与诚信，避免'新官不理旧账'影响司法权威与相对人信赖利益。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "行政法",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 9
+    },
+    {
+      "title": "The justices’ troubling message to lower courts",
+      "titleCN": "The justices’ troubling message to lower courts",
+      "url": "https://www.scotusblog.com/2026/03/the-justices-troubling-message-to-lower-courts/",
+      "date": "2026-03-05",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国最高法院近期一系列裁决向联邦下级法院发出令人不安的信号：大法官们频繁以'缺乏立场'为由驳回案件，却回避实质宪法争议。这种程序性回避策略削弱了司法审查功能，使重大法律问题悬而未决。",
+      "summaryEN": "",
+      "whyMattersCN": "对美国制度而言，此举加剧了'影子案卷'（shadow docket）扩张趋势，破坏三权分立下的司法制衡，使行政权扩张缺乏有效司法约束。对中国具有重要比较法价值：我国行政诉讼中亦存在'程序空转'现象，如以'原告不适格'回避实体审查；最高法应如何通过典型案例指导制度，而非技术性驳回，值得反思。两国均面临'司法谦抑'与'权利保障'的平衡难题。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "司法审查",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "Court unanimously sides with government in immigration dispute",
+      "titleCN": "Court unanimously sides with government in immigration dispute",
+      "url": "https://www.scotusblog.com/2026/03/court-unanimously-sides-with-government-in-immigration-dispute/",
+      "date": "2026-03-04",
+      "source": "SCOTUSblog",
+      "summaryCN": "美国最高法院一致裁定支持政府在移民案件中的立场，涉及行政机构在移民执法中的裁量权边界。本案核心争议在于司法对移民行政决定的审查范围，法院重申了移民法领域'行政优先'的传统原则。",
+      "summaryEN": "",
+      "whyMattersCN": "对美国制度：巩固了行政分支在移民政策中的主导权，限制了联邦法院的介入深度，影响拜登政府及后续政府的移民执法空间。对中国参考价值：中国正推进移民管理法治化，本案展示了'行政裁量与司法审查'的平衡机制，可为《出境入境管理法》实施中行政复议与诉讼衔接、涉外执法司法协调提供比较法素材，尤其涉及外国人遣返、难民认定等敏感领域的权力配置问题。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "行政法",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "The UK Supreme Court",
+      "titleCN": "The UK Supreme Court",
+      "url": "https://www.scotusblog.com/2026/03/the-uk-supreme-court/",
+      "date": "2026-03-04",
+      "source": "SCOTUSblog",
+      "summaryCN": "英国最高法院（UK Supreme Court）于2009年成立，取代上议院成为英国最高终审法院。本报道分析其与美国最高法院的结构性差异：英国最高法院无权推翻议会立法，仅作法律解释，体现议会主权原则。",
+      "summaryEN": "",
+      "whyMattersCN": "对美国制度的影响：英国最高法院的弱违宪审查模式为美国学者反思司法至上（judicial supremacy）提供了比较样本，尤其在法院与民选机关关系上形成对照。对中国参考价值：中国实行人大至上原则，英国议会主权模式比美国三权分立更具可比性，其最高法院通过法律解释发展普通法的经验，可为全国人大常委会的宪法解释与法律适用提供技术层面的比较法借鉴。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "宪法",
+          "class": "constitutional"
+        },
+        {
+          "name": "司法制度",
+          "class": "constitutional"
+        }
+      ],
+      "quality_score": 9
+    },
+    {
+      "title": "Gulf states in race to secure more US interceptors",
+      "titleCN": "Gulf states in race to secure more US interceptors",
+      "url": "https://www.ft.com/content/9353bcc0-ae95-48a3-bc6b-0a7b2f643a2a",
+      "date": "2026-03-04",
+      "source": "Financial Times",
+      "summaryCN": "海湾国家竞相采购美国导弹防御系统，涉及《武器出口管制法》及国际安全合作法律框架。交易需经美国国会审批，反映军售中的国内法与国际法交叉适用问题。",
+      "summaryEN": "",
+      "whyMattersCN": "对美国而言，此类军售受《武器出口管制法》和国会监督机制约束，体现行政与立法分支在外交安全事务中的权力制衡。对中国具有比较法参考价值：一是军售审批程序中透明度与效率的平衡机制；二是国防出口管制立法如何兼顾国家安全承诺与商业利益；三为\"长臂管辖\"规则在盟友体系中的适用边界，可为我国《出口管制法》及涉外军贸法律完善提供镜鉴。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "国际安全法",
+          "class": "international"
+        },
+        {
+          "name": "出口管制法",
+          "class": "international"
+        }
       ],
       "quality_score": 7
     }
@@ -93,8 +145,14 @@
       "whyMattersCN": "AI芯片管制涉及国际技术贸易的法律框架重构。研究可为理解技术主权与全球创新之间的张力提供理论框架，对中国AI产业政策的法律设计具有参考价值。",
       "whyMattersEN": "AI chip controls involve legal framework reconstruction for international technology trade. Offers theoretical framework for understanding tensions between tech sovereignty and global innovation.",
       "tags": [
-        {"name": "AI治理", "class": "tech"},
-        {"name": "贸易法", "class": "international"}
+        {
+          "name": "AI治理",
+          "class": "tech"
+        },
+        {
+          "name": "贸易法",
+          "class": "international"
+        }
       ]
     },
     {
@@ -108,8 +166,14 @@
       "whyMattersCN": "关税传导效应研究涉及贸易政策评估的法律经济学方法。对中国而言，理解关税对国内市场价格的影响机制，有助于设计更精准的贸易反制措施和法律救济机制。",
       "whyMattersEN": "Tariff pass-through research involves law-and-economics methods for trade policy evaluation. Understanding price transmission mechanisms helps design precise trade countermeasures.",
       "tags": [
-        {"name": "贸易政策", "class": "international"},
-        {"name": "法律经济学", "class": "constitutional"}
+        {
+          "name": "贸易政策",
+          "class": "international"
+        },
+        {
+          "name": "法律经济学",
+          "class": "constitutional"
+        }
       ]
     },
     {
@@ -123,9 +187,131 @@
       "whyMattersCN": "Agentic AI的责任归属是AI法律治理的核心难题。研究可为完善中国《人工智能法》立法提供比较法参考，特别是在自动化决策的法律责任分配方面。",
       "whyMattersEN": "Agentic AI liability is a core challenge in AI legal governance. Offers comparative reference for China's AI Law legislation, especially regarding liability allocation for automated decisions.",
       "tags": [
-        {"name": "AI责任", "class": "tech"},
-        {"name": "侵权法", "class": "criminal"}
+        {
+          "name": "AI责任",
+          "class": "tech"
+        },
+        {
+          "name": "侵权法",
+          "class": "criminal"
+        }
       ]
+    },
+    {
+      "title": "Drug Scheduling as Institutional Design",
+      "titleCN": "Drug Scheduling as Institutional Design",
+      "url": "https://harvardlawreview.org/print/vol-139/drug-scheduling-as-institutional-design/",
+      "date": "2026-03-05",
+      "journal": "Harvard Law Review",
+      "summaryCN": "本文探讨美国联邦毒品管制制度中药物分级（Drug Scheduling）的架构设计缺陷，分析《管制物质法》授予行政机构的自由裁量权如何导致科学与政治的张力，并检视司法审查在此领域的有限介入。",
+      "summaryEN": "",
+      "whyMattersCN": "对美国而言，该研究揭示了DEA药物分级决策中的民主正当性危机，影响数百万人的医疗可及性与刑事量刑；对中国而言，麻醉药品与精神药品的目录管理制度面临相似的科学评估与行政裁量平衡问题，美国经验可为优化国家药监局与公安部的协同机制、完善专家咨询程序及司法救济渠道提供比较法镜鉴。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "行政法",
+          "class": "criminal"
+        },
+        {
+          "name": "刑事司法",
+          "class": "criminal"
+        }
+      ],
+      "quality_score": 7
+    },
+    {
+      "title": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
+      "titleCN": "Fourth Amendment Equilibrium Adjustment in an Age of Technological Upheaval",
+      "url": "https://harvardlawreview.org/print/vol-139/fourth-amendment-equilibrium-adjustment-in-an-age-of-technological-upheaval/",
+      "date": "2026-03-05",
+      "journal": "Harvard Law Review",
+      "summaryCN": "发表在Harvard Law Review上的法学研究论文。",
+      "summaryEN": "",
+      "whyMattersCN": "该研究对理解美国法律制度具有学术价值，其研究方法和发现可为中国相关领域的比较研究和制度完善提供参考。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "刑事司法",
+          "class": "criminal"
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "titleCN": "Content Neutrality for Kids: Intermediate Scrutiny for Social Media Age-Verification Laws",
+      "url": "https://harvardlawreview.org/print/vol-139/content-neutrality-for-kids-intermediate-scrutiny-for-social-media-age-verification-laws/",
+      "date": "2026-03-05",
+      "journal": "Harvard Law Review",
+      "summaryCN": "发表在Harvard Law Review上的法学研究论文。",
+      "summaryEN": "",
+      "whyMattersCN": "该研究对理解美国法律制度具有学术价值，其研究方法和发现可为中国相关领域的比较研究和制度完善提供参考。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ],
+      "quality_score": 7
+    },
+    {
+      "title": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "titleCN": "The Semantics of Jury Nullification: How Terminology Shapes (and Misshapes) the Jury’s Role",
+      "url": "https://harvardlawreview.org/print/vol-139/the-semantics-of-jury-nullification-how-terminology-shapes-and-misshapes-the-jurys-role/",
+      "date": "2026-03-04",
+      "journal": "Harvard Law Review",
+      "summaryCN": "发表在Harvard Law Review上的法学研究论文。",
+      "summaryEN": "",
+      "whyMattersCN": "该研究对理解美国法律制度具有学术价值，其研究方法和发现可为中国相关领域的比较研究和制度完善提供参考。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "刑事司法",
+          "class": "criminal"
+        }
+      ],
+      "quality_score": 8
+    },
+    {
+      "title": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
+      "titleCN": "Black Voters Matter Capacity Building Institute, Inc. v. Secretary, Florida Department of State",
+      "url": "https://harvardlawreview.org/print/vol-139/black-voters-matter-capacity-building-institute-inc-v-secretary-florida-department-of-state/",
+      "date": "2026-03-04",
+      "journal": "Harvard Law Review",
+      "summaryCN": "发表在Harvard Law Review上的法学研究论文。",
+      "summaryEN": "",
+      "whyMattersCN": "该研究对理解美国法律制度具有学术价值，其研究方法和发现可为中国相关领域的比较研究和制度完善提供参考。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "法学研究",
+          "class": ""
+        }
+      ],
+      "quality_score": 7
+    },
+    {
+      "title": "People v. Thompson",
+      "titleCN": "People v. Thompson",
+      "url": "https://harvardlawreview.org/print/vol-139/people-v-thompson/",
+      "date": "2026-03-04",
+      "journal": "Harvard Law Review",
+      "summaryCN": "本案涉及美国刑事诉讼中辩诉交易制度的正当程序边界问题。法院审查了检察官在量刑建议中是否违反承诺、以及被告撤回有罪答辩的权利救济，核心争议聚焦于辩诉交易的契约效力与司法审查标准。",
+      "summaryEN": "",
+      "whyMattersCN": "对美国制度而言，本案进一步厘清了辩诉交易中检察官裁量权的宪法限制，强化了程序正当性对认罪认罚从宽机制的约束。对中国具有重要参考价值：我国刑事诉讼法2018年确立认罪认罚从宽制度后，同样面临量刑建议约束力、上诉权限制及反悔机制等实践难题，本案的审查标准与权利救济框架可为完善我国量刑协商程序、防范权力滥用提供比较法借鉴。",
+      "whyMattersEN": "",
+      "tags": [
+        {
+          "name": "刑事司法",
+          "class": "criminal"
+        },
+        {
+          "name": "辩诉交易",
+          "class": "criminal"
+        }
+      ],
+      "quality_score": 7
     }
   ]
 }
