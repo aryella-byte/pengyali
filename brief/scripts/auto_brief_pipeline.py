@@ -120,12 +120,45 @@ def load_data():
             return {"news": [], "research": []}
     return {"news": [], "research": []}
 
+def sort_data(data):
+    """按日期排序，最新的在最前面，统一日期格式"""
+    def normalize_date(date_str):
+        """统一日期格式为 YYYY-MM-DD"""
+        formats = [
+            "%Y-%m-%d",           # 2026-03-05
+            "%a, %d %b",          # Tue, 03 Ma
+        ]
+        for fmt in formats:
+            try:
+                dt = datetime.strptime(date_str[:10].strip(), fmt)
+                if fmt == "%a, %d %b":
+                    dt = dt.replace(year=2026)
+                return dt.strftime("%Y-%m-%d")
+            except:
+                continue
+        return date_str  # 如果解析失败，保持原样
+    
+    # 统一日期格式
+    for item in data.get("news", []):
+        item["date"] = normalize_date(item["date"])
+    for item in data.get("research", []):
+        item["date"] = normalize_date(item["date"])
+    
+    # 按日期降序排序（最新的在前）
+    data["news"].sort(key=lambda x: x["date"], reverse=True)
+    data["research"].sort(key=lambda x: x["date"], reverse=True)
+    
+    return data
+
 def save_data(data):
-    """保存数据"""
+    """保存数据（自动排序）"""
+    # 先排序
+    data = sort_data(data)
+    
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    log(f"数据已保存: {DATA_FILE}")
+    log(f"数据已保存并排序: {DATA_FILE}")
 
 def get_item_id(title):
     """生成条目唯一ID"""
